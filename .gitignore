@@ -1,0 +1,10 @@
+.venv/
+venv/
+__pycache__/
+.env
+
+data/raw/
+data/interim/
+data/docling-models/
+data/embeddings/
+data/chroma/
