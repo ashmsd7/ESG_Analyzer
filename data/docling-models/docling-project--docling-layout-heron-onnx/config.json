@@ -1,0 +1,44 @@
+{
+  "architectures": [
+    "RTDetrV2ForObjectDetection"
+  ],
+  "model_type": "rt_detr_v2",
+  "id2label": {
+    "0": "caption",
+    "1": "footnote",
+    "2": "formula",
+    "3": "list_item",
+    "4": "page_footer",
+    "5": "page_header",
+    "6": "picture",
+    "7": "section_header",
+    "8": "table",
+    "9": "text",
+    "10": "title",
+    "11": "document_index",
+    "12": "code",
+    "13": "checkbox_selected",
+    "14": "checkbox_unselected",
+    "15": "form",
+    "16": "key_value_region"
+  },
+  "label2id": {
+    "caption": 0,
+    "checkbox_selected": 13,
+    "checkbox_unselected": 14,
+    "code": 12,
+    "document_index": 11,
+    "footnote": 1,
+    "form": 15,
+    "formula": 2,
+    "key_value_region": 16,
+    "list_item": 3,
+    "page_footer": 4,
+    "page_header": 5,
+    "picture": 6,
+    "section_header": 7,
+    "table": 8,
+    "text": 9,
+    "title": 10
+  }
+}
