@@ -1,0 +1,306 @@
+{
+  "scope_1_emissions": {
+    "canonical_name": "Scope 1 GHG emissions",
+    "category": "Environmental",
+    "principle": ["P6"],
+    "indicator_type": "essential",
+    "brsr_core": true,
+    "search_terms": [
+      "Scope 1 emissions",
+      "Scope 1 and Scope 2 emissions",
+      "greenhouse gas emissions",
+      "GHG emissions"
+    ],
+    "expected_data": "numeric",
+    "typically_na_for": ["banking", "financial_services"],
+    "unit_notes": "CBI discloses this as 'Not Applicable' with no unit shown; confirm unit format once a manufacturing-sector report (e.g. Tata Steel) is processed.",
+    "sources_reviewed": ["BRSR_CBI_2024_2025"]
+  },
+  "scope_2_emissions": {
+    "canonical_name": "Scope 2 GHG emissions",
+    "category": "Environmental",
+    "principle": ["P6"],
+    "indicator_type": "essential",
+    "brsr_core": true,
+    "search_terms": [
+      "Scope 2 emissions",
+      "Scope 1 and Scope 2 emissions",
+      "greenhouse gas emissions",
+      "GHG emissions"
+    ],
+    "expected_data": "numeric",
+    "typically_na_for": ["banking", "financial_services"],
+    "unit_notes": "CBI discloses this as 'Not Applicable' with no unit shown; confirm unit format once a manufacturing-sector report (e.g. Tata Steel) is processed.",
+    "sources_reviewed": ["BRSR_CBI_2024_2025"]
+  },
+  "energy_consumption": {
+    "canonical_name": "Total energy consumption and intensity",
+    "category": "Environmental",
+    "principle": ["P6"],
+    "indicator_type": "essential",
+    "brsr_core": true,
+    "search_terms": [
+      "Total energy consumption",
+      "Total electricity consumption",
+      "Total fuel consumption",
+      "Energy consumption through other sources",
+      "energy intensity"
+    ],
+    "expected_data": "numeric",
+    "possible_units": ["lakh kwh", "Joules"],
+    "unit_notes": "CBI reports electricity consumption in 'lakh kwh' (1 lakh = 100,000) rather than absolute kWh/Joules despite the BRSR question asking for 'Joules or multiples' — a naive parser will misparse this by 100,000x.",
+    "sources_reviewed": ["BRSR_CBI_2024_2025"]
+  },
+  "renewable_energy_consumption": {
+    "canonical_name": "Energy consumed from renewable vs non-renewable sources",
+    "category": "Environmental",
+    "principle": ["P6"],
+    "indicator_type": "leadership",
+    "brsr_core": false,
+    "search_terms": [
+      "From renewable sources",
+      "From non-renewable sources",
+      "Total energy consumed from renewable sources",
+      "renewable energy"
+    ],
+    "expected_data": "numeric",
+    "possible_units": ["lakh kwh"],
+    "sources_reviewed": ["BRSR_CBI_2024_2025"]
+  },
+  "water_withdrawal_consumption": {
+    "canonical_name": "Water withdrawal, consumption and discharge in water-stressed areas",
+    "category": "Environmental",
+    "principle": ["P6"],
+    "indicator_type": "essential",
+    "brsr_core": true,
+    "search_terms": [
+      "Water withdrawal, consumption and discharge",
+      "water consumption",
+      "areas of water stress"
+    ],
+    "expected_data": "numeric",
+    "possible_units": ["kilolitres"],
+    "typically_na_for": ["banking", "financial_services", "it_services"],
+    "sources_reviewed": ["BRSR_CBI_2024_2025"]
+  },
+  "water_discharge": {
+    "canonical_name": "Water discharge by destination and treatment level",
+    "category": "Environmental",
+    "principle": ["P6"],
+    "indicator_type": "leadership",
+    "brsr_core": false,
+    "search_terms": [
+      "Water discharge by destination",
+      "level of treatment",
+      "Total water discharged"
+    ],
+    "expected_data": "numeric",
+    "possible_units": ["kilolitres"],
+    "sources_reviewed": ["BRSR_CBI_2024_2025"]
+  },
+  "waste_management": {
+    "canonical_name": "Waste generated (plastic, e-waste, hazardous, other)",
+    "category": "Environmental",
+    "principle": ["P6"],
+    "indicator_type": "essential",
+    "brsr_core": true,
+    "search_terms": [
+      "Total Waste generated",
+      "Plastic waste",
+      "E-waste",
+      "Hazardous waste",
+      "Non-hazardous Waste generated",
+      "waste management"
+    ],
+    "expected_data": "mixed",
+    "unit_notes": "CBI's e-waste row shows a currency symbol mis-extracted as a stray backtick before 'In lakh' (a known ₹-glyph OCR bug), suggesting this line is a rupee value rather than a mass — confirm against a manufacturing report where e-waste is more likely reported by weight (kg/tonnes).",
+    "sources_reviewed": ["BRSR_CBI_2024_2025"]
+  },
+  "employee_training_health_safety": {
+    "canonical_name": "Training on health & safety and skill upgradation",
+    "category": "Social",
+    "principle": ["P3"],
+    "indicator_type": "essential",
+    "brsr_core": true,
+    "search_terms": [
+      "Details of training given to employees and workers",
+      "On Health and safety measures",
+      "On skill upgradation",
+      "training and awareness programmes"
+    ],
+    "expected_data": "mixed",
+    "sources_reviewed": ["BRSR_CBI_2024_2025"]
+  },
+  "women_representation_board_kmp": {
+    "canonical_name": "Participation/representation of women in Board and Key Management Personnel",
+    "category": "Social",
+    "principle": ["General"],
+    "indicator_type": "general_disclosure",
+    "brsr_core": true,
+    "search_terms": [
+      "Participation/inclusion/representation of women",
+      "No. and percentage of Females",
+      "Board of Directors",
+      "Key Management Personnel"
+    ],
+    "expected_data": "numeric",
+    "sources_reviewed": ["BRSR_CBI_2024_2025"]
+  },
+  "wage_gender_pay_gap": {
+    "canonical_name": "Gross wages paid to females as % of total wages",
+    "category": "Social",
+    "principle": ["P5"],
+    "indicator_type": "essential",
+    "brsr_core": true,
+    "search_terms": [
+      "Gross wages paid to females as % of total wages",
+      "wages paid to females"
+    ],
+    "expected_data": "numeric",
+    "possible_units": ["%"],
+    "sources_reviewed": ["BRSR_CBI_2024_2025"]
+  },
+  "remuneration_median": {
+    "canonical_name": "Median remuneration/salary/wages by employee category",
+    "category": "Social",
+    "principle": ["P5"],
+    "indicator_type": "essential",
+    "brsr_core": false,
+    "search_terms": [
+      "Details of remuneration/salary/wages",
+      "Median remuneration",
+      "remuneration/ salary/ wages of respective category"
+    ],
+    "expected_data": "numeric",
+    "sources_reviewed": ["BRSR_CBI_2024_2025"]
+  },
+  "posh_complaints": {
+    "canonical_name": "Complaints under the Sexual Harassment of Women at Workplace Act (POSH)",
+    "category": "Social",
+    "principle": ["P5"],
+    "indicator_type": "essential",
+    "brsr_core": true,
+    "search_terms": [
+      "Sexual Harassment of Women at Workplace",
+      "POSH",
+      "Complaints on POSH",
+      "Complaints on POSH upheld"
+    ],
+    "expected_data": "mixed",
+    "sources_reviewed": ["BRSR_CBI_2024_2025"]
+  },
+  "csr_spending": {
+    "canonical_name": "CSR spending and beneficiaries",
+    "category": "Social",
+    "principle": ["P8"],
+    "indicator_type": "general_disclosure",
+    "brsr_core": true,
+    "search_terms": [
+      "CSR Details",
+      "Total amount spent on CSR",
+      "beneficiaries of CSR Projects",
+      "CSR Activities"
+    ],
+    "expected_data": "mixed",
+    "possible_units": ["₹ crore"],
+    "unit_notes": "CBI's CSR-spend figure shows the ₹ symbol mis-extracted as a stray backtick before the amount (e.g. '`14.14 crore') — same OCR/font artifact seen in the e-waste row; regex-normalize before parsing.",
+    "sources_reviewed": ["BRSR_CBI_2024_2025"]
+  },
+  "grievance_redressal_mechanism": {
+    "canonical_name": "Stakeholder grievance redressal mechanism and complaint volumes",
+    "category": "Social",
+    "principle": ["General"],
+    "indicator_type": "general_disclosure",
+    "brsr_core": false,
+    "search_terms": [
+      "Grievance Redressal Mechanism",
+      "Number of complaints filed during the year",
+      "Number of complaints pending resolution at close of the year"
+    ],
+    "expected_data": "mixed",
+    "sources_reviewed": ["BRSR_CBI_2024_2025"]
+  },
+  "anti_corruption_whistleblower_policy": {
+    "canonical_name": "Anti-corruption/anti-bribery policy and whistleblower mechanism",
+    "category": "Governance",
+    "principle": ["P1"],
+    "indicator_type": "essential",
+    "brsr_core": true,
+    "search_terms": [
+      "anti-corruption or anti-bribery policy",
+      "whistle blower policy",
+      "Whistleblower Policy",
+      "code of ethics"
+    ],
+    "expected_data": "categorical",
+    "sources_reviewed": ["BRSR_CBI_2024_2025"]
+  },
+  "disciplinary_action_bribery_corruption": {
+    "canonical_name": "Disciplinary action against Directors/KMPs/employees for bribery or corruption",
+    "category": "Governance",
+    "principle": ["P1"],
+    "indicator_type": "essential",
+    "brsr_core": true,
+    "search_terms": [
+      "disciplinary action was taken",
+      "charges of bribery",
+      "corruption"
+    ],
+    "expected_data": "numeric",
+    "sources_reviewed": ["BRSR_CBI_2024_2025"]
+  },
+  "fines_penalties_regulatory": {
+    "canonical_name": "Fines, penalties and settlement amounts paid to regulators",
+    "category": "Governance",
+    "principle": ["P1"],
+    "indicator_type": "essential",
+    "brsr_core": true,
+    "search_terms": [
+      "fines / penalties /punishment/ award/ compounding fees/ settlement amount",
+      "regulators/ law enforcement agencies/ judicial institutions"
+    ],
+    "expected_data": "mixed",
+    "sources_reviewed": ["BRSR_CBI_2024_2025"]
+  },
+  "highest_authority_br_oversight": {
+    "canonical_name": "Highest authority responsible for Business Responsibility oversight",
+    "category": "Governance",
+    "principle": ["General"],
+    "indicator_type": "essential",
+    "brsr_core": false,
+    "search_terms": [
+      "highest authority responsible for implementation and oversight",
+      "Business Responsibility policy"
+    ],
+    "expected_data": "qualitative",
+    "sources_reviewed": ["BRSR_CBI_2024_2025"]
+  },
+  "trade_industry_affiliations": {
+    "canonical_name": "Affiliations with trade and industry chambers/associations",
+    "category": "Governance",
+    "principle": ["P7"],
+    "indicator_type": "essential",
+    "brsr_core": false,
+    "search_terms": [
+      "trade and industry chambers",
+      "trade and industry chambers/ associations",
+      "affiliations with"
+    ],
+    "expected_data": "mixed",
+    "sources_reviewed": ["BRSR_CBI_2024_2025"]
+  },
+  "data_privacy_cybersecurity_complaints": {
+    "canonical_name": "Consumer complaints on data privacy and cyber security",
+    "category": "Governance",
+    "principle": ["P9"],
+    "indicator_type": "essential",
+    "brsr_core": false,
+    "search_terms": [
+      "Data privacy",
+      "cyber security and data privacy of customers",
+      "consumer complaints"
+    ],
+    "expected_data": "mixed",
+    "sources_reviewed": ["BRSR_CBI_2024_2025"]
+  }
+}
