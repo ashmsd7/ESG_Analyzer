@@ -1,0 +1,157 @@
+{
+  "company": "CBI",
+  "source_document": "BRSR_CBI_2024_2025.pdf",
+  "indicators": {
+    "scope_1_emissions": {
+      "status": "not_applicable",
+      "numeric_values": [],
+      "not_applicable_snippet": "\u0007 Please provide details of air emissions (other than GHG emissions) by the entity, in the following format: Not Applicable",
+      "nil_snippet": null
+    },
+    "scope_2_emissions": {
+      "status": "not_applicable",
+      "numeric_values": [],
+      "not_applicable_snippet": "\u0007 Please provide details of air emissions (other than GHG emissions) by the entity, in the following format: Not Applicable",
+      "nil_snippet": null
+    },
+    "energy_consumption": {
+      "status": "parsed",
+      "numeric_values": [
+        {
+          "value": 735.57,
+          "unit": "lakh kwh",
+          "raw_snippet": "Total electricity consumption (A) 735.57 lakh kwh 702.00 lakh kwh",
+          "self_ref": "#/tables/50"
+        },
+        {
+          "value": 702.0,
+          "unit": "lakh kwh",
+          "raw_snippet": "Total electricity consumption (A) 735.57 lakh kwh 702.00 lakh kwh",
+          "self_ref": "#/tables/50"
+        },
+        {
+          "value": 735.57,
+          "unit": "lakh kwh",
+          "raw_snippet": "Total energy consumption (A+B+C) 735.57 lakh kwh 702.00 lakh kwh",
+          "self_ref": "#/tables/50"
+        },
+        {
+          "value": 702.0,
+          "unit": "lakh kwh",
+          "raw_snippet": "Total energy consumption (A+B+C) 735.57 lakh kwh 702.00 lakh kwh",
+          "self_ref": "#/tables/50"
+        }
+      ],
+      "not_applicable_snippet": "Energy intensity per rupee of turnover (Total electricity consumption / turnover in rupees) N/A N/A",
+      "nil_snippet": "Total fuel consumption (B) NIL NIL"
+    },
+    "renewable_energy_consumption": {
+      "status": "nil",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": "Total electricity consumption (A) Nil Nil"
+    },
+    "water_withdrawal_consumption": {
+      "status": "not_applicable",
+      "numeric_values": [],
+      "not_applicable_snippet": "Water withdrawal, consumption and discharge in areas of water stress (in kilolitres): Not Applicable",
+      "nil_snippet": null
+    },
+    "water_discharge": {
+      "status": "not_applicable",
+      "numeric_values": [],
+      "not_applicable_snippet": "- With treatment - please specify level of treatment Not Not Applicable",
+      "nil_snippet": null
+    },
+    "waste_management": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "employee_training_health_safety": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "women_representation_board_kmp": {
+      "status": "parsed",
+      "numeric_values": [
+        {
+          "value": 0.0,
+          "unit": "%",
+          "raw_snippet": "Board of Directors 8 0 0.00%",
+          "self_ref": "#/tables/7"
+        },
+        {
+          "value": 0.0,
+          "unit": "%",
+          "raw_snippet": "Key Management Personnel 8* 0 0.00%",
+          "self_ref": "#/tables/7"
+        }
+      ],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "wage_gender_pay_gap": {
+      "status": "parsed",
+      "numeric_values": [
+        {
+          "value": 25.63,
+          "unit": "%",
+          "raw_snippet": "Gross wages paid to females as % of total wages 25.63% 24.03%",
+          "self_ref": "#/tables/45"
+        },
+        {
+          "value": 24.03,
+          "unit": "%",
+          "raw_snippet": "Gross wages paid to females as % of total wages 25.63% 24.03%",
+          "self_ref": "#/tables/45"
+        }
+      ],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "remuneration_median": {
+      "status": "nil",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": "Board of Directors (BoD) 4 300033.00 Nil Nil"
+    },
+    "posh_complaints": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "csr_spending": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "grievance_redressal_mechanism": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "anti_corruption_whistleblower_policy": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'categorical', numeric parsing only in this pass"
+    },
+    "disciplinary_action_bribery_corruption": {
+      "status": "unparsed",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "fines_penalties_regulatory": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "highest_authority_br_oversight": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'qualitative', numeric parsing only in this pass"
+    },
+    "trade_industry_affiliations": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "data_privacy_cybersecurity_complaints": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    }
+  }
+}

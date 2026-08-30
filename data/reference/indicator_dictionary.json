@@ -139,9 +139,7 @@
     "brsr_core": true,
     "search_terms": [
       "Participation/inclusion/representation of women",
-      "No. and percentage of Females",
-      "Board of Directors",
-      "Key Management Personnel"
+      "No. and percentage of Females"
     ],
     "expected_data": "numeric",
     "sources_reviewed": ["BRSR_CBI_2024_2025"]

@@ -1,0 +1,400 @@
+{
+  "company": "TataELXSI",
+  "source_document": "BRSR_TataELXSI_2025_2026.pdf",
+  "indicators": {
+    "scope_1_emissions": {
+      "status": "unparsed",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "scope_2_emissions": {
+      "status": "parsed",
+      "numeric_values": [
+        {
+          "value": 50.0,
+          "unit": "%",
+          "raw_snippet": "*50% Reduction in Scope 1 + Scope 2 emissions by 2025 (vs the base year 2021), Carbon Neutral by 2030, Net Zero by 2045 **Renewable energy use at 66.2%",
+          "self_ref": "#/texts/141"
+        },
+        {
+          "value": 66.2,
+          "unit": "%",
+          "raw_snippet": "*50% Reduction in Scope 1 + Scope 2 emissions by 2025 (vs the base year 2021), Carbon Neutral by 2030, Net Zero by 2045 **Renewable energy use at 66.2%",
+          "self_ref": "#/texts/141"
+        },
+        {
+          "value": 50.0,
+          "unit": "%",
+          "raw_snippet": "\u0007 Tata Elxsi achieved its commitment to reducing its carbon footprint by 50% against the benchmark by 2025. This goal is taken up earnestly and targeted by opting to use green energy in many of the lo",
+          "self_ref": "#/texts/587"
+        }
+      ],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "energy_consumption": {
+      "status": "parsed",
+      "numeric_values": [
+        {
+          "value": 66.25,
+          "unit": "%",
+          "raw_snippet": "% of energy consumed from renewable sources* 6 In % terms 66.25%",
+          "self_ref": "#/tables/85"
+        }
+      ],
+      "not_applicable_snippet": null,
+      "nil_snippet": "Bio-medical waste (C) MT Nil"
+    },
+    "renewable_energy_consumption": {
+      "status": "parsed",
+      "numeric_values": [
+        {
+          "value": 50.0,
+          "unit": "%",
+          "raw_snippet": "*50% Reduction in Scope 1 + Scope 2 emissions by 2025 (vs the base year 2021), Carbon Neutral by 2030, Net Zero by 2045 **Renewable energy use at 66.2%",
+          "self_ref": "#/texts/141"
+        },
+        {
+          "value": 66.2,
+          "unit": "%",
+          "raw_snippet": "*50% Reduction in Scope 1 + Scope 2 emissions by 2025 (vs the base year 2021), Carbon Neutral by 2030, Net Zero by 2045 **Renewable energy use at 66.2%",
+          "self_ref": "#/texts/141"
+        },
+        {
+          "value": 50.0,
+          "unit": "%",
+          "raw_snippet": "\u0007 Tata Elxsi achieved its commitment to reducing its carbon footprint by 50% against the benchmark by 2025. This goal is taken up earnestly and targeted by opting to use green energy in many of the lo",
+          "self_ref": "#/texts/587"
+        },
+        {
+          "value": 66.2,
+          "unit": "%",
+          "raw_snippet": "*6 \u0007 Renewable energy as a % of overall energy requirement was increased to 66.2 % by availing Green tariff in Trivandrum and installation of roof top solar panels in Pune",
+          "self_ref": "#/texts/827"
+        },
+        {
+          "value": 66.25,
+          "unit": "%",
+          "raw_snippet": "% of energy consumed from renewable sources* 6 In % terms 66.25%",
+          "self_ref": "#/tables/85"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Percentage of performance and career development reviews of employees and worker In % terms 100%",
+          "self_ref": "#/tables/89"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Training given to employees on Health & Safety In % terms 100%",
+          "self_ref": "#/tables/89"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Training given to employees on skill upgradation In % terms 100%",
+          "self_ref": "#/tables/89"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Assessment of offices on Health & Safety practices In % terms 100%",
+          "self_ref": "#/tables/89"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Assessment of offices on Working Conditions In % terms 100%",
+          "self_ref": "#/tables/89"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "19 Principle 5-Businesses should respect and promote human rights Employees and workers provided with human rights training In % terms 100%",
+          "self_ref": "#/tables/89"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Employees and workers provided with More than minimum Wage In % terms 100%",
+          "self_ref": "#/tables/89"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Assessments made for employees, workers and value chain partners on child labor, sexual harassment, forced labor, discrimination at workplace, and wages In % terms 100%",
+          "self_ref": "#/tables/89"
+        }
+      ],
+      "not_applicable_snippet": null,
+      "nil_snippet": "Bio-medical waste (C) MT Nil"
+    },
+    "water_withdrawal_consumption": {
+      "status": "unparsed",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "water_discharge": {
+      "status": "unparsed",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "waste_management": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "employee_training_health_safety": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "women_representation_board_kmp": {
+      "status": "parsed",
+      "numeric_values": [
+        {
+          "value": 15.8,
+          "unit": "%",
+          "raw_snippet": "14 Turnover rates for permanent employees Total turnover rates In % terms 15.8%",
+          "self_ref": "#/tables/88"
+        },
+        {
+          "value": 15.1,
+          "unit": "%",
+          "raw_snippet": "Male turnover rates In % terms 15.1%",
+          "self_ref": "#/tables/88"
+        },
+        {
+          "value": 17.3,
+          "unit": "%",
+          "raw_snippet": "Female turnover rates In % terms 17.3%",
+          "self_ref": "#/tables/88"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "16 Principle 1- Businesses should conduct and govern themselves with integrity, and in a manner that is Ethical, Transparent and Accountable Coverage of training and awareness programme held for BOD &",
+          "self_ref": "#/tables/88"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Coverage of training and awareness programme held for employees In % terms 100%",
+          "self_ref": "#/tables/88"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Coverage of training and awareness programme held for value chain partners In % terms 100%",
+          "self_ref": "#/tables/88"
+        },
+        {
+          "value": 2.02,
+          "unit": "%",
+          "raw_snippet": "17 Principle 2- Businesses should provide goods and services in a manner that is sustainable and safe R&D expenditure In % terms 2.02%",
+          "self_ref": "#/tables/88"
+        },
+        {
+          "value": 53.0,
+          "unit": "%",
+          "raw_snippet": "Percentage of inputs were sourced sustainably In % terms 53%",
+          "self_ref": "#/tables/88"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "18 Principle 3- Businesses should respect and promote the well-being of all employees, including those in their value chains Percentage of permanent employees covered with health & accident insurance ",
+          "self_ref": "#/tables/88"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Percentage of permanent employees covered with maternity & paternity benefits In % terms 100%",
+          "self_ref": "#/tables/88"
+        },
+        {
+          "value": 9.46,
+          "unit": "%",
+          "raw_snippet": "Percentage of permanent employees covered with day care benefits* 15 In % terms 9.46%",
+          "self_ref": "#/tables/88"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Percentage of workers covered with health & accident insurance (both male & female) * 16 In % terms 100%",
+          "self_ref": "#/tables/88"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Percentage of workers covered with maternity benefits* 16 In % terms 100%",
+          "self_ref": "#/tables/88"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Percentage of employees and workers covered with PF In % terms 100%",
+          "self_ref": "#/tables/88"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Percentage of employees and workers covered with gratuity In % terms 100%",
+          "self_ref": "#/tables/88"
+        },
+        {
+          "value": 0.009,
+          "unit": "%",
+          "raw_snippet": "Percentage of employees covered with ESI In % terms 0.009%",
+          "self_ref": "#/tables/88"
+        },
+        {
+          "value": 86.0,
+          "unit": "%",
+          "raw_snippet": "Percentage of workers covered with ESI In % terms 86%",
+          "self_ref": "#/tables/88"
+        }
+      ],
+      "not_applicable_snippet": null,
+      "nil_snippet": "Complaints on conflict of interest In no. Nil"
+    },
+    "wage_gender_pay_gap": {
+      "status": "parsed",
+      "numeric_values": [
+        {
+          "value": 1.11,
+          "unit": "%",
+          "raw_snippet": "5 Enhancing employee well-being and safety Spending on measures towards well-being of employees cost incurred as a % of total revenue of the Company* 11 In % terms 1.11%",
+          "self_ref": "#/tables/86"
+        },
+        {
+          "value": 28.0,
+          "unit": "%",
+          "raw_snippet": "6 Enabling Gender Diversity in Business Gross wages paid to females as % of wages paid In % terms 28%",
+          "self_ref": "#/tables/86"
+        },
+        {
+          "value": 0.1,
+          "unit": "%",
+          "raw_snippet": "Complaints on POSH as a % of female employees/workers In % terms 0.10%",
+          "self_ref": "#/tables/86"
+        },
+        {
+          "value": 26.0,
+          "unit": "%",
+          "raw_snippet": "7 Enabling Inclusive Development- Input material sourced from following sources as % of total purchases Directly sourced from MSMEs/small producers (As % of total purchases by value) In % terms 26%",
+          "self_ref": "#/tables/86"
+        },
+        {
+          "value": 60.0,
+          "unit": "%",
+          "raw_snippet": "Directly from within India- As % of total purchases by value) In % terms 60%",
+          "self_ref": "#/tables/86"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Metropolitan In % terms 100%",
+          "self_ref": "#/tables/86"
+        }
+      ],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "remuneration_median": {
+      "status": "parsed",
+      "numeric_values": [
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Percentage of performance and career development reviews of employees and worker In % terms 100%",
+          "self_ref": "#/tables/89"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Training given to employees on Health & Safety In % terms 100%",
+          "self_ref": "#/tables/89"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Training given to employees on skill upgradation In % terms 100%",
+          "self_ref": "#/tables/89"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Assessment of offices on Health & Safety practices In % terms 100%",
+          "self_ref": "#/tables/89"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Assessment of offices on Working Conditions In % terms 100%",
+          "self_ref": "#/tables/89"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "19 Principle 5-Businesses should respect and promote human rights Employees and workers provided with human rights training In % terms 100%",
+          "self_ref": "#/tables/89"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Employees and workers provided with More than minimum Wage In % terms 100%",
+          "self_ref": "#/tables/89"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Assessments made for employees, workers and value chain partners on child labor, sexual harassment, forced labor, discrimination at workplace, and wages In % terms 100%",
+          "self_ref": "#/tables/89"
+        }
+      ],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "posh_complaints": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "csr_spending": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "grievance_redressal_mechanism": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "anti_corruption_whistleblower_policy": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'categorical', numeric parsing only in this pass"
+    },
+    "disciplinary_action_bribery_corruption": {
+      "status": "unparsed",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "fines_penalties_regulatory": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "highest_authority_br_oversight": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'qualitative', numeric parsing only in this pass"
+    },
+    "trade_industry_affiliations": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "data_privacy_cybersecurity_complaints": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    }
+  }
+}

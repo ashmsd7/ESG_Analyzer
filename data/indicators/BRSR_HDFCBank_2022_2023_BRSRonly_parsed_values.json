@@ -1,0 +1,131 @@
+{
+  "company": "HDFCBank",
+  "source_document": "BRSR_HDFCBank_2022_2023_BRSRonly.pdf",
+  "indicators": {
+    "scope_1_emissions": {
+      "status": "not_applicable",
+      "numeric_values": [],
+      "not_applicable_snippet": "NOx N.A. The Bank reports on GHG emissions for its",
+      "nil_snippet": null
+    },
+    "scope_2_emissions": {
+      "status": "not_applicable",
+      "numeric_values": [],
+      "not_applicable_snippet": "NOx N.A. The Bank reports on GHG emissions for its",
+      "nil_snippet": null
+    },
+    "energy_consumption": {
+      "status": "unparsed",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "renewable_energy_consumption": {
+      "status": "parsed",
+      "numeric_values": [
+        {
+          "value": 3.0,
+          "unit": "lakh",
+          "raw_snippet": "2 Social Responsibility towards Society Opportunity mortgage penetration in India. The Bank is committed to transforming the lives of millions of Indians through its social initiatives. The vision is ",
+          "self_ref": "#/tables/13"
+        },
+        {
+          "value": 6.0,
+          "unit": "lakh",
+          "raw_snippet": "2 Social Responsibility towards Society Opportunity mortgage penetration in India. The Bank is committed to transforming the lives of millions of Indians through its social initiatives. The vision is ",
+          "self_ref": "#/tables/13"
+        },
+        {
+          "value": 18.0,
+          "unit": "lakh",
+          "raw_snippet": "2 Social Responsibility towards Society Opportunity mortgage penetration in India. The Bank is committed to transforming the lives of millions of Indians through its social initiatives. The vision is ",
+          "self_ref": "#/tables/13"
+        },
+        {
+          "value": 945.0,
+          "unit": "crore",
+          "raw_snippet": "2 Social Responsibility towards Society Opportunity mortgage penetration in India. The Bank is committed to transforming the lives of millions of Indians through its social initiatives. The vision is ",
+          "self_ref": "#/tables/13"
+        }
+      ],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "water_withdrawal_consumption": {
+      "status": "unparsed",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "water_discharge": {
+      "status": "unparsed",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "waste_management": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "employee_training_health_safety": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "women_representation_board_kmp": {
+      "status": "unparsed",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "wage_gender_pay_gap": {
+      "status": "unparsed",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "remuneration_median": {
+      "status": "not_applicable",
+      "numeric_values": [],
+      "not_applicable_snippet": "Key Managerial Personnel 2 2,40,87,054 0 N.A.",
+      "nil_snippet": null
+    },
+    "posh_complaints": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "csr_spending": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "grievance_redressal_mechanism": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "anti_corruption_whistleblower_policy": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'categorical', numeric parsing only in this pass"
+    },
+    "disciplinary_action_bribery_corruption": {
+      "status": "unparsed",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "fines_penalties_regulatory": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "highest_authority_br_oversight": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'qualitative', numeric parsing only in this pass"
+    },
+    "trade_industry_affiliations": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "data_privacy_cybersecurity_complaints": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    }
+  }
+}

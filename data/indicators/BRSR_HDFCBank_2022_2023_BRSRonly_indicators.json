@@ -1,0 +1,4318 @@
+{
+  "company": "HDFCBank",
+  "source_document": "BRSR_HDFCBank_2022_2023_BRSRonly.pdf",
+  "indicators": {
+    "scope_1_emissions": {
+      "canonical_name": "Scope 1 GHG emissions",
+      "category": "Environmental",
+      "principle": [
+        "P6"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "numeric",
+      "found": true,
+      "match_count": 7,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/564",
+          "provenance": [
+            {
+              "page_no": 37,
+              "bbox": {
+                "l": 51.0236,
+                "t": 664.5599000000001,
+                "r": 353.8997000000002,
+                "b": 656.6971123076924,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                68
+              ]
+            }
+          ],
+          "content": "6. Details of air emissions (other than GHG emissions) by the entity"
+        },
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/565",
+          "provenance": [
+            {
+              "page_no": 37,
+              "bbox": {
+                "l": 51.0236,
+                "t": 505.55989999999997,
+                "r": 477.1007000000003,
+                "b": 497.6971123076923,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                94
+              ]
+            }
+          ],
+          "content": "7. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its intensity"
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/577",
+          "provenance": [
+            {
+              "page_no": 38,
+              "bbox": {
+                "l": 70.8686,
+                "t": 652.5629000000001,
+                "r": 545.4755000000009,
+                "b": 632.7178069286454,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                157
+              ]
+            }
+          ],
+          "content": "Scope 1 emissions include emissions from company-owned cars, company-owned diesel gensets, fugitive emissions from air conditioners and fire extinguishers."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/578",
+          "provenance": [
+            {
+              "page_no": 38,
+              "bbox": {
+                "l": 70.8686,
+                "t": 625.5629000000001,
+                "r": 543.0481999999998,
+                "b": 605.7178069286455,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                189
+              ]
+            }
+          ],
+          "content": "Two sources of GHG emissions i.e. air conditioners and fire extinguishers have been included for Scope 1 emissions for FY 23-24, which were not included in Scope 1 emissions for FY 22-23."
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/634",
+          "provenance": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 70.8687,
+                "t": 325.5569,
+                "r": 352.89000000000004,
+                "b": 317.7088069286453,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                68
+              ]
+            }
+          ],
+          "content": "For Scope 3 GHG emissions, the Bank reports on the below categories:"
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/52",
+          "provenance": [
+            {
+              "page_no": 37,
+              "bbox": {
+                "l": 69.79532623291016,
+                "t": 643.2576065063477,
+                "r": 543.3187255859375,
+                "b": 520.7070159912109,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            1
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Parameter",
+                "Unit",
+                "FY 2023-24",
+                "FY 2022-23"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "NOx",
+                "N.A.",
+                "The Bank reports on GHG emissions for its"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "SOx",
+                "operations. Given the nature of the banking business, details of air emissions other than N.A."
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Particulate matter (PM)",
+                "N.A.",
+                "is not material",
+                "Bank."
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Persistent organic pollutants (POP)",
+                "N.A."
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Volatile organic compounds (VOC)",
+                "N.A."
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "Hazardous air pollutants (HAP)",
+                "N.A."
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Others - please specify",
+                "N.A."
+              ]
+            }
+          ],
+          "num_rows": 8,
+          "num_cols": 4
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/53",
+          "provenance": [
+            {
+              "page_no": 37,
+              "bbox": {
+                "l": 69.64868927001953,
+                "t": 483.98333740234375,
+                "r": 543.4915161132812,
+                "b": 123.08221435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            2,
+            5
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Parameter*",
+                "Unit",
+                "FY 2023-24",
+                "FY 2022-23"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "CO 2 Emissions (tCO 2 e)",
+                "CH 4 Emissions (tCO 2 e)",
+                "N 2 O Emissions (tCO 2 e)",
+                "HFCs (tCO 2 e)",
+                "CO 2 Emissions (tCO 2 e)",
+                "CH 4 Emissions (tCO 2 e)",
+                "N 2 O Emissions (tCO 2 e)"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Total Scope 1 emissions",
+                "Metric tonnes of CO 2",
+                "35,818.59",
+                "51.35",
+                "442.51",
+                "47,868.03",
+                "29,661.21",
+                "76.70",
+                "90.87"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "(GHG: CO 2 , CH 4 , N 2 O, HFCs)",
+                "equivalent",
+                "Total: 84,180.48",
+                "Total: 29,828.77"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Total Scope 2 emissions (GHG: CO 2 )",
+                "Metric tonnes of CO 2 equivalent",
+                "5,01,899.03",
+                "3,06,840.44"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity per ` Crore of turnover (Total Scope 1 and Scope 2 GHG emissions / Revenue from operations)",
+                "Metric tonnes of CO 2 e / Revenue ( ` in crore)",
+                "1.91",
+                "1.75"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity per Million USD of turnover adjusted for Purchasing Power Parity (Total Scope 1 and Scope",
+                "Metric tonnes of CO 2 e / Revenue (USD in million)",
+                "4.36",
+                "4.00"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity in terms of physical output",
+                "MTCO 2 e per Employee",
+                "2.74",
+                "1.94"
+              ]
+            }
+          ],
+          "num_rows": 8,
+          "num_cols": 9
+        }
+      ]
+    },
+    "scope_2_emissions": {
+      "canonical_name": "Scope 2 GHG emissions",
+      "category": "Environmental",
+      "principle": [
+        "P6"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "numeric",
+      "found": true,
+      "match_count": 7,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/564",
+          "provenance": [
+            {
+              "page_no": 37,
+              "bbox": {
+                "l": 51.0236,
+                "t": 664.5599000000001,
+                "r": 353.8997000000002,
+                "b": 656.6971123076924,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                68
+              ]
+            }
+          ],
+          "content": "6. Details of air emissions (other than GHG emissions) by the entity"
+        },
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/565",
+          "provenance": [
+            {
+              "page_no": 37,
+              "bbox": {
+                "l": 51.0236,
+                "t": 505.55989999999997,
+                "r": 477.1007000000003,
+                "b": 497.6971123076923,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                94
+              ]
+            }
+          ],
+          "content": "7. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its intensity"
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/578",
+          "provenance": [
+            {
+              "page_no": 38,
+              "bbox": {
+                "l": 70.8686,
+                "t": 625.5629000000001,
+                "r": 543.0481999999998,
+                "b": 605.7178069286455,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                189
+              ]
+            }
+          ],
+          "content": "Two sources of GHG emissions i.e. air conditioners and fire extinguishers have been included for Scope 1 emissions for FY 23-24, which were not included in Scope 1 emissions for FY 22-23."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/582",
+          "provenance": [
+            {
+              "page_no": 38,
+              "bbox": {
+                "l": 70.8686,
+                "t": 481.5719,
+                "r": 545.4782000000008,
+                "b": 459.1413348500517,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                156
+              ]
+            }
+          ],
+          "content": "Scope 2 emissions are reported using market-based approach with grid emission factor from Version 19 of the Central Electrical Authority's  CO 2 database."
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/634",
+          "provenance": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 70.8687,
+                "t": 325.5569,
+                "r": 352.89000000000004,
+                "b": 317.7088069286453,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                68
+              ]
+            }
+          ],
+          "content": "For Scope 3 GHG emissions, the Bank reports on the below categories:"
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/52",
+          "provenance": [
+            {
+              "page_no": 37,
+              "bbox": {
+                "l": 69.79532623291016,
+                "t": 643.2576065063477,
+                "r": 543.3187255859375,
+                "b": 520.7070159912109,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            1
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Parameter",
+                "Unit",
+                "FY 2023-24",
+                "FY 2022-23"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "NOx",
+                "N.A.",
+                "The Bank reports on GHG emissions for its"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "SOx",
+                "operations. Given the nature of the banking business, details of air emissions other than N.A."
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Particulate matter (PM)",
+                "N.A.",
+                "is not material",
+                "Bank."
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Persistent organic pollutants (POP)",
+                "N.A."
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Volatile organic compounds (VOC)",
+                "N.A."
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "Hazardous air pollutants (HAP)",
+                "N.A."
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Others - please specify",
+                "N.A."
+              ]
+            }
+          ],
+          "num_rows": 8,
+          "num_cols": 4
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/53",
+          "provenance": [
+            {
+              "page_no": 37,
+              "bbox": {
+                "l": 69.64868927001953,
+                "t": 483.98333740234375,
+                "r": 543.4915161132812,
+                "b": 123.08221435546875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            4,
+            5
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Parameter*",
+                "Unit",
+                "FY 2023-24",
+                "FY 2022-23"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "CO 2 Emissions (tCO 2 e)",
+                "CH 4 Emissions (tCO 2 e)",
+                "N 2 O Emissions (tCO 2 e)",
+                "HFCs (tCO 2 e)",
+                "CO 2 Emissions (tCO 2 e)",
+                "CH 4 Emissions (tCO 2 e)",
+                "N 2 O Emissions (tCO 2 e)"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Total Scope 1 emissions",
+                "Metric tonnes of CO 2",
+                "35,818.59",
+                "51.35",
+                "442.51",
+                "47,868.03",
+                "29,661.21",
+                "76.70",
+                "90.87"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "(GHG: CO 2 , CH 4 , N 2 O, HFCs)",
+                "equivalent",
+                "Total: 84,180.48",
+                "Total: 29,828.77"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Total Scope 2 emissions (GHG: CO 2 )",
+                "Metric tonnes of CO 2 equivalent",
+                "5,01,899.03",
+                "3,06,840.44"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity per ` Crore of turnover (Total Scope 1 and Scope 2 GHG emissions / Revenue from operations)",
+                "Metric tonnes of CO 2 e / Revenue ( ` in crore)",
+                "1.91",
+                "1.75"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity per Million USD of turnover adjusted for Purchasing Power Parity (Total Scope 1 and Scope",
+                "Metric tonnes of CO 2 e / Revenue (USD in million)",
+                "4.36",
+                "4.00"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity in terms of physical output",
+                "MTCO 2 e per Employee",
+                "2.74",
+                "1.94"
+              ]
+            }
+          ],
+          "num_rows": 8,
+          "num_cols": 9
+        }
+      ]
+    },
+    "energy_consumption": {
+      "canonical_name": "Total energy consumption and intensity",
+      "category": "Environmental",
+      "principle": [
+        "P6"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "numeric",
+      "found": true,
+      "match_count": 3,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/522",
+          "provenance": [
+            {
+              "page_no": 34,
+              "bbox": {
+                "l": 51.0236,
+                "t": 616.5599000000001,
+                "r": 422.07560000000007,
+                "b": 608.6971123076924,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                84
+              ]
+            }
+          ],
+          "content": "1. Details of total energy consumption (in Joules or multiples) and energy intensity"
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/527",
+          "provenance": [
+            {
+              "page_no": 34,
+              "bbox": {
+                "l": 70.8661,
+                "t": 193.56590000000006,
+                "r": 545.4739000000006,
+                "b": 161.72380692864522,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                278
+              ]
+            }
+          ],
+          "content": "Energy intensity has been computed based on Total Revenue, which includes Interest Earned under Schedule 13 and Other Income, excluding profit/(loss) on sale of buildings & other assets (net) earned under Schedule 14 of the Audited Standalone Financial Statements of the Bank."
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/49",
+          "provenance": [
+            {
+              "page_no": 34,
+              "bbox": {
+                "l": 69.5784683227539,
+                "t": 595.4771575927734,
+                "r": 543.7061767578125,
+                "b": 339.59564208984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            12,
+            13,
+            14
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Parameter",
+                "FY 2023-24",
+                "FY 2022-23"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "From renewable sources (in GJ)"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Total electricity consumption (A)",
+                "11,772.84",
+                "10,333.68"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Total fuel consumption (B)",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Energy consumption through other sources (C)",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Total energy consumed from renewable sources (A+B+C)",
+                "11,772.84",
+                "10,333.68"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "From non-renewable sources (in GJ)"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Total electricity consumption (D)",
+                "25,23,514.68",
+                "15,55,810.69"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Total fuel consumption (E)",
+                "4,97,686.10",
+                "4,08,954.00"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Energy consumption through other sources (F)",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "Total energy consumed from non-renewable sources (D+E+F)",
+                "30,21,200.78",
+                "19,64,764.69"
+              ]
+            },
+            {
+              "row": 11,
+              "cells": [
+                "Total energy consumed (A+B+C+D+E+F) (in GJ)",
+                "30,32,973.62",
+                "19,75,098.37"
+              ]
+            },
+            {
+              "row": 12,
+              "cells": [
+                "Energy intensity per rupee of turnover (Total energy consumed / Revenue from operations) (GJ per ` in crore)",
+                "9.87",
+                "10.24"
+              ]
+            },
+            {
+              "row": 13,
+              "cells": [
+                "Energy intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP) (Total energy consumed / Revenue from operations adjusted for PPP) (GJ per USD in million)",
+                "22.58",
+                "23.44"
+              ]
+            },
+            {
+              "row": 14,
+              "cells": [
+                "Energy intensity in terms of physical output (GJ / Total Employees)",
+                "14.20",
+                "11.40"
+              ]
+            }
+          ],
+          "num_rows": 15,
+          "num_cols": 3
+        }
+      ]
+    },
+    "renewable_energy_consumption": {
+      "canonical_name": "Energy consumed from renewable vs non-renewable sources",
+      "category": "Environmental",
+      "principle": [
+        "P6"
+      ],
+      "indicator_type": "leadership",
+      "brsr_core": false,
+      "expected_data": "numeric",
+      "found": true,
+      "match_count": 4,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/526",
+          "provenance": [
+            {
+              "page_no": 34,
+              "bbox": {
+                "l": 70.8661,
+                "t": 244.55989999999997,
+                "r": 545.5441,
+                "b": 200.7208069286453,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                368
+              ]
+            }
+          ],
+          "content": "Electricity consumption from  local grids is considered for (i) branches, offices and ATMs from financial records through spent based approach and (ii) Data centers on actual consumption. Electricity consumption from renewable energy sources is (i) generated through in-house solar rooftops installed at 25 locations and (ii) purchased green energy for 12 locations."
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/590",
+          "provenance": [
+            {
+              "page_no": 38,
+              "bbox": {
+                "l": 70.8785,
+                "t": 172.56889999999999,
+                "r": 545.5295,
+                "b": 92.7388069286452,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                741
+              ]
+            }
+          ],
+          "content": "Wherever feasible, the Bank has also been trying to integrate renewable energy sources into the overall power consumption. The Bank has 25 rooftop solar plants with a cumulative capacity of about 720 kWp across the country. The Bank also procures green power at a premium tariff through DISCOMs at 12 locations in Maharashtra. With the procurement of over 2,639.18 MWh during FY 23-24, about 1,889.66 metric tonnes of carbon emissions were avoided during the year. To adopt a more holistic approach to emission reduction, the Bank has been evaluating all new projects for feasibility of green certification by the Indian Green Building Council (IGBC). As of March 31, 2024, 2,026 branches and offices received green certifications from IGBC."
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/13",
+          "provenance": [
+            {
+              "page_no": 10,
+              "bbox": {
+                "l": 68.70116424560547,
+                "t": 667.4767990112305,
+                "r": 542.7493286132812,
+                "b": 156.88763427734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            2
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Sr. No",
+                "Material issue identified",
+                "Indicate whether risk or opportunity",
+                "Rationale for identifying the risk/ opportunity",
+                "Approach to adapt or mitigate",
+                "Positive/ Negative Implications"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "2",
+                "Social Responsibility towards Society",
+                "Opportunity",
+                "mortgage penetration in India. The Bank is committed to transforming the lives of millions of Indians through its social initiatives. The vision is to contribute to the social and economic development of the community by empowering them and driving a positive change in their lives, that in turn enables them to actively participate in the",
+                "economically weaker segments (EWS), low- income group (LIG) and middle-income groups (MIG) where annual household incomes are up to ` 3 lakh, ` 6 lakh and ` 18 lakh respectively. The core focus areas of Corporate Social Responsibility (CSR) of the Bank entail: • Rural development • Promotion of education • Skill, training and livelihood enhancement • Healthcare and hygiene • Financial literacy and inclusion The Bank has cumulatively impacted over 101.9 million lives on a pan-India basis through its social initiatives. In FY 23-24 the Bank disbursed an amount of ` 945 crore towards",
+                "Positive"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "3",
+                "Responsible Lending",
+                "Opportunity",
+                "The Bank sees opportunities in supporting customers in transitioning to greener pathways.",
+                "The Bank has put in place a Sustainable Finance Framework which inter alia focuses on 10 green categories: Renewable Energy, Energy Efficiency, Pollution Prevention and Control, Sustainable Water and Wastewater Management, Environmentally Sustainable Management of Living Natural Resources and Land Use, Terrestrial and Aquatic Biodiversity, Clean Transportation, Climate Change Adaptation, Circular Economy and Green Buildings. These are some areas where the Bank sees opportunities through",
+                "Positive"
+              ]
+            }
+          ],
+          "num_rows": 3,
+          "num_cols": 6
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/49",
+          "provenance": [
+            {
+              "page_no": 34,
+              "bbox": {
+                "l": 69.5784683227539,
+                "t": 595.4771575927734,
+                "r": 543.7061767578125,
+                "b": 339.59564208984375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            1,
+            5,
+            6,
+            10
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Parameter",
+                "FY 2023-24",
+                "FY 2022-23"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "From renewable sources (in GJ)"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Total electricity consumption (A)",
+                "11,772.84",
+                "10,333.68"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Total fuel consumption (B)",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Energy consumption through other sources (C)",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Total energy consumed from renewable sources (A+B+C)",
+                "11,772.84",
+                "10,333.68"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "From non-renewable sources (in GJ)"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Total electricity consumption (D)",
+                "25,23,514.68",
+                "15,55,810.69"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Total fuel consumption (E)",
+                "4,97,686.10",
+                "4,08,954.00"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Energy consumption through other sources (F)",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "Total energy consumed from non-renewable sources (D+E+F)",
+                "30,21,200.78",
+                "19,64,764.69"
+              ]
+            },
+            {
+              "row": 11,
+              "cells": [
+                "Total energy consumed (A+B+C+D+E+F) (in GJ)",
+                "30,32,973.62",
+                "19,75,098.37"
+              ]
+            },
+            {
+              "row": 12,
+              "cells": [
+                "Energy intensity per rupee of turnover (Total energy consumed / Revenue from operations) (GJ per ` in crore)",
+                "9.87",
+                "10.24"
+              ]
+            },
+            {
+              "row": 13,
+              "cells": [
+                "Energy intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP) (Total energy consumed / Revenue from operations adjusted for PPP) (GJ per USD in million)",
+                "22.58",
+                "23.44"
+              ]
+            },
+            {
+              "row": 14,
+              "cells": [
+                "Energy intensity in terms of physical output (GJ / Total Employees)",
+                "14.20",
+                "11.40"
+              ]
+            }
+          ],
+          "num_rows": 15,
+          "num_cols": 3
+        }
+      ]
+    },
+    "water_withdrawal_consumption": {
+      "canonical_name": "Water withdrawal, consumption and discharge in water-stressed areas",
+      "category": "Environmental",
+      "principle": [
+        "P6"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "numeric",
+      "found": true,
+      "match_count": 4,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/626",
+          "provenance": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 51.0236,
+                "t": 646.5599000000001,
+                "r": 438.1577000000003,
+                "b": 638.6971123076924,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                87
+              ]
+            }
+          ],
+          "content": "Water withdrawal, consumption and discharge in areas of water stress (in kilolitres)"
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/627",
+          "provenance": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 70.8686,
+                "t": 628.5599000000001,
+                "r": 466.0361000000002,
+                "b": 620.6971123076924,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                94
+              ]
+            }
+          ],
+          "content": "For each facility / plant located in areas of water stress, provide the following information:"
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/630",
+          "provenance": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 70.8686,
+                "t": 580.5629000000001,
+                "r": 295.9117999999999,
+                "b": 572.7001123076924,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                50
+              ]
+            }
+          ],
+          "content": "(iii)\t Water withdrawal, consumption and discharge"
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/50",
+          "provenance": [
+            {
+              "page_no": 35,
+              "bbox": {
+                "l": 69.56428527832031,
+                "t": 558.8706817626953,
+                "r": 542.3262939453125,
+                "b": 365.6788024902344,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            8,
+            9,
+            10
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Parameter",
+                "FY 2023-24",
+                "FY 2022-23"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Water withdrawal by source (in kilolitres)"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "(i) Surface water",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "(ii) Groundwater",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "(iii) Third party water",
+                "24,08,078.16",
+                "19,90,679.90"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "(iv) Seawater / desalinated water",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "(v) Others",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Total volume of water withdrawal (in kilolitres) (i + ii + iii + iv + v)",
+                "24,08,078.16",
+                "19,90,679.90"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Total volume of water consumption (in kilolitres)",
+                "4,81,615.63",
+                "3,98,135.98"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Water intensity per ` of turnover (Total water consumption / Revenue from operations) (Kilolitre per ` crore)",
+                "1.57",
+                "2.07"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "Water intensity in terms of physical output (Total water consumption / Total Employee) (kilolitre per employee)",
+                "2.26",
+                "2.30"
+              ]
+            },
+            {
+              "row": 11,
+              "cells": [
+                "Water intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP) (Kilolitre per PPP adjusted million USD)",
+                "3.58",
+                "4.73"
+              ]
+            }
+          ],
+          "num_rows": 12,
+          "num_cols": 3
+        }
+      ]
+    },
+    "water_discharge": {
+      "canonical_name": "Water discharge by destination and treatment level",
+      "category": "Environmental",
+      "principle": [
+        "P6"
+      ],
+      "indicator_type": "leadership",
+      "brsr_core": false,
+      "expected_data": "numeric",
+      "found": true,
+      "match_count": 1,
+      "matches": [
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/51",
+          "provenance": [
+            {
+              "page_no": 36,
+              "bbox": {
+                "l": 69.75235748291016,
+                "t": 649.6213684082031,
+                "r": 542.35986328125,
+                "b": 385.5517578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            1,
+            4,
+            7,
+            10,
+            13,
+            16,
+            17
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "FY 2023-24",
+                "FY 2022-23"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Water discharge by destination and level of treatment (in kilolitres)"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "(i) To surface water"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "No treatment",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "With treatment - please specify level of treatment",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "(ii) To Groundwater"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "No treatment",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "With treatment - please specify level of treatment",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "(iii) To Seawater"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "No treatment",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "With treatment - please specify level of treatment",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "row": 11,
+              "cells": [
+                "(iv) Sent to third parties"
+              ]
+            },
+            {
+              "row": 12,
+              "cells": [
+                "No treatment",
+                "19,26,462.53",
+                "15,92,543.92"
+              ]
+            },
+            {
+              "row": 13,
+              "cells": [
+                "With treatment - please specify level of treatment",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "row": 14,
+              "cells": [
+                "(v) Others"
+              ]
+            },
+            {
+              "row": 15,
+              "cells": [
+                "No treatment",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "row": 16,
+              "cells": [
+                "With treatment - please specify level of treatment",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "row": 17,
+              "cells": [
+                "Total water discharged (in kilolitres)",
+                "19,26,462.53",
+                "15,92,543.92"
+              ]
+            }
+          ],
+          "num_rows": 18,
+          "num_cols": 3
+        }
+      ]
+    },
+    "waste_management": {
+      "canonical_name": "Waste generated (plastic, e-waste, hazardous, other)",
+      "category": "Environmental",
+      "principle": [
+        "P6"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "mixed",
+      "found": true,
+      "match_count": 14,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/234",
+          "provenance": [
+            {
+              "page_no": 19,
+              "bbox": {
+                "l": 51.0393,
+                "t": 328.56290000000007,
+                "r": 543.0207000000004,
+                "b": 308.7031123076924,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                215
+              ]
+            }
+          ],
+          "content": "Describe the processes in place to safely reclaim your products for reusing, recycling and disposing at the end of life, for (a) Plastics (including packaging) (b) E-waste (c) Hazardous waste and (d) other waste."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/236",
+          "provenance": [
+            {
+              "page_no": 19,
+              "bbox": {
+                "l": 51.03929999999998,
+                "t": 256.56290000000007,
+                "r": 545.5245000000003,
+                "b": 224.70611230769236,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                296
+              ]
+            }
+          ],
+          "content": "Whether Extended Producer Responsibility (EPR) is applicable to the entity's activities (Yes / No). If yes, whether the waste collection plan is in line with the Extended Producer Responsibility (EPR) plan submitted to Pollution Control Boards? If not, provide steps taken to address the same."
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/260",
+          "provenance": [
+            {
+              "page_no": 20,
+              "bbox": {
+                "l": 70.8686,
+                "t": 358.55989999999997,
+                "r": 545.5106,
+                "b": 290.7268069286452,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                593
+              ]
+            }
+          ],
+          "content": "Note : With the merger of Housing Development Finance Corporation (e-HDFC) with HDFC Bank with effect from July 1, 2023, the Bank opted for a sustainable disposal of the flex of e-HDFC's signages which had to be changed. On a panIndia basis, all the signage convertor vendors were requested to handover the flex to cement factories for co-processing. Accordingly, 6.76 tonnes of flex from 560 locations were collected and handed over to 5 cement companies. Certificates were obtained from the cement companies that the waste would be co-processed and the same was deemed as nonhazardous waste."
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/560",
+          "provenance": [
+            {
+              "page_no": 36,
+              "bbox": {
+                "l": 70.8686,
+                "t": 226.55989999999997,
+                "r": 545.5105999999995,
+                "b": 182.7208069286453,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                476
+              ]
+            }
+          ],
+          "content": "The Bank does not generate industrial wastewater. The Bank's facilities are all connected to municipal wastewater collection systems or to the facility-owner's wastewater treatment systems. The wastewater generated by the Bank's activities are therefore directed on to the municipal wastewater collection systems or facility-owner's wastewater treatment systems where it is treated appropriately as per the discretion of the municipal agencies/ facility owner (third parties)."
+        },
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/593",
+          "provenance": [
+            {
+              "page_no": 39,
+              "bbox": {
+                "l": 51.0236,
+                "t": 664.5599000000001,
+                "r": 326.79080000000005,
+                "b": 656.6971123076924,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                60
+              ]
+            }
+          ],
+          "content": "9. Provide details related to waste management by the entity"
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/595",
+          "provenance": [
+            {
+              "page_no": 39,
+              "bbox": {
+                "l": 70.8686,
+                "t": 148.5629,
+                "r": 542.9815999999998,
+                "b": 128.71780692864536,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                123
+              ]
+            }
+          ],
+          "content": "Due to the nature of operations of the Bank, no bio-medical and radioactive waste attributable to the Bank was generated."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/597",
+          "provenance": [
+            {
+              "page_no": 39,
+              "bbox": {
+                "l": 70.8686,
+                "t": 94.56290000000001,
+                "r": 542.9725999999998,
+                "b": 74.71780692864536,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                151
+              ]
+            }
+          ],
+          "content": "E-Waste generated, recycled and disposed, includes IT related e-waste and datacentre e-waste which is centrally managed and recycled through vendors."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/610",
+          "provenance": [
+            {
+              "page_no": 40,
+              "bbox": {
+                "l": 70.8661,
+                "t": 610.5599000000001,
+                "r": 545.5081000000002,
+                "b": 566.7208069286455,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                408
+              ]
+            }
+          ],
+          "content": "Generation of plastic waste, hazardous waste, some quantities of paper & e-waste and non-hazardous waste are extrapolated based on actual data collected at select locations and the quantity of waste generated is assumed to be disposed through other disposal operations for FY 23-24. The information for FY 22-23 is  for select locations and accordingly  not comparable with the current financial year data."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/615",
+          "provenance": [
+            {
+              "page_no": 40,
+              "bbox": {
+                "l": 51.0301,
+                "t": 421.56890000000004,
+                "r": 545.4217000000001,
+                "b": 389.71211230769234,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                258
+              ]
+            }
+          ],
+          "content": "Briefly describe the waste management practices adopted in your establishments. Describe the strategy adopted by your company to reduce usage of hazardous and toxic chemicals in your products and processes and the practices adopted to manage such wastes."
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/616",
+          "provenance": [
+            {
+              "page_no": 40,
+              "bbox": {
+                "l": 70.8661,
+                "t": 373.5719,
+                "r": 545.5179999999997,
+                "b": 293.74180692864525,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                831
+              ]
+            }
+          ],
+          "content": "The Bank does not use hazardous and toxic chemicals in its products and processes. However, the Bank has been working towards sustainable management of waste generated from day-to-day operations. The Bank has formulated an internal Standard Operating Procedure to document its approach to waste segregation and handling in the office premises. The Bank segregates and recycles dry waste at select large offices. The dry waste from these offices is collected and disposed through authorised vendors who eventually recycle the waste. In FY 23-24, disposal of the Bank's owned IT assets within its premises and its co-located datacenters led to the generation and recycling of 110.58 tonnes of e-waste and 20.51 tonnes of battery waste. The e-waste and battery waste was handed over to authorized recyclers, thus ensuring circularity."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/637",
+          "provenance": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 70.8687,
+                "t": 220.5629,
+                "r": 545.4872999999999,
+                "b": 188.7208069286453,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                338
+              ]
+            }
+          ],
+          "content": "Emissions from e-waste, paper waste and battery waste have been considered. To calculate emissions, recycling emission factors and conservative emission factors for disposal have been sourced from WARM Version 16, EPA 2023.  For the computation of waste quantities, refer notes given under Principle 6, Essential Indicators: Question 9."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/652",
+          "provenance": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 51.0146,
+                "t": 568.5659000000002,
+                "r": 545.5016000000012,
+                "b": 536.7091123076924,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                302
+              ]
+            }
+          ],
+          "content": "If the entity has undertaken any specific initiatives or used innovative technology or solutions to improve resource efficiency, or reduce impact due to emissions / effluent discharge / waste generated, please provide details of the same as well as outcome of such initiatives, as per the following:"
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/28",
+          "provenance": [
+            {
+              "page_no": 20,
+              "bbox": {
+                "l": 69.88017272949219,
+                "t": 474.8046569824219,
+                "r": 542.5194702148438,
+                "b": 372.76312255859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            3,
+            4
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "FY 2023-24",
+                "FY 2022-23"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Re-used",
+                "Recycled",
+                "Safely Disposed",
+                "Re-used",
+                "Recycled",
+                "Safely Disposed"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Plastics (including packaging)",
+                "N.A.",
+                "N.A.",
+                "N.A.",
+                "N.A.",
+                "N.A.",
+                "N.A."
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "E-waste",
+                "N.A.",
+                "N.A.",
+                "N.A.",
+                "N.A.",
+                "N.A.",
+                "N.A."
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Hazardous waste",
+                "N.A.",
+                "N.A.",
+                "N.A.",
+                "N.A.",
+                "N.A.",
+                "N.A."
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Other waste",
+                "N.A.",
+                "N.A.",
+                "N.A.",
+                "N.A.",
+                "N.A.",
+                "N.A."
+              ]
+            }
+          ],
+          "num_rows": 6,
+          "num_cols": 7
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/54",
+          "provenance": [
+            {
+              "page_no": 39,
+              "bbox": {
+                "l": 69.5269546508789,
+                "t": 649.4136047363281,
+                "r": 542.2779541015625,
+                "b": 176.09814453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            1,
+            2,
+            3,
+            7,
+            8,
+            9,
+            12,
+            14
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Parameter",
+                "FY 2023-24",
+                "FY 2022-23"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Total Waste generated (in metric tonnes)"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Plastic waste (A)",
+                "252.61",
+                "7.01"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "E-waste (B)",
+                "110.58",
+                "87.00"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Bio-medical waste (C)",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Construction and demolition waste (D)",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "Battery waste (E)",
+                "20.51",
+                "16.67"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Radioactive waste (F)",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Other Hazardous waste (G) (Includes DG Oil waste)",
+                "89.85",
+                "4.56"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Other Non-hazardous waste generated (H) (Includes metal, textile and empty cabinet and other dry waste)",
+                "288.48",
+                "14.24"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "Sector specific - Paper waste (I)",
+                "3,441.49",
+                "163.25"
+              ]
+            },
+            {
+              "row": 11,
+              "cells": [
+                "Total (A + B + C + D + E + F + G + H + I)",
+                "4,203.52",
+                "292.73"
+              ]
+            },
+            {
+              "row": 12,
+              "cells": [
+                "Waste intensity per rupee of turnover (Total waste generated /Revenue from operations) (MT/ ` in crore)",
+                "0.01",
+                "0.002"
+              ]
+            },
+            {
+              "row": 13,
+              "cells": [
+                "Waste intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP)",
+                "0.03",
+                "0.002"
+              ]
+            },
+            {
+              "row": 14,
+              "cells": [
+                "(MT per adjusted USD in million) Waste intensity in terms of physical output (Total waste generated per Employee)",
+                "0.02",
+                "0.002"
+              ]
+            },
+            {
+              "row": 15,
+              "cells": [
+                "FY 2023-24",
+                "FY 2022-23"
+              ]
+            },
+            {
+              "row": 16,
+              "cells": [
+                "Category of waste"
+              ]
+            },
+            {
+              "row": 17,
+              "cells": [
+                "(i) Recycled",
+                "140.41",
+                "7.01"
+              ]
+            },
+            {
+              "row": 18,
+              "cells": [
+                "(ii) Re-used",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 19,
+              "cells": [
+                "(iii) Other recovery operations",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 20,
+              "cells": [
+                "Total",
+                "140.41",
+                "7.01"
+              ]
+            },
+            {
+              "row": 21,
+              "cells": [
+                "For each category of waste generated, total waste disposed by nature of disposal method (in metric tonnes)"
+              ]
+            },
+            {
+              "row": 22,
+              "cells": [
+                "FY 2023-24",
+                "FY 2022-23"
+              ]
+            },
+            {
+              "row": 23,
+              "cells": [
+                "Category of waste"
+              ]
+            },
+            {
+              "row": 24,
+              "cells": [
+                "(i) Incineration",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 25,
+              "cells": [
+                "(ii) Landfilling",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 26,
+              "cells": [
+                "(iii) Other disposal operations",
+                "4,063.11",
+                "-"
+              ]
+            },
+            {
+              "row": 27,
+              "cells": [
+                "Total",
+                "4,063.11",
+                "-"
+              ]
+            }
+          ],
+          "num_rows": 28,
+          "num_cols": 3
+        }
+      ]
+    },
+    "employee_training_health_safety": {
+      "canonical_name": "Training on health & safety and skill upgradation",
+      "category": "Social",
+      "principle": [
+        "P3"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "mixed",
+      "found": true,
+      "match_count": 4,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/157",
+          "provenance": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 51.0236,
+                "t": 514.5599000000001,
+                "r": 542.9906000000015,
+                "b": 506.6971123076923,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                110
+              ]
+            }
+          ],
+          "content": "1. Percentage coverage by training and awareness programmes on any of the principles during the financial year"
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/773",
+          "provenance": [
+            {
+              "page_no": 50,
+              "bbox": {
+                "l": 70.86860000000001,
+                "t": 550.5749000000002,
+                "r": 545.5133,
+                "b": 494.7388069286454,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                459
+              ]
+            }
+          ],
+          "content": "Privacy Education and Awareness: The Bank is committed to fostering a privacy-conscious culture within the organisation. The Bank provides privacy training and awareness programmes to employees, emphasising their roles and responsibilities in protecting personal information. E-learning programmes, regular privacy updates and communication channels are maintained to keep employees informed about privacy-related matters, emerging risks and best practices."
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/20",
+          "provenance": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 69.13343811035156,
+                "t": 493.5596466064453,
+                "r": 543.9930419921875,
+                "b": 199.6029052734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            0
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Segment",
+                "Total number of training and awareness programmes held",
+                "Topics/ principles covered under the training and its impact",
+                "% of persons in respective category covered by the awareness programmes"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Board of Directors",
+                "26",
+                "Regulations, cyber security, banking",
+                "97"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Key Managerial Personnel (KMP)",
+                "22",
+                "technologies, Know Your Customer (KYC) & Anti-Money Laundering (AML), ESG, business verticals, customer service, subsidiaries, risk management, human resources, investments, investor relations amongst others. Impact: Keep the directors and KMPs abreast of various developments in the Bank, regulatory updates and other requisite familiarisation programmes. This enables increased strategic inputs.",
+                "100"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Employees other than Board of Directors or KMPs",
+                "1,449",
+                "Trainings are through external and internal programmes. Certain trainings are role specific. Training through the Bank's 'MPower' platform entail a combination of mandatory and voluntary trainings. Some of the role agnostic trainings inter alia are: • Code of Conduct • Cyber Security • PoSH Policy • KYC & AML Impact: Upgradation of skills sets and knowledge enhances employee productivity and ensures alignment of ethics and values that the Bank upholds.",
+                "93^"
+              ]
+            }
+          ],
+          "num_rows": 4,
+          "num_cols": 4
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/34",
+          "provenance": [
+            {
+              "page_no": 23,
+              "bbox": {
+                "l": 69.80401611328125,
+                "t": 460.18756103515625,
+                "r": 543.642822265625,
+                "b": 297.3448486328125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            1
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "FY 2023-24",
+                "FY 2022-23"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Category",
+                "Total (A)",
+                "On health and safety / wellness",
+                "On skill upgradation",
+                "Total (D)",
+                "On health and safety / wellness measures",
+                "On skill upgradation"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "No. (B)",
+                "% (B/A)",
+                "No. ( C)",
+                "% (C/A)",
+                "No. (E)",
+                "% (E/D)",
+                "No. (F)",
+                "% (F/D)"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Permanent employees"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Male",
+                "1,57,917",
+                "1,57,917",
+                "100",
+                "1,53,513",
+                "97",
+                "1,34,022",
+                "1,34,022",
+                "100",
+                "1,22,382",
+                "91"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Female",
+                "55,610",
+                "55,610",
+                "100",
+                "53,907",
+                "97",
+                "39,200",
+                "39,200",
+                "100",
+                "35,358",
+                "90"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "Total",
+                "2,13,527",
+                "2,13,527",
+                "100",
+                "2,07,420",
+                "97",
+                "1,73,222",
+                "1,73,222",
+                "100",
+                "1,57,740",
+                "91"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Other than permanent employeees"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Male",
+                "31",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Female",
+                "7",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "Total",
+                "38",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            }
+          ],
+          "num_rows": 11,
+          "num_cols": 11
+        }
+      ]
+    },
+    "women_representation_board_kmp": {
+      "canonical_name": "Participation/representation of women in Board and Key Management Personnel",
+      "category": "Social",
+      "principle": [
+        "General"
+      ],
+      "indicator_type": "general_disclosure",
+      "brsr_core": true,
+      "expected_data": "numeric",
+      "found": true,
+      "match_count": 2,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/71",
+          "provenance": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 51.029700000000005,
+                "t": 241.55689999999998,
+                "r": 285.5823000000002,
+                "b": 233.6941123076923,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                53
+              ]
+            }
+          ],
+          "content": "21. \t Participation/inclusion/representation of women"
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/7",
+          "provenance": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 70.05757141113281,
+                "t": 219.44818115234375,
+                "r": 543.4365234375,
+                "b": 165.250732421875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            0
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Total (A)",
+                "No. and percentage of females"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "No. (B)",
+                "% (B/A)"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Board of Directors",
+                "12",
+                "3",
+                "25"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Key Management Personnel*",
+                "6",
+                "0",
+                "0"
+              ]
+            }
+          ],
+          "num_rows": 4,
+          "num_cols": 4
+        }
+      ]
+    },
+    "wage_gender_pay_gap": {
+      "canonical_name": "Gross wages paid to females as % of total wages",
+      "category": "Social",
+      "principle": [
+        "P5"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "numeric",
+      "found": true,
+      "match_count": 2,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/469",
+          "provenance": [
+            {
+              "page_no": 31,
+              "bbox": {
+                "l": 51.0236,
+                "t": 562.5599000000001,
+                "r": 359.13679999999994,
+                "b": 554.6971123076924,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                65
+              ]
+            }
+          ],
+          "content": "3. b. Gross wages paid to females as % of total remuneration paid"
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/471",
+          "provenance": [
+            {
+              "page_no": 31,
+              "bbox": {
+                "l": 70.8661,
+                "t": 475.55989999999997,
+                "r": 545.4424000000005,
+                "b": 455.71480692864526,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                223
+              ]
+            }
+          ],
+          "content": "Note: For the purpose of calculation of gross wages paid to females, provisions for bonus and full and final settlements have been distributed in the ratio of salary as per salary register between male and female employees."
+        }
+      ]
+    },
+    "remuneration_median": {
+      "canonical_name": "Median remuneration/salary/wages by employee category",
+      "category": "Social",
+      "principle": [
+        "P5"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": false,
+      "expected_data": "numeric",
+      "found": true,
+      "match_count": 3,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/464",
+          "provenance": [
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 51.025,
+                "t": 259.5599,
+                "r": 266.602,
+                "b": 251.69711230769235,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                46
+              ]
+            }
+          ],
+          "content": "3. a. Details of remuneration / salary / wages"
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/42",
+          "provenance": [
+            {
+              "page_no": 30,
+              "bbox": {
+                "l": 69.91986083984375,
+                "t": 237.59347534179688,
+                "r": 543.3372192382812,
+                "b": 151.18597412109375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            1
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Male",
+                "Female"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Number",
+                "Median remuneration / salary / wages of respective category ( `",
+                "Number",
+                "Median remuneration / salary / wages of respective category ( ` )"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Board of Directors",
+                "9",
+                "96,23,626",
+                "3",
+                "64,23,626"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Key Managerial Personnel",
+                "2",
+                "2,40,87,054",
+                "0",
+                "N.A."
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Employees other than BoD and KMP",
+                "1,57,911",
+                "5,45,697",
+                "55,610",
+                "3,84,188"
+              ]
+            }
+          ],
+          "num_rows": 5,
+          "num_cols": 5
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/43",
+          "provenance": [
+            {
+              "page_no": 31,
+              "bbox": {
+                "l": 69.98181915283203,
+                "t": 667.5830383300781,
+                "r": 543.40087890625,
+                "b": 577.4178009033203,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            1
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Employees other than BoD and KMP*",
+                "Male",
+                "Female"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Number",
+                "Median remuneration / salary / wages of respective category ( ` )",
+                "Number",
+                "Median remuneration / salary / wages of respective category ( ` )"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Senior Management",
+                "172",
+                "1,38,95,633",
+                "21",
+                "1,30,00,050"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Middle Management",
+                "6,940",
+                "41,63,795",
+                "1,053",
+                "42,03,545"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Junior Management",
+                "25,902",
+                "15,79,460",
+                "4,813",
+                "15,48,180"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Non-Supervisory Staff",
+                "1,24,897",
+                "4,26,685",
+                "49,723",
+                "3,51,730"
+              ]
+            }
+          ],
+          "num_rows": 6,
+          "num_cols": 5
+        }
+      ]
+    },
+    "posh_complaints": {
+      "canonical_name": "Complaints under the Sexual Harassment of Women at Workplace Act (POSH)",
+      "category": "Social",
+      "principle": [
+        "P5"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "mixed",
+      "found": true,
+      "match_count": 3,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/488",
+          "provenance": [
+            {
+              "page_no": 32,
+              "bbox": {
+                "l": 51.0236,
+                "t": 664.5599000000001,
+                "r": 542.9987000000007,
+                "b": 644.7001123076924,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                130
+              ]
+            }
+          ],
+          "content": "7. Complaints filed under the Sexual Harassment of Women at the Workplace (Prevention, Prohibition and Redressal) Act, 2013 (PoSH)"
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/20",
+          "provenance": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 69.13343811035156,
+                "t": 493.5596466064453,
+                "r": 543.9930419921875,
+                "b": 199.6029052734375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            3
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Segment",
+                "Total number of training and awareness programmes held",
+                "Topics/ principles covered under the training and its impact",
+                "% of persons in respective category covered by the awareness programmes"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Board of Directors",
+                "26",
+                "Regulations, cyber security, banking",
+                "97"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Key Managerial Personnel (KMP)",
+                "22",
+                "technologies, Know Your Customer (KYC) & Anti-Money Laundering (AML), ESG, business verticals, customer service, subsidiaries, risk management, human resources, investments, investor relations amongst others. Impact: Keep the directors and KMPs abreast of various developments in the Bank, regulatory updates and other requisite familiarisation programmes. This enables increased strategic inputs.",
+                "100"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Employees other than Board of Directors or KMPs",
+                "1,449",
+                "Trainings are through external and internal programmes. Certain trainings are role specific. Training through the Bank's 'MPower' platform entail a combination of mandatory and voluntary trainings. Some of the role agnostic trainings inter alia are: • Code of Conduct • Cyber Security • PoSH Policy • KYC & AML Impact: Upgradation of skills sets and knowledge enhances employee productivity and ensures alignment of ethics and values that the Bank upholds.",
+                "93^"
+              ]
+            }
+          ],
+          "num_rows": 4,
+          "num_cols": 4
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/46",
+          "provenance": [
+            {
+              "page_no": 32,
+              "bbox": {
+                "l": 69.9255599975586,
+                "t": 631.4628524780273,
+                "r": 542.645263671875,
+                "b": 555.7284545898438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            2,
+            3
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "FY 2023-24",
+                "FY 2022-23"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Total complaints reported under Sexual Harassment of Women at the Workplace (Prevention, Prohibition and Redressal) Act, 2013",
+                "77",
+                "68"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Complaints on PoSH as a % of female employees (%)",
+                "0.14",
+                "0.17"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Number of complaints on PoSH upheld",
+                "25",
+                "23"
+              ]
+            }
+          ],
+          "num_rows": 4,
+          "num_cols": 3
+        }
+      ]
+    },
+    "csr_spending": {
+      "canonical_name": "CSR spending and beneficiaries",
+      "category": "Social",
+      "principle": [
+        "P8"
+      ],
+      "indicator_type": "general_disclosure",
+      "brsr_core": true,
+      "expected_data": "mixed",
+      "found": true,
+      "match_count": 2,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/89",
+          "provenance": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 51.0236,
+                "t": 281.2738,
+                "r": 125.78160000000007,
+                "b": 272.4763,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                15
+              ]
+            }
+          ],
+          "content": "VI. CSR Details"
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/722",
+          "provenance": [
+            {
+              "page_no": 47,
+              "bbox": {
+                "l": 51.0506,
+                "t": 244.5389,
+                "r": 244.4336,
+                "b": 236.67611230769228,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                43
+              ]
+            }
+          ],
+          "content": "Details of beneficiaries of CSR Projects"
+        }
+      ]
+    },
+    "grievance_redressal_mechanism": {
+      "canonical_name": "Stakeholder grievance redressal mechanism and complaint volumes",
+      "category": "Social",
+      "principle": [
+        "General"
+      ],
+      "indicator_type": "general_disclosure",
+      "brsr_core": false,
+      "expected_data": "mixed",
+      "found": true,
+      "match_count": 3,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/739",
+          "provenance": [
+            {
+              "page_no": 48,
+              "bbox": {
+                "l": 70.8689,
+                "t": 415.56890000000004,
+                "r": 545.4560000000018,
+                "b": 395.72380692864533,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                147
+              ]
+            }
+          ],
+          "content": "With a view to improve efficiency of the Grievance Redressal Mechanism in the Bank, a formal four level Grievance Redressal Mechanism is available:"
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/10",
+          "provenance": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 69.69645690917969,
+                "t": 613.1877365112305,
+                "r": 543.5150756835938,
+                "b": 235.84024047851562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            0,
+            1
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Stakeholder group from whom complaint is",
+                "Grievance Redressal Mechanisms in Place (Yes/ No)",
+                "FY 2023-24",
+                "FY 2022-23"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "received",
+                "(If yes, then provide web- link for grievance redress policy)",
+                "Number of complaints filed during the year",
+                "Number of complaints pending resolution at close of the year",
+                "Remarks",
+                "Number of complaints filed during the year",
+                "Number of complaints pending resolution at close of the year",
+                "Remarks"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Communities",
+                "Yes. Issues and redressals by community stakeholders are addressed at: csr@hdfcbank.com",
+                "0",
+                "0",
+                "-",
+                "0",
+                "0",
+                "-"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Investors (other than shareholders)",
+                "Yes Grievance redressals for investors are part of the terms of reference of the Stakeholders' Relationship Committee detailed in the Corporate Governance Report.",
+                "1",
+                "0",
+                "-",
+                "0",
+                "0",
+                "-"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Shareholders",
+                "Yes Grievance redressals for investors form part of the terms of reference of the Stakeholders' Relationship Committee. Details of the Shareholders' Helpdesk are elucidated in the Report on Corporate Governance. E-mails for grievances / investor related activities: hdinvestors@ datamaticsbpm.com shareholder.grievances@ hdfcbank.com",
+                "183",
+                "5",
+                "Communications inter alia pertained to dividend, non-receipt of the Annual Report, transfer / transmission of shares, merger related issues and queries on IEPF claims",
+                "123",
+                "0",
+                "-"
+              ]
+            }
+          ],
+          "num_rows": 5,
+          "num_cols": 8
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/11",
+          "provenance": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 69.25183868408203,
+                "t": 669.082763671875,
+                "r": 543.0706787109375,
+                "b": 162.17999267578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            0,
+            1
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Stakeholder group from whom complaint is",
+                "Grievance Redressal Mechanisms in Place (Yes/ No) (If yes, then provide web-",
+                "FY 2023-24",
+                "FY 2022-23"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "received",
+                "link for grievance redress policy)",
+                "Number of complaints filed during the year",
+                "Number of complaints pending resolution at close of the year",
+                "Remarks",
+                "Number of complaints filed during the year",
+                "Number of complaints pending resolution at close of the year",
+                "Remarks"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Employees",
+                "Yes. Employee concerns may be raised internally through 'My Concern Portal' available to all employees under the Human Capital Management (HCM) portal. This platform helps employees to raise their concerns in a secure and seamless manner for a timely resolution of the same. Employee related grievances are also received through the whistleblower mechanism of the Bank.",
+                "114",
+                "43",
+                "Nature of grievances inter alia entails breach of Code of Conduct, improper business practices, behavioural issues",
+                "105",
+                "31",
+                "Pending complaints have been resolved"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Customers",
+                "Yes Grievance Redressal Policy (link below)",
+                "4,85,339",
+                "14,232",
+                "Refer Annex on Customer Complaints and Grievance Redressal for further details. Cases pending are within the stipulated turnaround time of the Bank.",
+                "4,29,354",
+                "13,361"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Value Chain Partners",
+                "Yes Whistleblower Policy (link below)",
+                "3",
+                "0",
+                "Improper business practice / behavioural issue",
+                "6",
+                "2",
+                "-"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Others",
+                "Yes Whistleblower Policy (link below)",
+                "26",
+                "13",
+                "Breach of code of conduct, improper business practices, people related issues",
+                "36",
+                "14",
+                "-"
+              ]
+            }
+          ],
+          "num_rows": 6,
+          "num_cols": 8
+        }
+      ]
+    },
+    "anti_corruption_whistleblower_policy": {
+      "canonical_name": "Anti-corruption/anti-bribery policy and whistleblower mechanism",
+      "category": "Governance",
+      "principle": [
+        "P1"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "categorical",
+      "found": true,
+      "match_count": 10,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/101",
+          "provenance": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 51.0237,
+                "t": 139.5629,
+                "r": 542.9726999999993,
+                "b": 122.71480692864532,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                149
+              ]
+            }
+          ],
+          "content": "1. Number of complaints/pending resolutions for employees, value chain and others are grievances received under the Whistleblower Policy of the Bank."
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/106",
+          "provenance": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 70.8661,
+                "t": 646.5599000000001,
+                "r": 153.81370000000004,
+                "b": 638.7118069286454,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                20
+              ]
+            }
+          ],
+          "content": "Whistleblower Policy"
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/107",
+          "provenance": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 70.8661,
+                "t": 631.5569,
+                "r": 542.9808999999985,
+                "b": 611.7118069286454,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                191
+              ]
+            }
+          ],
+          "content": "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Footer/About%20 Us/Corporate%20Governance/Codes%20and%20Policie/pdf/Whistleblower-Policy-2019.pdf"
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/166",
+          "provenance": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 51.014700000000005,
+                "t": 256.5569,
+                "r": 543.0168000000008,
+                "b": 236.6971123076923,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                151
+              ]
+            }
+          ],
+          "content": "Does the entity have an anti-corruption or anti-bribery policy? If yes, provide details in brief and if available, provide a web-link to the policy."
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/217",
+          "provenance": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 70.8661,
+                "t": 376.5779,
+                "r": 545.5171000000004,
+                "b": 320.74180692864525,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                496
+              ]
+            }
+          ],
+          "content": "Yes. The Board of Directors are subject to the Board approved Code of Ethics /Conduct which mandates that Board members shall avoid conflict of interest and disclose to the Board any material transaction or relationship that reasonably could be expected to give rise to such a conflict. The Board members are required to disclose any change in their interest in any entities to the Board as and when such change occur and at a minimum at the first meeting of the Board held in the financial year."
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/220",
+          "provenance": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 70.8672,
+                "t": 220.55690000000004,
+                "r": 211.76129999999995,
+                "b": 212.70880692864534,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                34
+              ]
+            }
+          ],
+          "content": "Web-link: Code Of Ethics / Conduct"
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/491",
+          "provenance": [
+            {
+              "page_no": 32,
+              "bbox": {
+                "l": 70.8596,
+                "t": 493.55390000000006,
+                "r": 545.4638000000004,
+                "b": 425.7208069286453,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                718
+              ]
+            }
+          ],
+          "content": "As a responsible employer, the Bank is committed to creating a culture which is conducive, fair and harmonious amongst its employees. The Bank recognises its responsibility towards safeguarding and protecting women at the workplace from harassment. The Bank has put in place a code of conduct, applicable to all employees of the Bank. The Bank's Internal Committee deals with cases of  sexual harassment of women at the workplace and ensures that there is a fair and detailed investigation done in utmost confidentiality, thus ensuring protection to the aggrieved party. Further, the whistleblower policy also serves  as a safe mechanism which  ensures confidentiality and ensures no discrimination of the complainant."
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/690",
+          "provenance": [
+            {
+              "page_no": 44,
+              "bbox": {
+                "l": 70.8596,
+                "t": 415.55390000000006,
+                "r": 438.33950000000027,
+                "b": 407.7058069286453,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                93
+              ]
+            }
+          ],
+          "content": "The Bank's whistleblower policy covers all stakeholders of the Bank, including the community."
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/11",
+          "provenance": [
+            {
+              "page_no": 8,
+              "bbox": {
+                "l": 69.25183868408203,
+                "t": 669.082763671875,
+                "r": 543.0706787109375,
+                "b": 162.17999267578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            4,
+            5
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Stakeholder group from whom complaint is",
+                "Grievance Redressal Mechanisms in Place (Yes/ No) (If yes, then provide web-",
+                "FY 2023-24",
+                "FY 2022-23"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "received",
+                "link for grievance redress policy)",
+                "Number of complaints filed during the year",
+                "Number of complaints pending resolution at close of the year",
+                "Remarks",
+                "Number of complaints filed during the year",
+                "Number of complaints pending resolution at close of the year",
+                "Remarks"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Employees",
+                "Yes. Employee concerns may be raised internally through 'My Concern Portal' available to all employees under the Human Capital Management (HCM) portal. This platform helps employees to raise their concerns in a secure and seamless manner for a timely resolution of the same. Employee related grievances are also received through the whistleblower mechanism of the Bank.",
+                "114",
+                "43",
+                "Nature of grievances inter alia entails breach of Code of Conduct, improper business practices, behavioural issues",
+                "105",
+                "31",
+                "Pending complaints have been resolved"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Customers",
+                "Yes Grievance Redressal Policy (link below)",
+                "4,85,339",
+                "14,232",
+                "Refer Annex on Customer Complaints and Grievance Redressal for further details. Cases pending are within the stipulated turnaround time of the Bank.",
+                "4,29,354",
+                "13,361"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Value Chain Partners",
+                "Yes Whistleblower Policy (link below)",
+                "3",
+                "0",
+                "Improper business practice / behavioural issue",
+                "6",
+                "2",
+                "-"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Others",
+                "Yes Whistleblower Policy (link below)",
+                "26",
+                "13",
+                "Breach of code of conduct, improper business practices, people related issues",
+                "36",
+                "14",
+                "-"
+              ]
+            }
+          ],
+          "num_rows": 6,
+          "num_cols": 8
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/19",
+          "provenance": [
+            {
+              "page_no": 13,
+              "bbox": {
+                "l": 50.67623519897461,
+                "t": 523.0825347900391,
+                "r": 543.5146484375,
+                "b": 226.57901000976562,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            1,
+            9
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Principle-wise policies"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "P1",
+                "Ethics & Transparency",
+                "Code of Conduct & Ethics Manual Conduct Philosophy Policy on KYC norms, AML and CFT measures Whistleblower Policy"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "P2",
+                "Product Responsibility",
+                "Sustainable Finance Framework Code of Bank's Commitment to Customers Fair Practice Code for Lending DSA Code of Conduct"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "P3",
+                "Human Resources",
+                "Code of Conduct & Ethics Manual Diversity, Equity and Inclusion Policy ESG Policy Framework"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "P4",
+                "Responsive to Stakeholders, particularly the marginalised",
+                "Sustainable Livelihood Initiative CSR Policy ESG Policy Framework"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "P5",
+                "Respect for Human Rights",
+                "Human Rights Statement Diversity, Equity and Inclusion Policy Code of Conduct & Ethics Manual"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "P6",
+                "Protect Environment",
+                "Sustainable Finance Framework ESG Policy Framework Environment Policy"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "P7",
+                "Public Policy Advocacy",
+                "Conduct Philosophy"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "P8",
+                "Inclusive Growth",
+                "CSR Policy Diversity, Equity and Inclusion Policy Sustainable Finance Framework"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "P9",
+                "Customer Engagement",
+                "Corporate Commitment Conduct Philosophy Grievance Redressal Policy Whistleblower Policy"
+              ]
+            }
+          ],
+          "num_rows": 10,
+          "num_cols": 3
+        }
+      ]
+    },
+    "disciplinary_action_bribery_corruption": {
+      "canonical_name": "Disciplinary action against Directors/KMPs/employees for bribery or corruption",
+      "category": "Governance",
+      "principle": [
+        "P1"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "numeric",
+      "found": true,
+      "match_count": 3,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/166",
+          "provenance": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 51.014700000000005,
+                "t": 256.5569,
+                "r": 543.0168000000008,
+                "b": 236.6971123076923,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                151
+              ]
+            }
+          ],
+          "content": "Does the entity have an anti-corruption or anti-bribery policy? If yes, provide details in brief and if available, provide a web-link to the policy."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/178",
+          "provenance": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 51.0236,
+                "t": 664.5599000000001,
+                "r": 542.9330000000017,
+                "b": 644.7001123076924,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                153
+              ]
+            }
+          ],
+          "content": "Number of Directors / KMPs / employees against whom disciplinary action was taken by any law enforcement agency for the charges of bribery/ corruption"
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/180",
+          "provenance": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 51.0236,
+                "t": 436.55989999999997,
+                "r": 545.4817999999995,
+                "b": 404.70311230769227,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                231
+              ]
+            }
+          ],
+          "content": "Provide details of any corrective action taken or underway on issues related to fines / penalties / action taken by regulators / law enforcement agencies / judicial institutions, on cases of corruption and conflicts of interest."
+        }
+      ]
+    },
+    "fines_penalties_regulatory": {
+      "canonical_name": "Fines, penalties and settlement amounts paid to regulators",
+      "category": "Governance",
+      "principle": [
+        "P1"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "mixed",
+      "found": true,
+      "match_count": 2,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/162",
+          "provenance": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 51.0236,
+                "t": 664.5599000000001,
+                "r": 545.4799999999997,
+                "b": 644.7001123076924,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                188
+              ]
+            }
+          ],
+          "content": "Details of fines  /penalties / punishment / award / compounding fees / settlement amount paid in proceedings with regulators / law enforcement agencies/judicial institutions in FY 23-24"
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/180",
+          "provenance": [
+            {
+              "page_no": 16,
+              "bbox": {
+                "l": 51.0236,
+                "t": 436.55989999999997,
+                "r": 545.4817999999995,
+                "b": 404.70311230769227,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                231
+              ]
+            }
+          ],
+          "content": "Provide details of any corrective action taken or underway on issues related to fines / penalties / action taken by regulators / law enforcement agencies / judicial institutions, on cases of corruption and conflicts of interest."
+        }
+      ]
+    },
+    "highest_authority_br_oversight": {
+      "canonical_name": "Highest authority responsible for Business Responsibility oversight",
+      "category": "Governance",
+      "principle": [
+        "General"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": false,
+      "expected_data": "qualitative",
+      "found": false,
+      "match_count": 0,
+      "matches": []
+    },
+    "trade_industry_affiliations": {
+      "canonical_name": "Affiliations with trade and industry chambers/associations",
+      "category": "Governance",
+      "principle": [
+        "P7"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": false,
+      "expected_data": "mixed",
+      "found": true,
+      "match_count": 4,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/663",
+          "provenance": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 51.0236,
+                "t": 532.5599000000001,
+                "r": 394.96940000000006,
+                "b": 524.6971123076924,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                77
+              ]
+            }
+          ],
+          "content": "a. Number of affiliations with trade and industry chambers / associations."
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/664",
+          "provenance": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 70.8686,
+                "t": 508.55690000000004,
+                "r": 391.4729000000001,
+                "b": 500.7088069286453,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                79
+              ]
+            }
+          ],
+          "content": "The Bank is a member of over 18 key trade and industry chambers / associations."
+        },
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/665",
+          "provenance": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 70.8686,
+                "t": 484.55390000000006,
+                "r": 531.6740000000004,
+                "b": 476.6911123076923,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                105
+              ]
+            }
+          ],
+          "content": "b. List of some of the trade and industry chambers/associations the entity is a member of / affiliated to"
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/57",
+          "provenance": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 70.100341796875,
+                "t": 462.4336242675781,
+                "r": 542.1883544921875,
+                "b": 316.9346923828125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            0
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "S. No.",
+                "Name of the trade and industry chambers / associations",
+                "Reach of trade and industry chambers / associations (State / National)"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "1.",
+                "Bombay Chambers of Commerce and Industry",
+                "National"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "2.",
+                "National Association of Software and Service",
+                "National"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "3.",
+                "Indian Institute of Banking and Finance",
+                "National"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "4.",
+                "Indian Banks Association",
+                "National"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "5.",
+                "Indo German Chamber of Commerce",
+                "International"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "6.",
+                "Fixed Income Money Market and Derivatives Association of India (FIMMDA)",
+                "National"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "7.",
+                "Foreign Exchange Dealers' Association of India (FEDAI)",
+                "National"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "8.",
+                "Society of Indian Automobiles Manufacturers",
+                "National"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "9.",
+                "Indian Construction Equipment Manufacturers Association",
+                "National"
+              ]
+            }
+          ],
+          "num_rows": 10,
+          "num_cols": 3
+        }
+      ]
+    },
+    "data_privacy_cybersecurity_complaints": {
+      "canonical_name": "Consumer complaints on data privacy and cyber security",
+      "category": "Governance",
+      "principle": [
+        "P9"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": false,
+      "expected_data": "mixed",
+      "found": true,
+      "match_count": 11,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/654",
+          "provenance": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 70.8686,
+                "t": 280.5569,
+                "r": 545.5241000000004,
+                "b": 224.7208069286453,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                588
+              ]
+            }
+          ],
+          "content": "The Bank takes proactive measures to ensure the reliability and seamless continuity of our operations. The Bank prioritises the highest standards of information and cyber security practices and data privacy measures, ensuring the protection of sensitive data and maintaining the trust of customers. Additionally, the Bank's ISO 22301:2019 certified Business Continuity Program ensures the reliability and seamless continuity of operations.  The Bank's business continuity programme is meticulously designed to align with regulatory guidelines and it undergoes periodic reviews and audits."
+        },
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/735",
+          "provenance": [
+            {
+              "page_no": 48,
+              "bbox": {
+                "l": 51.0236,
+                "t": 607.5599000000001,
+                "r": 500.24150000000037,
+                "b": 599.6971123076924,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                95
+              ]
+            }
+          ],
+          "content": "1. Describe the mechanisms in place to receive and respond to consumer complaints and feedback."
+        },
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/750",
+          "provenance": [
+            {
+              "page_no": 49,
+              "bbox": {
+                "l": 51.0236,
+                "t": 664.5599000000001,
+                "r": 332.1017000000002,
+                "b": 656.6971123076924,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                60
+              ]
+            }
+          ],
+          "content": "3. Number of consumer complaints in respect of the following"
+        },
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/754",
+          "provenance": [
+            {
+              "page_no": 49,
+              "bbox": {
+                "l": 51.0233,
+                "t": 337.55989999999997,
+                "r": 542.9317999999997,
+                "b": 317.7001123076923,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                155
+              ]
+            }
+          ],
+          "content": "5. Does the entity have a framework / policy on cyber security and risks related to data privacy? (Yes/ No) If available, provide a web-link of the policy."
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/755",
+          "provenance": [
+            {
+              "page_no": 49,
+              "bbox": {
+                "l": 70.8683,
+                "t": 301.55989999999997,
+                "r": 316.45760000000007,
+                "b": 293.7118069286453,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                64
+              ]
+            }
+          ],
+          "content": "Yes. The links for cyber security and data privacy are as under:"
+        },
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/757",
+          "provenance": [
+            {
+              "page_no": 49,
+              "bbox": {
+                "l": 70.8773,
+                "t": 253.5539,
+                "r": 119.93810000000002,
+                "b": 245.7058069286453,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                12
+              ]
+            }
+          ],
+          "content": "Data Privacy"
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/770",
+          "provenance": [
+            {
+              "page_no": 50,
+              "bbox": {
+                "l": 70.8686,
+                "t": 664.5599000000001,
+                "r": 166.3523,
+                "b": 656.7118069286454,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                22
+              ]
+            }
+          ],
+          "content": "Data Privacy Framework"
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/771",
+          "provenance": [
+            {
+              "page_no": 50,
+              "bbox": {
+                "l": 70.8686,
+                "t": 640.5569,
+                "r": 545.4952999999999,
+                "b": 608.7148069286454,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                269
+              ]
+            }
+          ],
+          "content": "Privacy Governance: The Bank has established a robust privacy governance framework that guides data privacy. This framework includes designated data privacy officer (DPO), cross-functional privacy teams and a clear chain of responsibility for privacy-related matters."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/775",
+          "provenance": [
+            {
+              "page_no": 50,
+              "bbox": {
+                "l": 51.0326,
+                "t": 421.59590000000003,
+                "r": 545.5349000000002,
+                "b": 389.7391123076923,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                304
+              ]
+            }
+          ],
+          "content": "Provide details of any corrective actions taken or underway on issues relating to advertising and delivery of essential services; cyber security and data privacy of customers; re-occurrence of instances of product recalls; penalty/action taken by regulatory authorities on safety of products/services."
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/797",
+          "provenance": [
+            {
+              "page_no": 51,
+              "bbox": {
+                "l": 70.8596,
+                "t": 394.54190000000006,
+                "r": 545.5447999999994,
+                "b": 326.7088069286453,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                714
+              ]
+            }
+          ],
+          "content": "The Bank takes proactive measures to ensure the reliability and seamless continuity of its operations. The Bank prioritises the highest standards of information and cyber security practices and data privacy measures, ensuring protection of sensitive data and maintaining the trust of its customers. Additionally, the ISO 22301:2019 certified Business Continuity Programme ensures the reliability and seamless continuity of operations. The Business Continuity Programme is designed to align with regulatory guidelines and undergoes thorough reviews and audits. The Bank's Business Continuity Programme helps manage continuity of critical business operations and accelerated resumption of services post the incident."
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/67",
+          "provenance": [
+            {
+              "page_no": 49,
+              "bbox": {
+                "l": 69.83106231689453,
+                "t": 642.7741546630859,
+                "r": 541.9249877929688,
+                "b": 471.64013671875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            2
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "FY 2023-24",
+                "FY 2022-23"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Received during the year",
+                "Pending resolution at end of year*",
+                "Remarks",
+                "Received during the year",
+                "Pending resolution at end of year*",
+                "Remarks"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Data privacy",
+                "5",
+                "0",
+                "-",
+                "2",
+                "0",
+                "-"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Advertising",
+                "36",
+                "0",
+                "-",
+                "33",
+                "0",
+                "-"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Cyber-security",
+                "0",
+                "0",
+                "-",
+                "0",
+                "0",
+                "-"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Delivery of essential services",
+                "3,063",
+                "29",
+                "-",
+                "2,457",
+                "11",
+                "-"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "Restrictive Trade Practices",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Unfair Trade Practices^",
+                "11,563",
+                "72",
+                "-",
+                "7,616",
+                "88",
+                "-"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Others",
+                "4,70,672",
+                "14,131",
+                "-",
+                "4,19,246",
+                "13,262",
+                "-"
+              ]
+            }
+          ],
+          "num_rows": 9,
+          "num_cols": 7
+        }
+      ]
+    }
+  }
+}

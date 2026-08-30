@@ -1,0 +1,6399 @@
+{
+  "company": "TataELXSI",
+  "source_document": "BRSR_TataELXSI_2025_2026.pdf",
+  "indicators": {
+    "scope_1_emissions": {
+      "canonical_name": "Scope 1 GHG emissions",
+      "category": "Environmental",
+      "principle": [
+        "P6"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "numeric",
+      "found": true,
+      "match_count": 6,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/573",
+          "provenance": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 51.0236,
+                "t": 664.722,
+                "r": 545.5277,
+                "b": 643.8685650557621,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                111
+              ]
+            }
+          ],
+          "content": "6. \u0007 Please provide details of air emissions (other than GHG emissions) by the entity, in the following format:"
+        },
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/577",
+          "provenance": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 50.97829999999965,
+                "t": 338.73780000000033,
+                "r": 545.4364999999999,
+                "b": 317.88436505576243,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                122
+              ]
+            }
+          ],
+          "content": "7. \u0007 Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its intensity, in the following format:"
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/779",
+          "provenance": [
+            {
+              "page_no": 52,
+              "bbox": {
+                "l": 51.02250000000001,
+                "t": 87.08619999999985,
+                "r": 545.2467,
+                "b": 66.19996789168272,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                150
+              ]
+            }
+          ],
+          "content": "\u0007 ISO 14064-1:2018 - Specification with guidance at the organisation level for quantification and reporting of greenhouse gas emissions and removals"
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/64",
+          "provenance": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 49.978187561035156,
+                "t": 313.614013671875,
+                "r": 543.2949829101562,
+                "b": 137.243408203125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            1,
+            3
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Parameter",
+                "Unit",
+                "FY 2025-26 (Current financial year)",
+                "FY 2024-25 (Previous financial year)"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Total Scope 1 emissions (Break-up of the GHG into CO 2 , CH 4 , N 2 O, HFCs, PFCs, SF 6 , NF 3 , if available)",
+                "Metric tonnes of CO 2 equivalent",
+                "69.3",
+                "114.9"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Total Scope 2 emissions (Break-up of the GHG into CO 2 , CH 4 , N 2 O, HFCs, PFCs, SF 6 , NF 3 , if available)",
+                "Metric tonnes of CO 2 equivalent",
+                "3,208",
+                "4,826"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Total Scope 1 and Scope 2 emissions per rupee of turnover",
+                "Metric tonnes of CO 2 equivalent per ` crore",
+                "0.87",
+                "1.32"
+              ]
+            }
+          ],
+          "num_rows": 4,
+          "num_cols": 4
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/65",
+          "provenance": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 50.19697570800781,
+                "t": 668.5851898193359,
+                "r": 543.4388427734375,
+                "b": 497.4447479248047,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            1
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Parameter",
+                "Unit",
+                "FY 2025-26 (Current financial year)",
+                "FY 2024-25 (Previous financial year)"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP) (Total Scope 1 and Scope 2 GHG emissions/Revenue from operations adjusted for PPP)",
+                "Metric tonnes of CO 2 equivalent per revenue adjusted to PPP",
+                "1.77",
+                "2.97"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity (optional) - the relevant metric may be selected by the entity",
+                "Metric tonnes of CO 2 equivalent per employee",
+                "0.28",
+                "0.40"
+              ]
+            }
+          ],
+          "num_rows": 3,
+          "num_cols": 4
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/84",
+          "provenance": [
+            {
+              "page_no": 53,
+              "bbox": {
+                "l": 50.0020866394043,
+                "t": 384.936767578125,
+                "r": 543.5162353515625,
+                "b": 124.69512939453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            1
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "S. no.",
+                "Attribute",
+                "Parameter",
+                "Unit of measure",
+                "Assured values"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "1",
+                "Green-house gas (GHG) footprint",
+                "Total Scope 1 emissions* 1",
+                "MT of CO 2 e*21",
+                "69.3"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Total Scope 2 emissions* 2",
+                "MT of CO 2 e*21",
+                "3208"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity per rupee of turnover",
+                "MT CO 2 e/Revenue from operations in ₹ crore",
+                "0.87"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP)* 3",
+                "MT CO 2 e/Revenue from operations in ₹ adjusted to PPP",
+                "1.77"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity in terms of physical output",
+                "MT CO 2 e/Employee headcount",
+                "0.28"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "2",
+                "Water footprint",
+                "Total water consumption",
+                "kL",
+                "67753"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Water consumption intensity per rupee of turnover",
+                "kL/Revenue from operations in ₹ crore",
+                "18.03"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Water intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP)* 3",
+                "kL/Revenue from operations in ₹ adjusted for PPP",
+                "36.68"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Water intensity in terms of physical output",
+                "kL/Employee headcount",
+                "5.87"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "Water discharge by destination and levels of treatment* 4",
+                "kL",
+                "65671"
+              ]
+            }
+          ],
+          "num_rows": 11,
+          "num_cols": 5
+        }
+      ]
+    },
+    "scope_2_emissions": {
+      "canonical_name": "Scope 2 GHG emissions",
+      "category": "Environmental",
+      "principle": [
+        "P6"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "numeric",
+      "found": true,
+      "match_count": 8,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "footnote",
+          "self_ref": "#/texts/141",
+          "provenance": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 53.8583,
+                "t": 597.0906,
+                "r": 528.1391,
+                "b": 578.0770603481625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                151
+              ]
+            }
+          ],
+          "content": "*50% Reduction in Scope 1 + Scope 2 emissions by 2025 (vs the base year 2021), Carbon Neutral by 2030, Net Zero by 2045 **Renewable energy use at 66.2%"
+        },
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/573",
+          "provenance": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 51.0236,
+                "t": 664.722,
+                "r": 545.5277,
+                "b": 643.8685650557621,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                111
+              ]
+            }
+          ],
+          "content": "6. \u0007 Please provide details of air emissions (other than GHG emissions) by the entity, in the following format:"
+        },
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/577",
+          "provenance": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 50.97829999999965,
+                "t": 338.73780000000033,
+                "r": 545.4364999999999,
+                "b": 317.88436505576243,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                122
+              ]
+            }
+          ],
+          "content": "7. \u0007 Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its intensity, in the following format:"
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/587",
+          "provenance": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 70.86619999999999,
+                "t": 373.3663,
+                "r": 545.3362999999997,
+                "b": 313.4920678916829,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                492
+              ]
+            }
+          ],
+          "content": "\u0007 Tata Elxsi achieved its commitment to reducing its carbon footprint by 50% against the benchmark by 2025. This goal is taken up earnestly and targeted by opting to use green energy in many of the locations. Listed below are some of the major steps taken to achieve the objective. The organisation has targeted majority of its Scope 2 emissions to be mitigated by use of renewable energy by end of FY 2026-27. The organisation has taken multiple steps to achieve it and same is listed below."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/779",
+          "provenance": [
+            {
+              "page_no": 52,
+              "bbox": {
+                "l": 51.02250000000001,
+                "t": 87.08619999999985,
+                "r": 545.2467,
+                "b": 66.19996789168272,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                150
+              ]
+            }
+          ],
+          "content": "\u0007 ISO 14064-1:2018 - Specification with guidance at the organisation level for quantification and reporting of greenhouse gas emissions and removals"
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/64",
+          "provenance": [
+            {
+              "page_no": 41,
+              "bbox": {
+                "l": 49.978187561035156,
+                "t": 313.614013671875,
+                "r": 543.2949829101562,
+                "b": 137.243408203125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            2,
+            3
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Parameter",
+                "Unit",
+                "FY 2025-26 (Current financial year)",
+                "FY 2024-25 (Previous financial year)"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Total Scope 1 emissions (Break-up of the GHG into CO 2 , CH 4 , N 2 O, HFCs, PFCs, SF 6 , NF 3 , if available)",
+                "Metric tonnes of CO 2 equivalent",
+                "69.3",
+                "114.9"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Total Scope 2 emissions (Break-up of the GHG into CO 2 , CH 4 , N 2 O, HFCs, PFCs, SF 6 , NF 3 , if available)",
+                "Metric tonnes of CO 2 equivalent",
+                "3,208",
+                "4,826"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Total Scope 1 and Scope 2 emissions per rupee of turnover",
+                "Metric tonnes of CO 2 equivalent per ` crore",
+                "0.87",
+                "1.32"
+              ]
+            }
+          ],
+          "num_rows": 4,
+          "num_cols": 4
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/65",
+          "provenance": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 50.19697570800781,
+                "t": 668.5851898193359,
+                "r": 543.4388427734375,
+                "b": 497.4447479248047,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            1
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Parameter",
+                "Unit",
+                "FY 2025-26 (Current financial year)",
+                "FY 2024-25 (Previous financial year)"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP) (Total Scope 1 and Scope 2 GHG emissions/Revenue from operations adjusted for PPP)",
+                "Metric tonnes of CO 2 equivalent per revenue adjusted to PPP",
+                "1.77",
+                "2.97"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity (optional) - the relevant metric may be selected by the entity",
+                "Metric tonnes of CO 2 equivalent per employee",
+                "0.28",
+                "0.40"
+              ]
+            }
+          ],
+          "num_rows": 3,
+          "num_cols": 4
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/84",
+          "provenance": [
+            {
+              "page_no": 53,
+              "bbox": {
+                "l": 50.0020866394043,
+                "t": 384.936767578125,
+                "r": 543.5162353515625,
+                "b": 124.69512939453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            2
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "S. no.",
+                "Attribute",
+                "Parameter",
+                "Unit of measure",
+                "Assured values"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "1",
+                "Green-house gas (GHG) footprint",
+                "Total Scope 1 emissions* 1",
+                "MT of CO 2 e*21",
+                "69.3"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Total Scope 2 emissions* 2",
+                "MT of CO 2 e*21",
+                "3208"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity per rupee of turnover",
+                "MT CO 2 e/Revenue from operations in ₹ crore",
+                "0.87"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP)* 3",
+                "MT CO 2 e/Revenue from operations in ₹ adjusted to PPP",
+                "1.77"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity in terms of physical output",
+                "MT CO 2 e/Employee headcount",
+                "0.28"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "2",
+                "Water footprint",
+                "Total water consumption",
+                "kL",
+                "67753"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Water consumption intensity per rupee of turnover",
+                "kL/Revenue from operations in ₹ crore",
+                "18.03"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Water intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP)* 3",
+                "kL/Revenue from operations in ₹ adjusted for PPP",
+                "36.68"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Water intensity in terms of physical output",
+                "kL/Employee headcount",
+                "5.87"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "Water discharge by destination and levels of treatment* 4",
+                "kL",
+                "65671"
+              ]
+            }
+          ],
+          "num_rows": 11,
+          "num_cols": 5
+        }
+      ]
+    },
+    "energy_consumption": {
+      "canonical_name": "Total energy consumption and intensity",
+      "category": "Environmental",
+      "principle": [
+        "P6"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "numeric",
+      "found": true,
+      "match_count": 3,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/545",
+          "provenance": [
+            {
+              "page_no": 38,
+              "bbox": {
+                "l": 51.0236,
+                "t": 556.4771,
+                "r": 533.8187,
+                "b": 548.6196650557621,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                102
+              ]
+            }
+          ],
+          "content": "1. Details of total energy consumption (in Giga Joules) and energy intensity, in the following format:"
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/60",
+          "provenance": [
+            {
+              "page_no": 38,
+              "bbox": {
+                "l": 49.7905387878418,
+                "t": 544.4836730957031,
+                "r": 543.4075317382812,
+                "b": 195.24542236328125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            12,
+            13,
+            14
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Parameter",
+                "FY 2025-26 (Current financial year)",
+                "FY 2024-25 (Previous financial year)"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "From renewable sources"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Total electricity consumption (A)",
+                "32,140.95",
+                "25,407.19"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Total fuel consumption (B)",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Energy consumption through other sources (C)",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Total energy consumption (A + B + C)",
+                "32,140.95",
+                "25,407.19"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "From non-renewable sources"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Total electricity consumption (D)",
+                "16,132.04",
+                "24,265.23"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Total fuel consumption (E)",
+                "238.84",
+                "421.42"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Energy consumption through other sources (F)",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "Total energy consumed from non-renewable sources (D + E + F)",
+                "16,370.88",
+                "24,686.65"
+              ]
+            },
+            {
+              "row": 11,
+              "cells": [
+                "Total energy consumed (A + B + C + D + E + F)",
+                "48,511.83",
+                "50,093.85"
+              ]
+            },
+            {
+              "row": 12,
+              "cells": [
+                "Energy intensity per rupee of turnover (Total energy consumption (GJ)/Revenue from operations ( ` crore))",
+                "12.91",
+                "13.43"
+              ]
+            },
+            {
+              "row": 13,
+              "cells": [
+                "Energy intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP) (Total energy consumed (GJ)/Revenue from operations adjusted for PPP)",
+                "26.26",
+                "30.09"
+              ]
+            },
+            {
+              "row": 14,
+              "cells": [
+                "Energy intensity (per employee) - Total energy consumed/Employee headcount",
+                "4.20",
+                "4.04"
+              ]
+            }
+          ],
+          "num_rows": 15,
+          "num_cols": 3
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/85",
+          "provenance": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 49.98194122314453,
+                "t": 668.7369689941406,
+                "r": 543.6146240234375,
+                "b": 83.40875244140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            3,
+            4,
+            5
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "S. no.",
+                "Attribute",
+                "Parameter",
+                "Unit of measure",
+                "Assured values"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "3",
+                "Energy footprint",
+                "Total Energy consumed* 5",
+                "Giga Joules (GJ)",
+                "48511.85"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "% of energy consumed from renewable sources* 6",
+                "In % terms",
+                "66.25%"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Energy intensity per rupee of turnover",
+                "GJ/Revenue from operations in ₹ crore",
+                "12.91"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Energy intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP)* 3",
+                "GJ/Revenue from operations in ₹ adjusted for PPP",
+                "26.26"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Energy intensity in terms of physical output",
+                "GJ/Employee headcount",
+                "4.20"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "4",
+                "Embracing circularity - details related to waste management by the entity",
+                "Plastic waste (A)",
+                "MT",
+                "4.1"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "E-waste (B) * 7",
+                "MT",
+                "14.44"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Bio-medical waste (C)",
+                "MT",
+                "Nil"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Construction and demolition waste (D)* 8",
+                "MT",
+                "Nil"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "Battery waste (E)",
+                "MT",
+                "11.86"
+              ]
+            },
+            {
+              "row": 11,
+              "cells": [
+                "Radioactive waste (F)",
+                "MT",
+                "Nil"
+              ]
+            },
+            {
+              "row": 12,
+              "cells": [
+                "Other hazardous waste. Please specify, if any. (G)",
+                "MT",
+                "Nil"
+              ]
+            },
+            {
+              "row": 13,
+              "cells": [
+                "Other non-hazardous waste generated (H). Please specify, if any. (Break-up by composition i.e., by materials relevant to the sector)",
+                "MT",
+                "58.54"
+              ]
+            },
+            {
+              "row": 14,
+              "cells": [
+                "Total waste generated (A + B + C + D + E + F + G + H)",
+                "MT* 21",
+                "88.94"
+              ]
+            },
+            {
+              "row": 15,
+              "cells": [
+                "Waste intensity per rupee of turnover from operations",
+                "Total waste generated/Revenue from operations in ₹ crore",
+                "0.024"
+              ]
+            },
+            {
+              "row": 16,
+              "cells": [
+                "Waste intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP)*3",
+                "Total waste generated/Revenue from operations in ₹ adjusted for PPP",
+                "0.048"
+              ]
+            },
+            {
+              "row": 17,
+              "cells": [
+                "Waste intensity in terms of physical output",
+                "Total waste generated/Employee headcount",
+                "0.0077"
+              ]
+            },
+            {
+              "row": 18,
+              "cells": [
+                "Each category of waste generated, total waste recovered through recycling, re-using or other recovery operations* 9"
+              ]
+            },
+            {
+              "row": 19,
+              "cells": [
+                "(i)",
+                "Recycled",
+                "MT",
+                "11.86 (battery waste)"
+              ]
+            },
+            {
+              "row": 20,
+              "cells": [
+                "(ii)",
+                "Re-used",
+                "MT",
+                "0"
+              ]
+            },
+            {
+              "row": 21,
+              "cells": [
+                "(iii)",
+                "Other recovery options",
+                "MT",
+                "0"
+              ]
+            },
+            {
+              "row": 22,
+              "cells": [
+                "Total",
+                "MT* 21",
+                "11.86"
+              ]
+            },
+            {
+              "row": 23,
+              "cells": [
+                "For each category of waste generated, total waste disposed of by nature of disposal method* 10"
+              ]
+            },
+            {
+              "row": 24,
+              "cells": [
+                "(i)",
+                "Incineration",
+                "MT",
+                "0"
+              ]
+            },
+            {
+              "row": 25,
+              "cells": [
+                "(ii)",
+                "Landfilling",
+                "MT",
+                "0"
+              ]
+            },
+            {
+              "row": 26,
+              "cells": [
+                "(iii)",
+                "Other disposal options",
+                "MT",
+                "0"
+              ]
+            },
+            {
+              "row": 27,
+              "cells": [
+                "Total",
+                "MT* 21",
+                "0"
+              ]
+            }
+          ],
+          "num_rows": 28,
+          "num_cols": 5
+        }
+      ]
+    },
+    "renewable_energy_consumption": {
+      "canonical_name": "Energy consumed from renewable vs non-renewable sources",
+      "category": "Environmental",
+      "principle": [
+        "P6"
+      ],
+      "indicator_type": "leadership",
+      "brsr_core": false,
+      "expected_data": "numeric",
+      "found": true,
+      "match_count": 7,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "footnote",
+          "self_ref": "#/texts/141",
+          "provenance": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 53.8583,
+                "t": 597.0906,
+                "r": 528.1391,
+                "b": 578.0770603481625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                151
+              ]
+            }
+          ],
+          "content": "*50% Reduction in Scope 1 + Scope 2 emissions by 2025 (vs the base year 2021), Carbon Neutral by 2030, Net Zero by 2045 **Renewable energy use at 66.2%"
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/146",
+          "provenance": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 93.54610000000001,
+                "t": 423.32120000000003,
+                "r": 268.75449999999984,
+                "b": 415.4309678916828,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                38
+              ]
+            }
+          ],
+          "content": "Increasing the use of renewable energy"
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/587",
+          "provenance": [
+            {
+              "page_no": 42,
+              "bbox": {
+                "l": 70.86619999999999,
+                "t": 373.3663,
+                "r": 545.3362999999997,
+                "b": 313.4920678916829,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                492
+              ]
+            }
+          ],
+          "content": "\u0007 Tata Elxsi achieved its commitment to reducing its carbon footprint by 50% against the benchmark by 2025. This goal is taken up earnestly and targeted by opting to use green energy in many of the locations. Listed below are some of the major steps taken to achieve the objective. The organisation has targeted majority of its Scope 2 emissions to be mitigated by use of renewable energy by end of FY 2026-27. The organisation has taken multiple steps to achieve it and same is listed below."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/827",
+          "provenance": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 51.0236,
+                "t": 291.38710000000003,
+                "r": 545.3441000000001,
+                "b": 270.50086789168284,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                171
+              ]
+            }
+          ],
+          "content": "*6 \u0007 Renewable energy as a % of overall energy requirement was increased to 66.2 % by availing Green tariff in Trivandrum and installation of roof top solar panels in Pune"
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/60",
+          "provenance": [
+            {
+              "page_no": 38,
+              "bbox": {
+                "l": 49.7905387878418,
+                "t": 544.4836730957031,
+                "r": 543.4075317382812,
+                "b": 195.24542236328125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            1,
+            6,
+            10
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Parameter",
+                "FY 2025-26 (Current financial year)",
+                "FY 2024-25 (Previous financial year)"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "From renewable sources"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Total electricity consumption (A)",
+                "32,140.95",
+                "25,407.19"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Total fuel consumption (B)",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Energy consumption through other sources (C)",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Total energy consumption (A + B + C)",
+                "32,140.95",
+                "25,407.19"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "From non-renewable sources"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Total electricity consumption (D)",
+                "16,132.04",
+                "24,265.23"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Total fuel consumption (E)",
+                "238.84",
+                "421.42"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Energy consumption through other sources (F)",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "Total energy consumed from non-renewable sources (D + E + F)",
+                "16,370.88",
+                "24,686.65"
+              ]
+            },
+            {
+              "row": 11,
+              "cells": [
+                "Total energy consumed (A + B + C + D + E + F)",
+                "48,511.83",
+                "50,093.85"
+              ]
+            },
+            {
+              "row": 12,
+              "cells": [
+                "Energy intensity per rupee of turnover (Total energy consumption (GJ)/Revenue from operations ( ` crore))",
+                "12.91",
+                "13.43"
+              ]
+            },
+            {
+              "row": 13,
+              "cells": [
+                "Energy intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP) (Total energy consumed (GJ)/Revenue from operations adjusted for PPP)",
+                "26.26",
+                "30.09"
+              ]
+            },
+            {
+              "row": 14,
+              "cells": [
+                "Energy intensity (per employee) - Total energy consumed/Employee headcount",
+                "4.20",
+                "4.04"
+              ]
+            }
+          ],
+          "num_rows": 15,
+          "num_cols": 3
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/85",
+          "provenance": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 49.98194122314453,
+                "t": 668.7369689941406,
+                "r": 543.6146240234375,
+                "b": 83.40875244140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            2
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "S. no.",
+                "Attribute",
+                "Parameter",
+                "Unit of measure",
+                "Assured values"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "3",
+                "Energy footprint",
+                "Total Energy consumed* 5",
+                "Giga Joules (GJ)",
+                "48511.85"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "% of energy consumed from renewable sources* 6",
+                "In % terms",
+                "66.25%"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Energy intensity per rupee of turnover",
+                "GJ/Revenue from operations in ₹ crore",
+                "12.91"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Energy intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP)* 3",
+                "GJ/Revenue from operations in ₹ adjusted for PPP",
+                "26.26"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Energy intensity in terms of physical output",
+                "GJ/Employee headcount",
+                "4.20"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "4",
+                "Embracing circularity - details related to waste management by the entity",
+                "Plastic waste (A)",
+                "MT",
+                "4.1"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "E-waste (B) * 7",
+                "MT",
+                "14.44"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Bio-medical waste (C)",
+                "MT",
+                "Nil"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Construction and demolition waste (D)* 8",
+                "MT",
+                "Nil"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "Battery waste (E)",
+                "MT",
+                "11.86"
+              ]
+            },
+            {
+              "row": 11,
+              "cells": [
+                "Radioactive waste (F)",
+                "MT",
+                "Nil"
+              ]
+            },
+            {
+              "row": 12,
+              "cells": [
+                "Other hazardous waste. Please specify, if any. (G)",
+                "MT",
+                "Nil"
+              ]
+            },
+            {
+              "row": 13,
+              "cells": [
+                "Other non-hazardous waste generated (H). Please specify, if any. (Break-up by composition i.e., by materials relevant to the sector)",
+                "MT",
+                "58.54"
+              ]
+            },
+            {
+              "row": 14,
+              "cells": [
+                "Total waste generated (A + B + C + D + E + F + G + H)",
+                "MT* 21",
+                "88.94"
+              ]
+            },
+            {
+              "row": 15,
+              "cells": [
+                "Waste intensity per rupee of turnover from operations",
+                "Total waste generated/Revenue from operations in ₹ crore",
+                "0.024"
+              ]
+            },
+            {
+              "row": 16,
+              "cells": [
+                "Waste intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP)*3",
+                "Total waste generated/Revenue from operations in ₹ adjusted for PPP",
+                "0.048"
+              ]
+            },
+            {
+              "row": 17,
+              "cells": [
+                "Waste intensity in terms of physical output",
+                "Total waste generated/Employee headcount",
+                "0.0077"
+              ]
+            },
+            {
+              "row": 18,
+              "cells": [
+                "Each category of waste generated, total waste recovered through recycling, re-using or other recovery operations* 9"
+              ]
+            },
+            {
+              "row": 19,
+              "cells": [
+                "(i)",
+                "Recycled",
+                "MT",
+                "11.86 (battery waste)"
+              ]
+            },
+            {
+              "row": 20,
+              "cells": [
+                "(ii)",
+                "Re-used",
+                "MT",
+                "0"
+              ]
+            },
+            {
+              "row": 21,
+              "cells": [
+                "(iii)",
+                "Other recovery options",
+                "MT",
+                "0"
+              ]
+            },
+            {
+              "row": 22,
+              "cells": [
+                "Total",
+                "MT* 21",
+                "11.86"
+              ]
+            },
+            {
+              "row": 23,
+              "cells": [
+                "For each category of waste generated, total waste disposed of by nature of disposal method* 10"
+              ]
+            },
+            {
+              "row": 24,
+              "cells": [
+                "(i)",
+                "Incineration",
+                "MT",
+                "0"
+              ]
+            },
+            {
+              "row": 25,
+              "cells": [
+                "(ii)",
+                "Landfilling",
+                "MT",
+                "0"
+              ]
+            },
+            {
+              "row": 26,
+              "cells": [
+                "(iii)",
+                "Other disposal options",
+                "MT",
+                "0"
+              ]
+            },
+            {
+              "row": 27,
+              "cells": [
+                "Total",
+                "MT* 21",
+                "0"
+              ]
+            }
+          ],
+          "num_rows": 28,
+          "num_cols": 5
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/89",
+          "provenance": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 48.897056579589844,
+                "t": 668.6060180664062,
+                "r": 543.8551635742188,
+                "b": 60.38519287109375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            21
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "S. no.",
+                "Attribute",
+                "Parameter",
+                "Unit of measure",
+                "Assured values"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Percentage of performance and career development reviews of employees and worker",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Training given to employees on Health & Safety",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Training given to employees on skill upgradation",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Number of complaints filed on Working Condition during the year* 17",
+                "In no.",
+                "27"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Number of complaints pending resolution on Working Condition",
+                "In no.",
+                "0"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "Number of complaints filed on Health & Safety during the year",
+                "In no.",
+                "2"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Number of complaints pending resolution on Health & Safety",
+                "In no.",
+                "0"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Assessment of offices on Health & Safety practices",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Assessment of offices on Working Conditions",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "19",
+                "Principle 5-Businesses should respect and promote human rights",
+                "Employees and workers provided with human rights training",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 11,
+              "cells": [
+                "Employees and workers provided with Equal to minimum Wage",
+                "In no.",
+                "0"
+              ]
+            },
+            {
+              "row": 12,
+              "cells": [
+                "Employees and workers provided with More than minimum Wage",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 13,
+              "cells": [
+                "Median remuneration for male BOD",
+                "lakh per annum",
+                "154.41"
+              ]
+            },
+            {
+              "row": 14,
+              "cells": [
+                "Median remuneration for female BOD",
+                "lakh per annum",
+                "135.91"
+              ]
+            },
+            {
+              "row": 15,
+              "cells": [
+                "Median remuneration for male KMP",
+                "lakh per annum",
+                "494.89"
+              ]
+            },
+            {
+              "row": 16,
+              "cells": [
+                "Median remuneration for female KMP",
+                "lakh per annum",
+                "40.00"
+              ]
+            },
+            {
+              "row": 17,
+              "cells": [
+                "Median remuneration for male employees",
+                "lakh per annum",
+                "11"
+              ]
+            },
+            {
+              "row": 18,
+              "cells": [
+                "Median remuneration for female employees",
+                "lakh per annum",
+                "8.2"
+              ]
+            },
+            {
+              "row": 19,
+              "cells": [
+                "Assessments made for employees, workers and value chain partners on child labor, sexual harassment, forced labor, discrimination at workplace, and wages",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 20,
+              "cells": [
+                "Number of complaints on Child labor, Discrimination at workplace, Wages, Forced labor or other human right related issues",
+                "In no.",
+                "0"
+              ]
+            },
+            {
+              "row": 21,
+              "cells": [
+                "20",
+                "Principle 6- To protect and restore the environment",
+                "Energy consumption from renewable sources",
+                "Giga Joules (GJ)",
+                "32,140"
+              ]
+            },
+            {
+              "row": 22,
+              "cells": [
+                "Total volume of water withdrawal",
+                "in kL",
+                "67,753"
+              ]
+            },
+            {
+              "row": 23,
+              "cells": [
+                "No of Green credits generated or procured by the listed entity",
+                "In no.",
+                "0"
+              ]
+            },
+            {
+              "row": 24,
+              "cells": [
+                "No of Green credits generated or procured by top 10 value chain partners",
+                "In no.",
+                "0"
+              ]
+            }
+          ],
+          "num_rows": 25,
+          "num_cols": 5
+        }
+      ]
+    },
+    "water_withdrawal_consumption": {
+      "canonical_name": "Water withdrawal, consumption and discharge in water-stressed areas",
+      "category": "Environmental",
+      "principle": [
+        "P6"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "numeric",
+      "found": true,
+      "match_count": 4,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/651",
+          "provenance": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 51.0236,
+                "t": 630.1778999999999,
+                "r": 470.0708000000001,
+                "b": 622.320465055762,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                89
+              ]
+            }
+          ],
+          "content": "Water withdrawal, consumption, and discharge in areas of water stress (in kilolitres):"
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/652",
+          "provenance": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 70.8686,
+                "t": 614.3468999999999,
+                "r": 458.0728999999997,
+                "b": 606.4566678916827,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                92
+              ]
+            }
+          ],
+          "content": "For each facility/plant located in areas of water stress, provide the following information:"
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/61",
+          "provenance": [
+            {
+              "page_no": 39,
+              "bbox": {
+                "l": 49.588077545166016,
+                "t": 565.6971588134766,
+                "r": 543.315673828125,
+                "b": 262.3577575683594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            8,
+            10,
+            11
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Parameter",
+                "FY 2025-26 (Current financial year)",
+                "FY 2024-25 (Previous financial year)"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Water withdrawal by source (in kilolitres)"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "(i)",
+                "Surface water",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "(ii)",
+                "Groundwater",
+                "11,157",
+                "11,659"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "(iii)",
+                "Third-party water",
+                "56,596",
+                "62,045"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "(iv)",
+                "Seawater/desalinated water",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "(v)",
+                "Others",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Total volume of water withdrawal (in kilolitres) (i + ii + iii + iv + v)",
+                "67,753",
+                "73,704"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Total volume of water consumption (in kilolitres)",
+                "67,753",
+                "73,704"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Water intensity per rupee of turnover (Water consumed/Revenue from operations ( ` crore))",
+                "18.03",
+                "19.76"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "Water intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP) (Total water consumption/Revenue from operations adjusted for PPP)",
+                "36.68",
+                "44.27"
+              ]
+            },
+            {
+              "row": 11,
+              "cells": [
+                "Water intensity (per employee) - Total water consumption/Employee headcount",
+                "5.87",
+                "5.94"
+              ]
+            }
+          ],
+          "num_rows": 12,
+          "num_cols": 4
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/84",
+          "provenance": [
+            {
+              "page_no": 53,
+              "bbox": {
+                "l": 50.0020866394043,
+                "t": 384.936767578125,
+                "r": 543.5162353515625,
+                "b": 124.69512939453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            6,
+            7
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "S. no.",
+                "Attribute",
+                "Parameter",
+                "Unit of measure",
+                "Assured values"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "1",
+                "Green-house gas (GHG) footprint",
+                "Total Scope 1 emissions* 1",
+                "MT of CO 2 e*21",
+                "69.3"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Total Scope 2 emissions* 2",
+                "MT of CO 2 e*21",
+                "3208"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity per rupee of turnover",
+                "MT CO 2 e/Revenue from operations in ₹ crore",
+                "0.87"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP)* 3",
+                "MT CO 2 e/Revenue from operations in ₹ adjusted to PPP",
+                "1.77"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity in terms of physical output",
+                "MT CO 2 e/Employee headcount",
+                "0.28"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "2",
+                "Water footprint",
+                "Total water consumption",
+                "kL",
+                "67753"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Water consumption intensity per rupee of turnover",
+                "kL/Revenue from operations in ₹ crore",
+                "18.03"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Water intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP)* 3",
+                "kL/Revenue from operations in ₹ adjusted for PPP",
+                "36.68"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Water intensity in terms of physical output",
+                "kL/Employee headcount",
+                "5.87"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "Water discharge by destination and levels of treatment* 4",
+                "kL",
+                "65671"
+              ]
+            }
+          ],
+          "num_rows": 11,
+          "num_cols": 5
+        }
+      ]
+    },
+    "water_discharge": {
+      "canonical_name": "Water discharge by destination and treatment level",
+      "category": "Environmental",
+      "principle": [
+        "P6"
+      ],
+      "indicator_type": "leadership",
+      "brsr_core": false,
+      "expected_data": "numeric",
+      "found": true,
+      "match_count": 2,
+      "matches": [
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/62",
+          "provenance": [
+            {
+              "page_no": 40,
+              "bbox": {
+                "l": 49.456119537353516,
+                "t": 652.2953262329102,
+                "r": 543.43115234375,
+                "b": 345.0111999511719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            1,
+            4,
+            7,
+            10,
+            13,
+            16,
+            17
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Parameter",
+                "FY 2025-26 (Current financial year)",
+                "FY 2024-25 (Previous financial year)"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Water discharge by destination and level of treatment (in kilolitres)"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "(i)",
+                "To Surface water",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "-",
+                "No treatment",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "-",
+                "With treatment - please specify level of treatment",
+                "65,671",
+                "72,089"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "(ii)",
+                "To Groundwater",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "-",
+                "No treatment",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "-",
+                "With treatment - please specify level of treatment",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "(iii)",
+                "To Seawater",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "-",
+                "No treatment",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "-",
+                "With treatment - please specify level of treatment",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 11,
+              "cells": [
+                "(iv)",
+                "Sent to third parties",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 12,
+              "cells": [
+                "-",
+                "No treatment",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 13,
+              "cells": [
+                "-",
+                "With treatment - please specify level of treatment",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 14,
+              "cells": [
+                "(v)",
+                "Others",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 15,
+              "cells": [
+                "-",
+                "No treatment",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 16,
+              "cells": [
+                "-",
+                "With treatment - please specify level of treatment",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 17,
+              "cells": [
+                "Total water discharged (in kilolitres)",
+                "65,671",
+                "72,089"
+              ]
+            }
+          ],
+          "num_rows": 18,
+          "num_cols": 4
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/84",
+          "provenance": [
+            {
+              "page_no": 53,
+              "bbox": {
+                "l": 50.0020866394043,
+                "t": 384.936767578125,
+                "r": 543.5162353515625,
+                "b": 124.69512939453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            10
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "S. no.",
+                "Attribute",
+                "Parameter",
+                "Unit of measure",
+                "Assured values"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "1",
+                "Green-house gas (GHG) footprint",
+                "Total Scope 1 emissions* 1",
+                "MT of CO 2 e*21",
+                "69.3"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Total Scope 2 emissions* 2",
+                "MT of CO 2 e*21",
+                "3208"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity per rupee of turnover",
+                "MT CO 2 e/Revenue from operations in ₹ crore",
+                "0.87"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP)* 3",
+                "MT CO 2 e/Revenue from operations in ₹ adjusted to PPP",
+                "1.77"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Total Scope 1 and Scope 2 emission intensity in terms of physical output",
+                "MT CO 2 e/Employee headcount",
+                "0.28"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "2",
+                "Water footprint",
+                "Total water consumption",
+                "kL",
+                "67753"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Water consumption intensity per rupee of turnover",
+                "kL/Revenue from operations in ₹ crore",
+                "18.03"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Water intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP)* 3",
+                "kL/Revenue from operations in ₹ adjusted for PPP",
+                "36.68"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Water intensity in terms of physical output",
+                "kL/Employee headcount",
+                "5.87"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "Water discharge by destination and levels of treatment* 4",
+                "kL",
+                "65671"
+              ]
+            }
+          ],
+          "num_rows": 11,
+          "num_cols": 5
+        }
+      ]
+    },
+    "waste_management": {
+      "canonical_name": "Waste generated (plastic, e-waste, hazardous, other)",
+      "category": "Environmental",
+      "principle": [
+        "P6"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "mixed",
+      "found": true,
+      "match_count": 14,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/235",
+          "provenance": [
+            {
+              "page_no": 22,
+              "bbox": {
+                "l": 51.0236,
+                "t": 664.722,
+                "r": 545.5294999999998,
+                "b": 630.8725650557622,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                217
+              ]
+            }
+          ],
+          "content": "\u0007 Describe the processes in place to safely reclaim your products for reusing, recycling and disposing at the end of life, for (a) Plastics (including packaging) (b) E-waste (c) Hazardous waste and (d) other waste."
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/236",
+          "provenance": [
+            {
+              "page_no": 22,
+              "bbox": {
+                "l": 70.8659,
+                "t": 622.899,
+                "r": 545.3378000000001,
+                "b": 537.032767891683,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                686
+              ]
+            }
+          ],
+          "content": "\u0007 Being  an  engineering research and development organisation, Tata Elxsi emphasises sustainability and safety in providing design and development services. Serving global customer segments and not manufacturing products,  the  Company  has  established  processes  for  reusing,  recycling,  and  safely  disposing  of  used items. The Company's e-waste recycling process takes care of obsolete computers, monitors, computer accessories and other electronic office equipment. It has employed specialised agencies to carry out the e-waste disposal. The Company encourages reduced use of paper. Hazardous waste like UPS batteries is responsibly given to licensed agencies for recycling."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/237",
+          "provenance": [
+            {
+              "page_no": 22,
+              "bbox": {
+                "l": 90.70870000000001,
+                "t": 529.0527,
+                "r": 545.2644999999997,
+                "b": 508.1664678916828,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                116
+              ]
+            }
+          ],
+          "content": "\u0007 The organisation's standard operating procedure to dispose waste is detailed in Waste Management process document."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/238",
+          "provenance": [
+            {
+              "page_no": 22,
+              "bbox": {
+                "l": 90.7087,
+                "t": 500.2181,
+                "r": 545.3257,
+                "b": 479.3318678916828,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                172
+              ]
+            }
+          ],
+          "content": "\u0007 Hazardous  waste  like  battery,  used  oil,  oil-soaked  cotton  waste  and  diesel  generator  set  filters  are disposed to Pollution Control Board authorised vendors."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/239",
+          "provenance": [
+            {
+              "page_no": 22,
+              "bbox": {
+                "l": 90.7087,
+                "t": 471.3834,
+                "r": 341.3127999999997,
+                "b": 463.4931678916828,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                59
+              ]
+            }
+          ],
+          "content": "\u0007 The E-waste is disposed to authorised e-waste collectors."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/242",
+          "provenance": [
+            {
+              "page_no": 22,
+              "bbox": {
+                "l": 51.0304,
+                "t": 388.5542,
+                "r": 545.5669000000001,
+                "b": 354.7047650557621,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                296
+              ]
+            }
+          ],
+          "content": "\u0007 Whether Extended Producer Responsibility (EPR) is applicable to the entity's activities (Yes/No). If Yes, whether the waste collection plan is in line with the Extended Producer Responsibility (EPR) plan submitted to Pollution Control Boards? If not, provide steps taken to address the same."
+        },
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/605",
+          "provenance": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 51.0236,
+                "t": 664.722,
+                "r": 467.36990000000003,
+                "b": 656.8645650557621,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                86
+              ]
+            }
+          ],
+          "content": "9. Provide details related to waste management by the entity, in the following format:"
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/634",
+          "provenance": [
+            {
+              "page_no": 44,
+              "bbox": {
+                "l": 51.01329999999999,
+                "t": 619.4046999999999,
+                "r": 545.5534000000001,
+                "b": 585.5552650557621,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                271
+              ]
+            }
+          ],
+          "content": "\u0007 Briefly  describe  the  waste  management  practices  adopted  in  your  establishments.  Describe  the strategy adopted by your company to reduce usage of hazardous and toxic chemicals in your products and processes and the practices adopted to manage such wastes."
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/635",
+          "provenance": [
+            {
+              "page_no": 44,
+              "bbox": {
+                "l": 70.8556,
+                "t": 577.5817,
+                "r": 545.3292999999999,
+                "b": 491.7154678916829,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                735
+              ]
+            }
+          ],
+          "content": "\u0007 All  solid  waste  is  handed  over  to  the  respective  authorised  municipal  waste  collection  agencies  for recycling  and  responsible  disposal.  The  hazardous  waste  and  the  solid  waste  are  handed  over  to  the agencies appointed by the statutory authority, i.e., PCB, in the respective locations. At Tata Elxsi, the solid garden waste is recycled on the premises. All premises are ISO 14001/EMS certified by Bureau Veritas. The organisation's standard operating procedure to dispose of waste is detailed in the Waste Management process document. The organisation's core business is designing and providing software services and does not use any hazardous or toxic chemicals in dayto-day business-related activities."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/661",
+          "provenance": [
+            {
+              "page_no": 45,
+              "bbox": {
+                "l": 51.02980000000002,
+                "t": 213.42880000000002,
+                "r": 545.5420000000001,
+                "b": 150.7195678916828,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                433
+              ]
+            }
+          ],
+          "content": "\u0007 If  the entity has undertaken any specific initiatives or used innovative technology or solutions to improve resource efficiency, or reduce impact due to emissions/effluent discharge/waste generated, please provide details of the same as well as outcome of such initiatives, as per the following format: \u0007 All Tata Elxsi facilities are ISO 14001:2015 certified, meeting the highest global standards for environmental management."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/828",
+          "provenance": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 51.0236,
+                "t": 259.72510000000005,
+                "r": 545.2828999999998,
+                "b": 238.8388678916828,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                229
+              ]
+            }
+          ],
+          "content": "*7  \u0007 E-waste  includes  obsolete  computer  and  related  components,  consumer  electronics  devices  like  air  conditioner, refrigerator, and microwave, among others. and the same is measured in weight at the time of disposal"
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/36",
+          "provenance": [
+            {
+              "page_no": 23,
+              "bbox": {
+                "l": 49.77037811279297,
+                "t": 299.3548889160156,
+                "r": 543.7310180664062,
+                "b": 162.38909912109375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            3,
+            4
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "FY 2025-26 Current financial year",
+                "FY 2024-25 Previous financial year"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Re-Used",
+                "Recycled",
+                "Safely disposed",
+                "Re-Used",
+                "Recycled",
+                "Safely disposed"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Plastics (including packaging)",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "E-waste",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Hazardous waste",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Other waste",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil"
+              ]
+            }
+          ],
+          "num_rows": 6,
+          "num_cols": 7
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/66",
+          "provenance": [
+            {
+              "page_no": 43,
+              "bbox": {
+                "l": 49.629112243652344,
+                "t": 652.1060256958008,
+                "r": 543.0247802734375,
+                "b": 342.8481140136719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            1,
+            2,
+            3,
+            7,
+            8,
+            9,
+            11,
+            12,
+            13
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Parameter",
+                "FY 2025-26 (Current financial year)",
+                "FY 2024-25 (Previous financial year)"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Total Waste generated (in metric tonnes)"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Plastic waste (A)",
+                "4.1",
+                "3.61"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "E-waste (B)",
+                "14.44",
+                "1.22"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Bio-medical waste (C)",
+                "Nil",
+                "Nil"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Construction and demolition waste (D)",
+                "Nil",
+                "Nil"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "Battery waste (E)",
+                "11.86",
+                "14.31"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Radioactive waste (F)",
+                "Nil",
+                "Nil"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Other hazardous waste. Please specify, if any. (G)",
+                "Nil",
+                "Nil"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Other non-hazardous waste generated (H) . Please specify, if any. (Break-up by composition i.e. by materials relevant to the sector)",
+                "58.54",
+                "26.56"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "Total (A + B + C + D + E + F + G + H)",
+                "88.94",
+                "45.7"
+              ]
+            },
+            {
+              "row": 11,
+              "cells": [
+                "Waste intensity per rupee of turnover (Total waste generated/Revenue from operations ( ` crore))",
+                "0.024",
+                "0.012"
+              ]
+            },
+            {
+              "row": 12,
+              "cells": [
+                "Waste intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP) (Total waste generated/Revenue from operations adjusted for PPP)",
+                "0.048",
+                "0.027"
+              ]
+            },
+            {
+              "row": 13,
+              "cells": [
+                "Waste intensity (optional) - Total waste generated/ Employee headcount",
+                "0.0077",
+                "0.0037"
+              ]
+            }
+          ],
+          "num_rows": 14,
+          "num_cols": 3
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/85",
+          "provenance": [
+            {
+              "page_no": 54,
+              "bbox": {
+                "l": 49.98194122314453,
+                "t": 668.7369689941406,
+                "r": 543.6146240234375,
+                "b": 83.40875244140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            6,
+            7,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "S. no.",
+                "Attribute",
+                "Parameter",
+                "Unit of measure",
+                "Assured values"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "3",
+                "Energy footprint",
+                "Total Energy consumed* 5",
+                "Giga Joules (GJ)",
+                "48511.85"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "% of energy consumed from renewable sources* 6",
+                "In % terms",
+                "66.25%"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Energy intensity per rupee of turnover",
+                "GJ/Revenue from operations in ₹ crore",
+                "12.91"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Energy intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP)* 3",
+                "GJ/Revenue from operations in ₹ adjusted for PPP",
+                "26.26"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Energy intensity in terms of physical output",
+                "GJ/Employee headcount",
+                "4.20"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "4",
+                "Embracing circularity - details related to waste management by the entity",
+                "Plastic waste (A)",
+                "MT",
+                "4.1"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "E-waste (B) * 7",
+                "MT",
+                "14.44"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Bio-medical waste (C)",
+                "MT",
+                "Nil"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Construction and demolition waste (D)* 8",
+                "MT",
+                "Nil"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "Battery waste (E)",
+                "MT",
+                "11.86"
+              ]
+            },
+            {
+              "row": 11,
+              "cells": [
+                "Radioactive waste (F)",
+                "MT",
+                "Nil"
+              ]
+            },
+            {
+              "row": 12,
+              "cells": [
+                "Other hazardous waste. Please specify, if any. (G)",
+                "MT",
+                "Nil"
+              ]
+            },
+            {
+              "row": 13,
+              "cells": [
+                "Other non-hazardous waste generated (H). Please specify, if any. (Break-up by composition i.e., by materials relevant to the sector)",
+                "MT",
+                "58.54"
+              ]
+            },
+            {
+              "row": 14,
+              "cells": [
+                "Total waste generated (A + B + C + D + E + F + G + H)",
+                "MT* 21",
+                "88.94"
+              ]
+            },
+            {
+              "row": 15,
+              "cells": [
+                "Waste intensity per rupee of turnover from operations",
+                "Total waste generated/Revenue from operations in ₹ crore",
+                "0.024"
+              ]
+            },
+            {
+              "row": 16,
+              "cells": [
+                "Waste intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP)*3",
+                "Total waste generated/Revenue from operations in ₹ adjusted for PPP",
+                "0.048"
+              ]
+            },
+            {
+              "row": 17,
+              "cells": [
+                "Waste intensity in terms of physical output",
+                "Total waste generated/Employee headcount",
+                "0.0077"
+              ]
+            },
+            {
+              "row": 18,
+              "cells": [
+                "Each category of waste generated, total waste recovered through recycling, re-using or other recovery operations* 9"
+              ]
+            },
+            {
+              "row": 19,
+              "cells": [
+                "(i)",
+                "Recycled",
+                "MT",
+                "11.86 (battery waste)"
+              ]
+            },
+            {
+              "row": 20,
+              "cells": [
+                "(ii)",
+                "Re-used",
+                "MT",
+                "0"
+              ]
+            },
+            {
+              "row": 21,
+              "cells": [
+                "(iii)",
+                "Other recovery options",
+                "MT",
+                "0"
+              ]
+            },
+            {
+              "row": 22,
+              "cells": [
+                "Total",
+                "MT* 21",
+                "11.86"
+              ]
+            },
+            {
+              "row": 23,
+              "cells": [
+                "For each category of waste generated, total waste disposed of by nature of disposal method* 10"
+              ]
+            },
+            {
+              "row": 24,
+              "cells": [
+                "(i)",
+                "Incineration",
+                "MT",
+                "0"
+              ]
+            },
+            {
+              "row": 25,
+              "cells": [
+                "(ii)",
+                "Landfilling",
+                "MT",
+                "0"
+              ]
+            },
+            {
+              "row": 26,
+              "cells": [
+                "(iii)",
+                "Other disposal options",
+                "MT",
+                "0"
+              ]
+            },
+            {
+              "row": 27,
+              "cells": [
+                "Total",
+                "MT* 21",
+                "0"
+              ]
+            }
+          ],
+          "num_rows": 28,
+          "num_cols": 5
+        }
+      ]
+    },
+    "employee_training_health_safety": {
+      "canonical_name": "Training on health & safety and skill upgradation",
+      "category": "Social",
+      "principle": [
+        "P3"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "mixed",
+      "found": true,
+      "match_count": 5,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/189",
+          "provenance": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 51.0236,
+                "t": 550.1314,
+                "r": 545.5088,
+                "b": 529.2779650557621,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                113
+              ]
+            }
+          ],
+          "content": "\u0007 Percentage coverage by training and awareness programmes on any of the principles during the financial year:"
+        },
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/325",
+          "provenance": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 51.0236,
+                "t": 664.722,
+                "r": 316.38680000000016,
+                "b": 656.8645650557621,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                54
+              ]
+            }
+          ],
+          "content": "8. Details of training given to employees and workers:"
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/25",
+          "provenance": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 49.85469436645508,
+                "t": 524.4687805175781,
+                "r": 543.2633666992188,
+                "b": 310.56646728515625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            0
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Segment",
+                "Total number of training and awareness programmes held",
+                "Topics/principles covered under the training and its impact",
+                "% of persons in respective category covered by the awareness programmes"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Board of Directors",
+                "2",
+                "Business responsibility and sustainability",
+                "100%"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Key Managerial Personnel",
+                "1",
+                "The KMP participated in sessions on the Tata Code of Conduct, business ethics, risk, strategy, ESG matters, workplace conduct, and law and compliance. Additionally, these topics are covered in salient detail on the principles.",
+                "100%"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Employees other than BoD and KMPs",
+                "7,041",
+                "P1, P3, P5, P6, P8, P9",
+                "100%"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Workers",
+                "618",
+                "P1, P3, P5, P6, P8, P9",
+                "100%"
+              ]
+            }
+          ],
+          "num_rows": 5,
+          "num_cols": 4
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/42",
+          "provenance": [
+            {
+              "page_no": 27,
+              "bbox": {
+                "l": 49.93745422363281,
+                "t": 651.8756103515625,
+                "r": 543.4508056640625,
+                "b": 441.5109558105469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            1
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Category",
+                "FY 2025-26 (Current financial year)",
+                "FY 2024-25 (Previous financial year)"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Total (A)",
+                "On health and safety measures",
+                "On skill upgradation",
+                "Total (D)",
+                "On health and safety measures",
+                "On skill upgradation"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "No. (B)",
+                "% (B/A)",
+                "No. (C)",
+                "% (C/A)",
+                "No. (E)",
+                "% (E/D)",
+                "No. (F)",
+                "% (F/D)"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Employees"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Male",
+                "7,298",
+                "7,298",
+                "100%",
+                "7,298",
+                "100%",
+                "7,776",
+                "7,776",
+                "100%",
+                "7,776",
+                "100%"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Female",
+                "3,748",
+                "3,748",
+                "100%",
+                "3,748",
+                "100%",
+                "4,197",
+                "4,197",
+                "100%",
+                "4,197",
+                "100%"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "Total",
+                "11,046",
+                "11,046",
+                "100%",
+                "11,046",
+                "100%",
+                "11,973",
+                "11,973",
+                "100%",
+                "11,973",
+                "100%"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Workers"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Male",
+                "329",
+                "329",
+                "100%",
+                "-",
+                "-",
+                "325",
+                "325",
+                "100%",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Female",
+                "115",
+                "115",
+                "100%",
+                "-",
+                "-",
+                "115",
+                "115",
+                "100%",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "Total",
+                "444",
+                "444",
+                "100%",
+                "-",
+                "-",
+                "440",
+                "440",
+                "100%",
+                "-",
+                "-"
+              ]
+            }
+          ],
+          "num_rows": 11,
+          "num_cols": 11
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/89",
+          "provenance": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 48.897056579589844,
+                "t": 668.6060180664062,
+                "r": 543.8551635742188,
+                "b": 60.38519287109375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            3
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "S. no.",
+                "Attribute",
+                "Parameter",
+                "Unit of measure",
+                "Assured values"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Percentage of performance and career development reviews of employees and worker",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Training given to employees on Health & Safety",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Training given to employees on skill upgradation",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Number of complaints filed on Working Condition during the year* 17",
+                "In no.",
+                "27"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Number of complaints pending resolution on Working Condition",
+                "In no.",
+                "0"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "Number of complaints filed on Health & Safety during the year",
+                "In no.",
+                "2"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Number of complaints pending resolution on Health & Safety",
+                "In no.",
+                "0"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Assessment of offices on Health & Safety practices",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Assessment of offices on Working Conditions",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "19",
+                "Principle 5-Businesses should respect and promote human rights",
+                "Employees and workers provided with human rights training",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 11,
+              "cells": [
+                "Employees and workers provided with Equal to minimum Wage",
+                "In no.",
+                "0"
+              ]
+            },
+            {
+              "row": 12,
+              "cells": [
+                "Employees and workers provided with More than minimum Wage",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 13,
+              "cells": [
+                "Median remuneration for male BOD",
+                "lakh per annum",
+                "154.41"
+              ]
+            },
+            {
+              "row": 14,
+              "cells": [
+                "Median remuneration for female BOD",
+                "lakh per annum",
+                "135.91"
+              ]
+            },
+            {
+              "row": 15,
+              "cells": [
+                "Median remuneration for male KMP",
+                "lakh per annum",
+                "494.89"
+              ]
+            },
+            {
+              "row": 16,
+              "cells": [
+                "Median remuneration for female KMP",
+                "lakh per annum",
+                "40.00"
+              ]
+            },
+            {
+              "row": 17,
+              "cells": [
+                "Median remuneration for male employees",
+                "lakh per annum",
+                "11"
+              ]
+            },
+            {
+              "row": 18,
+              "cells": [
+                "Median remuneration for female employees",
+                "lakh per annum",
+                "8.2"
+              ]
+            },
+            {
+              "row": 19,
+              "cells": [
+                "Assessments made for employees, workers and value chain partners on child labor, sexual harassment, forced labor, discrimination at workplace, and wages",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 20,
+              "cells": [
+                "Number of complaints on Child labor, Discrimination at workplace, Wages, Forced labor or other human right related issues",
+                "In no.",
+                "0"
+              ]
+            },
+            {
+              "row": 21,
+              "cells": [
+                "20",
+                "Principle 6- To protect and restore the environment",
+                "Energy consumption from renewable sources",
+                "Giga Joules (GJ)",
+                "32,140"
+              ]
+            },
+            {
+              "row": 22,
+              "cells": [
+                "Total volume of water withdrawal",
+                "in kL",
+                "67,753"
+              ]
+            },
+            {
+              "row": 23,
+              "cells": [
+                "No of Green credits generated or procured by the listed entity",
+                "In no.",
+                "0"
+              ]
+            },
+            {
+              "row": 24,
+              "cells": [
+                "No of Green credits generated or procured by top 10 value chain partners",
+                "In no.",
+                "0"
+              ]
+            }
+          ],
+          "num_rows": 25,
+          "num_cols": 5
+        }
+      ]
+    },
+    "women_representation_board_kmp": {
+      "canonical_name": "Participation/representation of women in Board and Key Management Personnel",
+      "category": "Social",
+      "principle": [
+        "General"
+      ],
+      "indicator_type": "general_disclosure",
+      "brsr_core": true,
+      "expected_data": "numeric",
+      "found": true,
+      "match_count": 2,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/52",
+          "provenance": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 51.02190000000036,
+                "t": 425.4743000000002,
+                "r": 307.4841000000003,
+                "b": 417.6168650557623,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                51
+              ]
+            }
+          ],
+          "content": "21. Participation/Inclusion/Representation of women"
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/88",
+          "provenance": [
+            {
+              "page_no": 57,
+              "bbox": {
+                "l": 49.716102600097656,
+                "t": 668.73681640625,
+                "r": 543.7764892578125,
+                "b": 96.81573486328125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            1
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "S. no.",
+                "Attribute",
+                "Parameter",
+                "Unit of measure",
+                "Assured values"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "13",
+                "Participation/ Inclusion/ Representation of women",
+                "Total BOD",
+                "In no.",
+                "6"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Female BOD",
+                "In no.",
+                "1"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Total KMP* 14",
+                "In no.",
+                "3"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Female KMP",
+                "In no.",
+                "1"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "14",
+                "Turnover rates for permanent employees",
+                "Total turnover rates",
+                "In % terms",
+                "15.8%"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "Male turnover rates",
+                "In % terms",
+                "15.1%"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Female turnover rates",
+                "In % terms",
+                "17.3%"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "15",
+                "Financial Details",
+                "Net worth",
+                "In lakhs",
+                "3,04,134 .17 lakhs"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Turnover",
+                "In lakhs",
+                "3,75,742 .37 lakhs"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "16",
+                "Principle 1- Businesses should conduct and govern themselves with integrity, and in a manner that is Ethical, Transparent and Accountable",
+                "Coverage of training and awareness programme held for BOD & KMP",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 11,
+              "cells": [
+                "Coverage of training and awareness programme held for employees",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 12,
+              "cells": [
+                "Coverage of training and awareness programme held for value chain partners",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 13,
+              "cells": [
+                "Complaints on conflict of interest",
+                "In no.",
+                "Nil"
+              ]
+            },
+            {
+              "row": 14,
+              "cells": [
+                "17",
+                "Principle 2- Businesses should provide goods and services in a manner that is sustainable and safe",
+                "R&D expenditure",
+                "In % terms",
+                "2.02%"
+              ]
+            },
+            {
+              "row": 15,
+              "cells": [
+                "Percentage of inputs were sourced sustainably",
+                "In % terms",
+                "53%"
+              ]
+            },
+            {
+              "row": 16,
+              "cells": [
+                "18",
+                "Principle 3- Businesses should respect and promote the well-being of all employees, including those in their value chains",
+                "Percentage of permanent employees covered with health & accident insurance (both male & female)",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 17,
+              "cells": [
+                "Percentage of permanent employees covered with maternity & paternity benefits",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 18,
+              "cells": [
+                "Percentage of permanent employees covered with day care benefits* 15",
+                "In % terms",
+                "9.46%"
+              ]
+            },
+            {
+              "row": 19,
+              "cells": [
+                "Percentage of workers covered with health & accident insurance (both male & female) * 16",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 20,
+              "cells": [
+                "Percentage of workers covered with maternity benefits* 16",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 21,
+              "cells": [
+                "Percentage of employees and workers covered with PF",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 22,
+              "cells": [
+                "Percentage of employees and workers covered with gratuity",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 23,
+              "cells": [
+                "Percentage of employees covered with ESI",
+                "In % terms",
+                "0.009%"
+              ]
+            },
+            {
+              "row": 24,
+              "cells": [
+                "Percentage of workers covered with ESI",
+                "In % terms",
+                "86%"
+              ]
+            }
+          ],
+          "num_rows": 25,
+          "num_cols": 5
+        }
+      ]
+    },
+    "wage_gender_pay_gap": {
+      "canonical_name": "Gross wages paid to females as % of total wages",
+      "category": "Social",
+      "principle": [
+        "P5"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "numeric",
+      "found": true,
+      "match_count": 4,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/480",
+          "provenance": [
+            {
+              "page_no": 35,
+              "bbox": {
+                "l": 51.0236,
+                "t": 664.722,
+                "r": 497.22290000000015,
+                "b": 656.8645650557621,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                94
+              ]
+            }
+          ],
+          "content": "b. Gross wages paid to females as% of total wages paid by the entity, in the following format:"
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/483",
+          "provenance": [
+            {
+              "page_no": 35,
+              "bbox": {
+                "l": 117.29700000000003,
+                "t": 606.4898,
+                "r": 248.22719999999984,
+                "b": 585.6035678916828,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                47
+              ]
+            }
+          ],
+          "content": "Gross wages paid to females as % of total wages"
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/485",
+          "provenance": [
+            {
+              "page_no": 35,
+              "bbox": {
+                "l": 384.8786,
+                "t": 606.4898,
+                "r": 515.8097,
+                "b": 585.6035678916828,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                47
+              ]
+            }
+          ],
+          "content": "Gross wages paid to females as % of total wages"
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/86",
+          "provenance": [
+            {
+              "page_no": 55,
+              "bbox": {
+                "l": 50.334930419921875,
+                "t": 668.5490341186523,
+                "r": 543.791748046875,
+                "b": 147.18511962890625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            6
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "S. no.",
+                "Attribute",
+                "Parameter",
+                "Unit of measure",
+                "Assured values"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "5",
+                "Enhancing employee well-being and safety",
+                "Spending on measures towards well-being of employees cost incurred as a % of total revenue of the Company* 11",
+                "In % terms",
+                "1.11%"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Details of safety related incidents for employees and workers (including contract workforce e.g. workers in the Company's construction sites)",
+                "Number of permanent disabilities",
+                "In no.",
+                "0"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Employee: Lost Time Injury Frequency Rate (LTIFR)",
+                "Per one million-person hours worked",
+                "0.04"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Worker: Lost Time Injury Frequency Rate (LTIFR)",
+                "Per one million-person hours worked",
+                "1.07"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "No. of fatalities",
+                "In no.",
+                "0"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "6",
+                "Enabling Gender Diversity in Business",
+                "Gross wages paid to females as % of wages paid",
+                "In % terms",
+                "28%"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Complaints on POSH",
+                "Total complaints on sexual harassment (POSH) reported",
+                "In no.",
+                "4"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Complaints on POSH as a % of female employees/workers",
+                "In % terms",
+                "0.10%"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Complaints on POSH upheld",
+                "In no.",
+                "4"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "7",
+                "Enabling Inclusive Development- Input material sourced from following sources as % of total purchases",
+                "Directly sourced from MSMEs/small producers (As % of total purchases by value)",
+                "In % terms",
+                "26%"
+              ]
+            },
+            {
+              "row": 11,
+              "cells": [
+                "Directly from within India- As % of total purchases by value)",
+                "In % terms",
+                "60%"
+              ]
+            },
+            {
+              "row": 12,
+              "cells": [
+                "Job creation in smaller towns - Wages paid to persons employed in smaller towns (permanent or non-permanent/on contract) as % of total wage cost",
+                "Location (In % terms - As % of total wage cost) * 12"
+              ]
+            },
+            {
+              "row": 13,
+              "cells": [
+                "Rural",
+                "In % terms",
+                "0"
+              ]
+            },
+            {
+              "row": 14,
+              "cells": [
+                "Semi-urban",
+                "In % terms",
+                "0"
+              ]
+            },
+            {
+              "row": 15,
+              "cells": [
+                "Urban",
+                "In % terms",
+                "0"
+              ]
+            },
+            {
+              "row": 16,
+              "cells": [
+                "Metropolitan",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 17,
+              "cells": [
+                "8",
+                "Fairness in Engaging with Customers and Suppliers- Instances involving loss/breach of data of customers as a percentage of total data breaches or cybersecurity",
+                "Total loss/breach of data of customers",
+                "In % terms",
+                "0"
+              ]
+            },
+            {
+              "row": 18,
+              "cells": [
+                "Total cybersecurity breach",
+                "In % terms",
+                "0"
+              ]
+            },
+            {
+              "row": 19,
+              "cells": [
+                "Number of days of accounts payable",
+                "(Accounts payable *365)/Cost of goods/services procured",
+                "16"
+              ]
+            }
+          ],
+          "num_rows": 20,
+          "num_cols": 5
+        }
+      ]
+    },
+    "remuneration_median": {
+      "canonical_name": "Median remuneration/salary/wages by employee category",
+      "category": "Social",
+      "principle": [
+        "P5"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": false,
+      "expected_data": "numeric",
+      "found": true,
+      "match_count": 5,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/439",
+          "provenance": [
+            {
+              "page_no": 34,
+              "bbox": {
+                "l": 50.9872000000002,
+                "t": 407.2188000000004,
+                "r": 247.76320000000015,
+                "b": 399.36136505576246,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                39
+              ]
+            }
+          ],
+          "content": "Details of remuneration/salary/wages"
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/440",
+          "provenance": [
+            {
+              "page_no": 34,
+              "bbox": {
+                "l": 50.9872000000002,
+                "t": 388.5528000000004,
+                "r": 212.32030000000017,
+                "b": 380.69536505576247,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                29
+              ]
+            }
+          ],
+          "content": "Median remuneration/wages:"
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/447",
+          "provenance": [
+            {
+              "page_no": 34,
+              "bbox": {
+                "l": 233.29899999999998,
+                "t": 342.7704,
+                "r": 342.06309999999996,
+                "b": 334.9129650557621,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                20
+              ]
+            }
+          ],
+          "content": "Median remuneration/"
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/463",
+          "provenance": [
+            {
+              "page_no": 34,
+              "bbox": {
+                "l": 423.109,
+                "t": 342.7704,
+                "r": 529.3260999999999,
+                "b": 334.9129650557621,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                20
+              ]
+            }
+          ],
+          "content": "Median remuneration/"
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/89",
+          "provenance": [
+            {
+              "page_no": 58,
+              "bbox": {
+                "l": 48.897056579589844,
+                "t": 668.6060180664062,
+                "r": 543.8551635742188,
+                "b": 60.38519287109375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "S. no.",
+                "Attribute",
+                "Parameter",
+                "Unit of measure",
+                "Assured values"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Percentage of performance and career development reviews of employees and worker",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Training given to employees on Health & Safety",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Training given to employees on skill upgradation",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Number of complaints filed on Working Condition during the year* 17",
+                "In no.",
+                "27"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Number of complaints pending resolution on Working Condition",
+                "In no.",
+                "0"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "Number of complaints filed on Health & Safety during the year",
+                "In no.",
+                "2"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Number of complaints pending resolution on Health & Safety",
+                "In no.",
+                "0"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Assessment of offices on Health & Safety practices",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Assessment of offices on Working Conditions",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "19",
+                "Principle 5-Businesses should respect and promote human rights",
+                "Employees and workers provided with human rights training",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 11,
+              "cells": [
+                "Employees and workers provided with Equal to minimum Wage",
+                "In no.",
+                "0"
+              ]
+            },
+            {
+              "row": 12,
+              "cells": [
+                "Employees and workers provided with More than minimum Wage",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 13,
+              "cells": [
+                "Median remuneration for male BOD",
+                "lakh per annum",
+                "154.41"
+              ]
+            },
+            {
+              "row": 14,
+              "cells": [
+                "Median remuneration for female BOD",
+                "lakh per annum",
+                "135.91"
+              ]
+            },
+            {
+              "row": 15,
+              "cells": [
+                "Median remuneration for male KMP",
+                "lakh per annum",
+                "494.89"
+              ]
+            },
+            {
+              "row": 16,
+              "cells": [
+                "Median remuneration for female KMP",
+                "lakh per annum",
+                "40.00"
+              ]
+            },
+            {
+              "row": 17,
+              "cells": [
+                "Median remuneration for male employees",
+                "lakh per annum",
+                "11"
+              ]
+            },
+            {
+              "row": 18,
+              "cells": [
+                "Median remuneration for female employees",
+                "lakh per annum",
+                "8.2"
+              ]
+            },
+            {
+              "row": 19,
+              "cells": [
+                "Assessments made for employees, workers and value chain partners on child labor, sexual harassment, forced labor, discrimination at workplace, and wages",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 20,
+              "cells": [
+                "Number of complaints on Child labor, Discrimination at workplace, Wages, Forced labor or other human right related issues",
+                "In no.",
+                "0"
+              ]
+            },
+            {
+              "row": 21,
+              "cells": [
+                "20",
+                "Principle 6- To protect and restore the environment",
+                "Energy consumption from renewable sources",
+                "Giga Joules (GJ)",
+                "32,140"
+              ]
+            },
+            {
+              "row": 22,
+              "cells": [
+                "Total volume of water withdrawal",
+                "in kL",
+                "67,753"
+              ]
+            },
+            {
+              "row": 23,
+              "cells": [
+                "No of Green credits generated or procured by the listed entity",
+                "In no.",
+                "0"
+              ]
+            },
+            {
+              "row": 24,
+              "cells": [
+                "No of Green credits generated or procured by top 10 value chain partners",
+                "In no.",
+                "0"
+              ]
+            }
+          ],
+          "num_rows": 25,
+          "num_cols": 5
+        }
+      ]
+    },
+    "posh_complaints": {
+      "canonical_name": "Complaints under the Sexual Harassment of Women at Workplace Act (POSH)",
+      "category": "Social",
+      "principle": [
+        "P5"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "mixed",
+      "found": true,
+      "match_count": 4,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/505",
+          "provenance": [
+            {
+              "page_no": 36,
+              "bbox": {
+                "l": 51.0236,
+                "t": 664.722,
+                "r": 545.5304,
+                "b": 643.8685650557621,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                147
+              ]
+            }
+          ],
+          "content": "7. \u0007 Complaints filed under the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013, in the following format:"
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/507",
+          "provenance": [
+            {
+              "page_no": 36,
+              "bbox": {
+                "l": 70.876,
+                "t": 486.7354,
+                "r": 542.4750999999999,
+                "b": 465.84916789168284,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                203
+              ]
+            }
+          ],
+          "content": "\u0007 Tata Elxsi has established multiple mechanisms to prevent adverse consequence to the complainant. This includes POSH, Grievance Redressal mechanism and ethics helpline to promote protected disclosures."
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/57",
+          "provenance": [
+            {
+              "page_no": 36,
+              "bbox": {
+                "l": 49.7607307434082,
+                "t": 639.0343246459961,
+                "r": 543.572265625,
+                "b": 534.7616271972656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            2,
+            3
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "FY 2025-26 Current financial year",
+                "FY 2024-25 Previous financial year"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Total complaints reported under Sexual Harassment on of Women at Workplace (Prevention, Prohibition and",
+                "4",
+                "2"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Complaints on POSH as a % of female employees/workers",
+                "0.10%",
+                "0.04%"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Complaints on POSH upheld",
+                "4",
+                "2"
+              ]
+            }
+          ],
+          "num_rows": 4,
+          "num_cols": 3
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/86",
+          "provenance": [
+            {
+              "page_no": 55,
+              "bbox": {
+                "l": 50.334930419921875,
+                "t": 668.5490341186523,
+                "r": 543.791748046875,
+                "b": 147.18511962890625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            7,
+            8,
+            9
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "S. no.",
+                "Attribute",
+                "Parameter",
+                "Unit of measure",
+                "Assured values"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "5",
+                "Enhancing employee well-being and safety",
+                "Spending on measures towards well-being of employees cost incurred as a % of total revenue of the Company* 11",
+                "In % terms",
+                "1.11%"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Details of safety related incidents for employees and workers (including contract workforce e.g. workers in the Company's construction sites)",
+                "Number of permanent disabilities",
+                "In no.",
+                "0"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Employee: Lost Time Injury Frequency Rate (LTIFR)",
+                "Per one million-person hours worked",
+                "0.04"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Worker: Lost Time Injury Frequency Rate (LTIFR)",
+                "Per one million-person hours worked",
+                "1.07"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "No. of fatalities",
+                "In no.",
+                "0"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "6",
+                "Enabling Gender Diversity in Business",
+                "Gross wages paid to females as % of wages paid",
+                "In % terms",
+                "28%"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Complaints on POSH",
+                "Total complaints on sexual harassment (POSH) reported",
+                "In no.",
+                "4"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Complaints on POSH as a % of female employees/workers",
+                "In % terms",
+                "0.10%"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Complaints on POSH upheld",
+                "In no.",
+                "4"
+              ]
+            },
+            {
+              "row": 10,
+              "cells": [
+                "7",
+                "Enabling Inclusive Development- Input material sourced from following sources as % of total purchases",
+                "Directly sourced from MSMEs/small producers (As % of total purchases by value)",
+                "In % terms",
+                "26%"
+              ]
+            },
+            {
+              "row": 11,
+              "cells": [
+                "Directly from within India- As % of total purchases by value)",
+                "In % terms",
+                "60%"
+              ]
+            },
+            {
+              "row": 12,
+              "cells": [
+                "Job creation in smaller towns - Wages paid to persons employed in smaller towns (permanent or non-permanent/on contract) as % of total wage cost",
+                "Location (In % terms - As % of total wage cost) * 12"
+              ]
+            },
+            {
+              "row": 13,
+              "cells": [
+                "Rural",
+                "In % terms",
+                "0"
+              ]
+            },
+            {
+              "row": 14,
+              "cells": [
+                "Semi-urban",
+                "In % terms",
+                "0"
+              ]
+            },
+            {
+              "row": 15,
+              "cells": [
+                "Urban",
+                "In % terms",
+                "0"
+              ]
+            },
+            {
+              "row": 16,
+              "cells": [
+                "Metropolitan",
+                "In % terms",
+                "100%"
+              ]
+            },
+            {
+              "row": 17,
+              "cells": [
+                "8",
+                "Fairness in Engaging with Customers and Suppliers- Instances involving loss/breach of data of customers as a percentage of total data breaches or cybersecurity",
+                "Total loss/breach of data of customers",
+                "In % terms",
+                "0"
+              ]
+            },
+            {
+              "row": 18,
+              "cells": [
+                "Total cybersecurity breach",
+                "In % terms",
+                "0"
+              ]
+            },
+            {
+              "row": 19,
+              "cells": [
+                "Number of days of accounts payable",
+                "(Accounts payable *365)/Cost of goods/services procured",
+                "16"
+              ]
+            }
+          ],
+          "num_rows": 20,
+          "num_cols": 5
+        }
+      ]
+    },
+    "csr_spending": {
+      "canonical_name": "CSR spending and beneficiaries",
+      "category": "Social",
+      "principle": [
+        "P8"
+      ],
+      "indicator_type": "general_disclosure",
+      "brsr_core": true,
+      "expected_data": "mixed",
+      "found": true,
+      "match_count": 2,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/74",
+          "provenance": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 51.0236,
+                "t": 504.6228,
+                "r": 132.0236,
+                "b": 496.76536505576206,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                17
+              ]
+            }
+          ],
+          "content": "VI. \t CSR DETAILS"
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/718",
+          "provenance": [
+            {
+              "page_no": 49,
+              "bbox": {
+                "l": 51.033300000000025,
+                "t": 490.0404,
+                "r": 256.46639999999996,
+                "b": 482.18296505576205,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                44
+              ]
+            }
+          ],
+          "content": "Details of beneficiaries of CSR Projects:"
+        }
+      ]
+    },
+    "grievance_redressal_mechanism": {
+      "canonical_name": "Stakeholder grievance redressal mechanism and complaint volumes",
+      "category": "Social",
+      "principle": [
+        "General"
+      ],
+      "indicator_type": "general_disclosure",
+      "brsr_core": false,
+      "expected_data": "mixed",
+      "found": true,
+      "match_count": 6,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/95",
+          "provenance": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 70.8664,
+                "t": 284.4537,
+                "r": 545.3005000000002,
+                "b": 263.56746789168284,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                194
+              ]
+            }
+          ],
+          "content": "\u0007 The policies guiding the Company's conduct, including the grievance redressal mechanism, are available on the Company's website at https://www.tataelxsi.com/investors/policies-and-disclosures."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/99",
+          "provenance": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 70.8664,
+                "t": 117.11509999999998,
+                "r": 545.3122000000002,
+                "b": 96.22886789168274,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                185
+              ]
+            }
+          ],
+          "content": "\u0007 Value chain partners can avail the grievance redressal mechanism through various channels, including an Email address, a shared service helpdesk, and the Global Whistle Blower Policy."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/492",
+          "provenance": [
+            {
+              "page_no": 35,
+              "bbox": {
+                "l": 90.7087,
+                "t": 424.2512,
+                "r": 545.3193999999999,
+                "b": 403.3649678916828,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                109
+              ]
+            }
+          ],
+          "content": "\u0007 Grievance Redressal Mechanism: Enables employees to report human  rights violations or concerns anonymously"
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/507",
+          "provenance": [
+            {
+              "page_no": 36,
+              "bbox": {
+                "l": 70.876,
+                "t": 486.7354,
+                "r": 542.4750999999999,
+                "b": 465.84916789168284,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                203
+              ]
+            }
+          ],
+          "content": "\u0007 Tata Elxsi has established multiple mechanisms to prevent adverse consequence to the complainant. This includes POSH, Grievance Redressal mechanism and ethics helpline to promote protected disclosures."
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/9",
+          "provenance": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 49.95945739746094,
+                "t": 315.06787109375,
+                "r": 543.3740844726562,
+                "b": 65.249755859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            0,
+            1
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Stakeholder group from whom the complaint is received",
+                "Grievance redressal mechanism in place (Yes/No)",
+                "FY 2025-26 (Current financial year)",
+                "FY 2024-25 (Previous financial year)"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "(If yes, then provide the weblink for the grievance redressal policy)",
+                "Number of complaints filed during the year",
+                "Number of complaints pending resolution at close of the year",
+                "Remarks",
+                "Number of complaints filed during the year",
+                "Number of complaints pending resolution at close of the year",
+                "Remarks"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "COMMUNITIES",
+                "Yes",
+                "0",
+                "-",
+                "Nil",
+                "0",
+                "0",
+                "Nil"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "INVESTORS (other than shareholders)",
+                "Yes",
+                "0",
+                "-",
+                "-",
+                "0",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "SHAREHOLDERS",
+                "Yes",
+                "67",
+                "7",
+                "As per SEBI filing and as per internal records",
+                "77",
+                "3",
+                "As per SEBI filing and as per internal records"
+              ]
+            }
+          ],
+          "num_rows": 5,
+          "num_cols": 8
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/10",
+          "provenance": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 49.779850006103516,
+                "t": 667.9780578613281,
+                "r": 543.3436889648438,
+                "b": 314.1710510253906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            0,
+            1
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Stakeholder group from whom the complaint is received",
+                "Grievance redressal mechanism in place (Yes/No)",
+                "FY 2025-26 (Current financial year)",
+                "FY 2024-25 (Previous financial year)"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "(If yes, then provide the weblink for the grievance redressal policy)",
+                "Number of complaints filed during the year",
+                "Number of complaints pending resolution at close of the year",
+                "Remarks",
+                "Number of complaints filed during the year",
+                "Number of complaints pending resolution at close of the year",
+                "Remarks"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "EMPLOYEES AND WORKERS",
+                "Yes",
+                "4",
+                "0",
+                "-",
+                "14",
+                "2",
+                "At the time of preparation of this report, the closure of two complaints is in progress and within the resolution lead time"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "CUSTOMERS",
+                "Yes",
+                "8",
+                "0",
+                "-",
+                "14",
+                "0",
+                "-"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "VALUE CHAIN PARTNERS",
+                "Yes",
+                "0",
+                "-",
+                "-",
+                "0",
+                "-",
+                "-"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "OTHER (please specify)",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-"
+              ]
+            }
+          ],
+          "num_rows": 6,
+          "num_cols": 8
+        }
+      ]
+    },
+    "anti_corruption_whistleblower_policy": {
+      "canonical_name": "Anti-corruption/anti-bribery policy and whistleblower mechanism",
+      "category": "Governance",
+      "principle": [
+        "P1"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "categorical",
+      "found": true,
+      "match_count": 4,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/97",
+          "provenance": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 70.8664,
+                "t": 187.7844,
+                "r": 545.3284,
+                "b": 153.90216789168278,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                246
+              ]
+            }
+          ],
+          "content": "\u0007 The Company's Whistle Blower Policy is available to all employees and workers. The Company offers various communication channels, including an Email address and written complaints, to address any grievances through the Whistle Blower mechanism."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/99",
+          "provenance": [
+            {
+              "page_no": 7,
+              "bbox": {
+                "l": 70.8664,
+                "t": 117.11509999999998,
+                "r": 545.3122000000002,
+                "b": 96.22886789168274,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                185
+              ]
+            }
+          ],
+          "content": "\u0007 Value chain partners can avail the grievance redressal mechanism through various channels, including an Email address, a shared service helpdesk, and the Global Whistle Blower Policy."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/200",
+          "provenance": [
+            {
+              "page_no": 19,
+              "bbox": {
+                "l": 51.023300000000006,
+                "t": 406.1904,
+                "r": 545.5373000000001,
+                "b": 385.3369650557621,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                152
+              ]
+            }
+          ],
+          "content": "\u0007 Does the entity have an anti-corruption or anti-bribery policy? If Yes, provide details in brief and if available, provide a weblink to the policy."
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/17",
+          "provenance": [
+            {
+              "page_no": 14,
+              "bbox": {
+                "l": 50.18444061279297,
+                "t": 575.6083679199219,
+                "r": 543.7305908203125,
+                "b": 337.56646728515625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            5
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "Disclosure Questions",
+                "P1",
+                "P2",
+                "P3",
+                "P4",
+                "P5",
+                "P6",
+                "P7",
+                "P8",
+                "P9"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Policy and management processes"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "1.",
+                "a. \u0007 Whether your entity's policy/policies cover each principle and its core elements of the NGRBCs. (Yes/No)",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "b.",
+                "\u0007 Has the policy been approved by the Board? (Yes/No)",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "c. Weblink of the policies, if available",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "\u0007 P1 to P9: Tata Code of Conduct (TCoC) P1: Whistle Blower Policy P2: Sustainable Supply Chain Policy P3 and P5: Employee-related Policies P4 and P8: Corporate Social Responsibility (CSR) Policy P6: HSE Policy and ESG Policy https://www.tataelxsi.com/investors/policies-and-disclosures"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "2.",
+                "\u0007 Whether the entity has translated the policy into procedures. (Yes/No)",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "3.",
+                "\u0007 Do the enlisted policies extend to your value chain partners? (Yes/No)",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y",
+                "Y"
+              ]
+            }
+          ],
+          "num_rows": 8,
+          "num_cols": 11
+        }
+      ]
+    },
+    "disciplinary_action_bribery_corruption": {
+      "canonical_name": "Disciplinary action against Directors/KMPs/employees for bribery or corruption",
+      "category": "Governance",
+      "principle": [
+        "P1"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "numeric",
+      "found": true,
+      "match_count": 6,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/200",
+          "provenance": [
+            {
+              "page_no": 19,
+              "bbox": {
+                "l": 51.023300000000006,
+                "t": 406.1904,
+                "r": 545.5373000000001,
+                "b": 385.3369650557621,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                152
+              ]
+            }
+          ],
+          "content": "\u0007 Does the entity have an anti-corruption or anti-bribery policy? If Yes, provide details in brief and if available, provide a weblink to the policy."
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/201",
+          "provenance": [
+            {
+              "page_no": 19,
+              "bbox": {
+                "l": 70.86560000000001,
+                "t": 377.3634,
+                "r": 545.3185999999997,
+                "b": 343.48116789168284,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                307
+              ]
+            }
+          ],
+          "content": "\u0007 Yes, Tata Elxsi has developed an anti-bribery policy to ensure that the Company has adequate procedures in place to prevent any involvement in bribery, facilitation payments, or corruption, even if unintentional. The policy can be accessed at: https://www.tataelxsi.com/investors/policies-and-disclosures."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/202",
+          "provenance": [
+            {
+              "page_no": 19,
+              "bbox": {
+                "l": 51.032299999999964,
+                "t": 332.70540000000005,
+                "r": 545.5283000000002,
+                "b": 311.85196505576215,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                159
+              ]
+            }
+          ],
+          "content": "\u0007 Number of Directors/KMPs/employees/workers against whom disciplinary action was taken by any law enforcement agency for the charges of bribery/corruption:"
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/208",
+          "provenance": [
+            {
+              "page_no": 20,
+              "bbox": {
+                "l": 51.0236,
+                "t": 664.722,
+                "r": 545.5375999999997,
+                "b": 630.8725650557622,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                235
+              ]
+            }
+          ],
+          "content": "\u0007 Provide details of any corrective action taken or underway on issues related to fines/penalties/action taken  by  regulators/law  enforcement  agencies/judicial  institutions,  on  cases  of  corruption  and conflicts of interest."
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/209",
+          "provenance": [
+            {
+              "page_no": 20,
+              "bbox": {
+                "l": 70.86590000000001,
+                "t": 622.899,
+                "r": 545.3197999999999,
+                "b": 602.0127678916829,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                200
+              ]
+            }
+          ],
+          "content": "\u0007 Tata Elxsi has not faced any fines, penalties, or actions from regulators, law enforcement agencies, or judicial institutions related to corruption or conflict of interest during the financial year."
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/307",
+          "provenance": [
+            {
+              "page_no": 26,
+              "bbox": {
+                "l": 198.26860000000002,
+                "t": 373.1083,
+                "r": 529.4371,
+                "b": 300.2380678916829,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                373
+              ]
+            }
+          ],
+          "content": "The Company offers various platforms to its employees for sharing their grievances and concerns, including Ethics Speak Up, HR Helpdesk and emails to their supervisors. Further, the Company follows the 'Tata Code of Conduct' (TCoC), encouraging employees to raise concerns about bribery and corruption, harassment and human rights issues, and insider trading, among others."
+        }
+      ]
+    },
+    "fines_penalties_regulatory": {
+      "canonical_name": "Fines, penalties and settlement amounts paid to regulators",
+      "category": "Governance",
+      "principle": [
+        "P1"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": true,
+      "expected_data": "mixed",
+      "found": true,
+      "match_count": 2,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/191",
+          "provenance": [
+            {
+              "page_no": 18,
+              "bbox": {
+                "l": 51.0232000000002,
+                "t": 271.67789999999997,
+                "r": 545.5579,
+                "b": 237.82846505576202,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                252
+              ]
+            }
+          ],
+          "content": "\u0007 Details of fines/penalties/punishment/award/compounding fees/settlement amount paid in proceedings (by the entity or by directors/KMPs) with regulators/law enforcement agencies/judicial institutions, in the financial year, in the following format."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/208",
+          "provenance": [
+            {
+              "page_no": 20,
+              "bbox": {
+                "l": 51.0236,
+                "t": 664.722,
+                "r": 545.5375999999997,
+                "b": 630.8725650557622,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                235
+              ]
+            }
+          ],
+          "content": "\u0007 Provide details of any corrective action taken or underway on issues related to fines/penalties/action taken  by  regulators/law  enforcement  agencies/judicial  institutions,  on  cases  of  corruption  and conflicts of interest."
+        }
+      ]
+    },
+    "highest_authority_br_oversight": {
+      "canonical_name": "Highest authority responsible for Business Responsibility oversight",
+      "category": "Governance",
+      "principle": [
+        "General"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": false,
+      "expected_data": "qualitative",
+      "found": true,
+      "match_count": 1,
+      "matches": [
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/21",
+          "provenance": [
+            {
+              "page_no": 15,
+              "bbox": {
+                "l": 50.818580627441406,
+                "t": 373.4798583984375,
+                "r": 543.49267578125,
+                "b": 263.1465148925781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            0
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "8.",
+                "\u0007 Details of the highest authority responsible for implementation and oversight of the Business Responsibility policy(ies).",
+                "Name: Manoj Raghavan Designation: CEO and Managing Director DIN: 08458315"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "9.",
+                "\u0007 Does the entity have a specified Committee of the Board/Director responsible for decision making on sustainability related issues? (Yes/No). If yes, provide details.",
+                "Yes, the Stakeholders' Relationship Committee constituted by the Board is responsible for decision making on sustainability related issues"
+              ]
+            }
+          ],
+          "num_rows": 2,
+          "num_cols": 3
+        }
+      ]
+    },
+    "trade_industry_affiliations": {
+      "canonical_name": "Affiliations with trade and industry chambers/associations",
+      "category": "Governance",
+      "principle": [
+        "P7"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": false,
+      "expected_data": "mixed",
+      "found": true,
+      "match_count": 3,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/676",
+          "provenance": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 51.0236,
+                "t": 282.89730000000037,
+                "r": 421.51669999999996,
+                "b": 275.03986505576245,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                75
+              ]
+            }
+          ],
+          "content": "a. Number of affiliations with trade and industry chambers/associations."
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/678",
+          "provenance": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 70.8776,
+                "t": 248.40030000000036,
+                "r": 545.5825999999998,
+                "b": 227.54686505576245,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                156
+              ]
+            }
+          ],
+          "content": "\u0007 List  the top 10 trade and industry chambers/associations (determined based on the total members of such body) the entity is a member of/affiliated to."
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/70",
+          "provenance": [
+            {
+              "page_no": 46,
+              "bbox": {
+                "l": 49.94757843017578,
+                "t": 219.21435546875,
+                "r": 543.2531127929688,
+                "b": 177.50787353515625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            0
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "S. no.",
+                "Name of the trade and industry chambers/associations",
+                "Reach of trade and industry chambers/ associations (State/National)"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "1",
+                "NA"
+              ]
+            }
+          ],
+          "num_rows": 2,
+          "num_cols": 3
+        }
+      ]
+    },
+    "data_privacy_cybersecurity_complaints": {
+      "canonical_name": "Consumer complaints on data privacy and cyber security",
+      "category": "Governance",
+      "principle": [
+        "P9"
+      ],
+      "indicator_type": "essential",
+      "brsr_core": false,
+      "expected_data": "mixed",
+      "found": true,
+      "match_count": 8,
+      "matches": [
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/722",
+          "provenance": [
+            {
+              "page_no": 49,
+              "bbox": {
+                "l": 53.882,
+                "t": 315.3046,
+                "r": 533.6242999999998,
+                "b": 307.44716505576207,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                95
+              ]
+            }
+          ],
+          "content": "Describe the mechanisms in place to receive and respond to consumer complaints and feedback:"
+        },
+        {
+          "element_type": "text",
+          "label": "section_header",
+          "self_ref": "#/texts/734",
+          "provenance": [
+            {
+              "page_no": 50,
+              "bbox": {
+                "l": 51.0236,
+                "t": 664.722,
+                "r": 355.5449,
+                "b": 656.8645650557621,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                61
+              ]
+            }
+          ],
+          "content": "3. Number of consumer complaints in respect of the following:"
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/741",
+          "provenance": [
+            {
+              "page_no": 51,
+              "bbox": {
+                "l": 50.4919,
+                "t": 651.4621,
+                "r": 544.9960000000005,
+                "b": 630.6086650557621,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                154
+              ]
+            }
+          ],
+          "content": "\u0007 Does the entity have a framework/policy on cybersecurity and risks related to data privacy? (Yes/No) If available, provide the weblink to the policy:"
+        },
+        {
+          "element_type": "text",
+          "label": "list_item",
+          "self_ref": "#/texts/743",
+          "provenance": [
+            {
+              "page_no": 51,
+              "bbox": {
+                "l": 50.4919,
+                "t": 588.1381,
+                "r": 545.0040999999999,
+                "b": 554.2886650557622,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                310
+              ]
+            }
+          ],
+          "content": "\u0007 Provide details of any corrective actions taken or underway on issues relating to advertising, and delivery of essential services; cybersecurity and data privacy of customers; re-occurrence of instances of product recalls; penalty/action taken by regulatory authorities on the safety of products/services:"
+        },
+        {
+          "element_type": "text",
+          "label": "text",
+          "self_ref": "#/texts/744",
+          "provenance": [
+            {
+              "page_no": 51,
+              "bbox": {
+                "l": 70.33420000000001,
+                "t": 546.3151,
+                "r": 544.7628999999997,
+                "b": 512.4328678916829,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                291
+              ]
+            }
+          ],
+          "content": "\u0007 Tata  Elxsi  has  no  reported  issues  with  advertising,  delivery  of  essential  services,  cybersecurity,  customer data privacy, or product recalls. Therefore, no penalties or actions have been taken by regulatory authorities concerning the safety of the Company's products/services."
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/12",
+          "provenance": [
+            {
+              "page_no": 9,
+              "bbox": {
+                "l": 0.0,
+                "t": 670.1482925415039,
+                "r": 553.5294189453125,
+                "b": 226.843994140625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            1
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "S. No.",
+                "Material issue identified",
+                "Indicate whether risk or opportunity (R/O)",
+                "Rationale for identifying the risk/opportunity",
+                "In case of risk, approach to adapt or mitigate",
+                "Financial implications of the risk or opportunity (Indicate positive or negative implications)"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "2",
+                "Data Privacy",
+                "Risk",
+                "Tata Elxsi's operations involve handling sensitive enterprise data and making data privacy integral to compliance and trust. The rapidly evolving global data protection regulations heighten the risk of penalties, business disruption, and reputational loss in case of non- compliance",
+                "\u0007 Enhanced data privacy safeguards through strong policies, secure processes, regulatory compliance, and employee awareness programmes \u0007 Implementation of secure access controls, encryption, and data lifecycle management across operations \u0007 Regular privacy risk assessments, audits, and monitoring to ensure adherence to global data",
+                "Negative"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "3",
+                "Cyber Security",
+                "Risk",
+                "Cybersecurity poses a significant risk due to rising cyber threats that could disrupt operations, compromise data, erode stakeholder trust, and result in regulatory, financial, and reputational impacts",
+                "\u0007 Enhanced cybersecurity architecture, monitoring, vulnerability assessments, awareness programmes and business continuity planning",
+                "Negative"
+              ]
+            }
+          ],
+          "num_rows": 3,
+          "num_cols": 6
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/82",
+          "provenance": [
+            {
+              "page_no": 50,
+              "bbox": {
+                "l": 49.50775909423828,
+                "t": 649.4279403686523,
+                "r": 543.5978393554688,
+                "b": 461.32061767578125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            2
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "FY 2025-26 (Current financial year)",
+                "FY 2024-25 (Previous financial year)"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "Received during the year",
+                "Pending resolution at end of year",
+                "Remarks",
+                "Received during the year",
+                "Pending resolution at end of year",
+                "Remarks"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Data privacy",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Advertising",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Cybersecurity",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Delivery of essential services",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "Services",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Restrictive trade practices",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "Unfair trade practices",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil",
+                "Nil"
+              ]
+            }
+          ],
+          "num_rows": 9,
+          "num_cols": 7
+        },
+        {
+          "element_type": "table",
+          "label": "table",
+          "self_ref": "#/tables/90",
+          "provenance": [
+            {
+              "page_no": 59,
+              "bbox": {
+                "l": 49.78546142578125,
+                "t": 668.6077423095703,
+                "r": 543.638427734375,
+                "b": 422.0667724609375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "matched_row_indices": [
+            8,
+            9
+          ],
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                "S. no.",
+                "Attribute",
+                "Parameter",
+                "Unit of measure",
+                "Assured values"
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                "21",
+                "Details of Air Emission*18",
+                "NOx",
+                "MT",
+                "Not Measured"
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                "Particulate matter",
+                "MT",
+                "Not Measured"
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                "Non-methyl hydrocarbon",
+                "MT",
+                "Not Measured"
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                "Scope 3 emissions & its intensity",
+                "Total Scope 3 emissions* 19",
+                "MT CO 2 e* 21",
+                "1656.1"
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                "Total Scope 3 emissions per rupee of turnover",
+                "MT CO2e/Revenue from operations in ₹",
+                "0.44"
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                "Total Scope 3 emission intensity",
+                "MT CO2e/Employee head count",
+                "0.14"
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                "Information on CSR projects",
+                "Aspirational district and amount spend* 20",
+                "Name and amount in ₹",
+                "Raichur- 6000000"
+              ]
+            },
+            {
+              "row": 8,
+              "cells": [
+                "22",
+                "Principle 9- Value to consumers in a responsible manner",
+                "Consumer complaints on data privacy & cybersecurity",
+                "In no.",
+                "0"
+              ]
+            },
+            {
+              "row": 9,
+              "cells": [
+                "Consumer complaints on advertising, delivery of essential services, restrictive & unfair trade practices",
+                "In no.",
+                "0"
+              ]
+            }
+          ],
+          "num_rows": 10,
+          "num_cols": 5
+        }
+      ]
+    }
+  }
+}

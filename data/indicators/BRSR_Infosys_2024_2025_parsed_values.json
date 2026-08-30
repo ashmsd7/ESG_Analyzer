@@ -1,0 +1,119 @@
+{
+  "company": "Infosys",
+  "source_document": "BRSR_Infosys_2024_2025.pdf",
+  "indicators": {
+    "scope_1_emissions": {
+      "status": "nil",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": "Total Scope 1 and Scope 2 emission intensity (optional) - the relevant metric may be selected by the entity Nil Nil Nil"
+    },
+    "scope_2_emissions": {
+      "status": "nil",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": "Total Scope 1 and Scope 2 emission intensity (optional) - the relevant metric may be selected by the entity Nil Nil Nil"
+    },
+    "energy_consumption": {
+      "status": "nil",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": "Energy intensity (optional) - the relevant metric may be selected by the entity Nil Nil"
+    },
+    "renewable_energy_consumption": {
+      "status": "parsed",
+      "numeric_values": [
+        {
+          "value": 65.0,
+          "unit": "kwh",
+          "raw_snippet": "Infosys has been carbon neutral since fiscal 2020 across Scope 1, 2 and 3 emissions. Our approach to carbon neutrality is based on reducing and avoiding emissions through energy efficiency and renewab",
+          "self_ref": "#/texts/437"
+        },
+        {
+          "value": 1.3,
+          "unit": "lakh kwh",
+          "raw_snippet": "Infosys has been carbon neutral since fiscal 2020 across Scope 1, 2 and 3 emissions. Our approach to carbon neutrality is based on reducing and avoiding emissions through energy efficiency and renewab",
+          "self_ref": "#/texts/437"
+        }
+      ],
+      "not_applicable_snippet": null,
+      "nil_snippet": "Energy intensity (optional) - the relevant metric may be selected by the entity Nil Nil"
+    },
+    "water_withdrawal_consumption": {
+      "status": "nil",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": "(iv) Seawater / desalinated water Nil Nil"
+    },
+    "water_discharge": {
+      "status": "not_applicable",
+      "numeric_values": [],
+      "not_applicable_snippet": "(i) To surface water NA NA",
+      "nil_snippet": "(iv) Seawater / desalinated water Nil Nil"
+    },
+    "waste_management": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "employee_training_health_safety": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "women_representation_board_kmp": {
+      "status": "unparsed",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "wage_gender_pay_gap": {
+      "status": "unparsed",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "remuneration_median": {
+      "status": "not_applicable",
+      "numeric_values": [],
+      "not_applicable_snippet": "Workers NA NA NA NA",
+      "nil_snippet": null
+    },
+    "posh_complaints": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "csr_spending": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "grievance_redressal_mechanism": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "anti_corruption_whistleblower_policy": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'categorical', numeric parsing only in this pass"
+    },
+    "disciplinary_action_bribery_corruption": {
+      "status": "unparsed",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "fines_penalties_regulatory": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "highest_authority_br_oversight": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'qualitative', numeric parsing only in this pass"
+    },
+    "trade_industry_affiliations": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "data_privacy_cybersecurity_complaints": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    }
+  }
+}

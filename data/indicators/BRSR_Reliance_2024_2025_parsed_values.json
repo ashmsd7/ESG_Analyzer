@@ -1,0 +1,194 @@
+{
+  "company": "Reliance",
+  "source_document": "BRSR_Reliance_2024_2025.pdf",
+  "indicators": {
+    "scope_1_emissions": {
+      "status": "parsed",
+      "numeric_values": [
+        {
+          "value": 36.64,
+          "unit": "%",
+          "raw_snippet": "R&D 36.64% 54.16% Investment included following R&D projects with focus on environmental and social impacts: Biomass co-gasification, waste plastic to oil, circular polymer production, biodegradable p",
+          "self_ref": "#/tables/39"
+        },
+        {
+          "value": 54.16,
+          "unit": "%",
+          "raw_snippet": "R&D 36.64% 54.16% Investment included following R&D projects with focus on environmental and social impacts: Biomass co-gasification, waste plastic to oil, circular polymer production, biodegradable p",
+          "self_ref": "#/tables/39"
+        },
+        {
+          "value": 63.36,
+          "unit": "%",
+          "raw_snippet": "Capex 63.36% 45.84% Investing in technologies such as bio-compostable Polybutylene Adipate Terephthalate (PBAT) polymer, Disentangled Polyethylene (DPE) powder for tape production, algae-based super p",
+          "self_ref": "#/tables/39"
+        },
+        {
+          "value": 45.84,
+          "unit": "%",
+          "raw_snippet": "Capex 63.36% 45.84% Investing in technologies such as bio-compostable Polybutylene Adipate Terephthalate (PBAT) polymer, Disentangled Polyethylene (DPE) powder for tape production, algae-based super p",
+          "self_ref": "#/tables/39"
+        }
+      ],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "scope_2_emissions": {
+      "status": "parsed",
+      "numeric_values": [
+        {
+          "value": 36.64,
+          "unit": "%",
+          "raw_snippet": "R&D 36.64% 54.16% Investment included following R&D projects with focus on environmental and social impacts: Biomass co-gasification, waste plastic to oil, circular polymer production, biodegradable p",
+          "self_ref": "#/tables/39"
+        },
+        {
+          "value": 54.16,
+          "unit": "%",
+          "raw_snippet": "R&D 36.64% 54.16% Investment included following R&D projects with focus on environmental and social impacts: Biomass co-gasification, waste plastic to oil, circular polymer production, biodegradable p",
+          "self_ref": "#/tables/39"
+        },
+        {
+          "value": 63.36,
+          "unit": "%",
+          "raw_snippet": "Capex 63.36% 45.84% Investing in technologies such as bio-compostable Polybutylene Adipate Terephthalate (PBAT) polymer, Disentangled Polyethylene (DPE) powder for tape production, algae-based super p",
+          "self_ref": "#/tables/39"
+        },
+        {
+          "value": 45.84,
+          "unit": "%",
+          "raw_snippet": "Capex 63.36% 45.84% Investing in technologies such as bio-compostable Polybutylene Adipate Terephthalate (PBAT) polymer, Disentangled Polyethylene (DPE) powder for tape production, algae-based super p",
+          "self_ref": "#/tables/39"
+        }
+      ],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "energy_consumption": {
+      "status": "unparsed",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "renewable_energy_consumption": {
+      "status": "unparsed",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "water_withdrawal_consumption": {
+      "status": "nil",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": "(i) Surface water Nil Nil"
+    },
+    "water_discharge": {
+      "status": "nil",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": "(i) Surface water Nil Nil"
+    },
+    "waste_management": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "employee_training_health_safety": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "women_representation_board_kmp": {
+      "status": "unparsed",
+      "numeric_values": [],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "wage_gender_pay_gap": {
+      "status": "parsed",
+      "numeric_values": [
+        {
+          "value": 6.0,
+          "unit": "%",
+          "raw_snippet": "Gross wages paid to females as % of total wages 6% 5%",
+          "self_ref": "#/tables/65"
+        },
+        {
+          "value": 5.0,
+          "unit": "%",
+          "raw_snippet": "Gross wages paid to females as % of total wages 6% 5%",
+          "self_ref": "#/tables/65"
+        }
+      ],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "remuneration_median": {
+      "status": "not_applicable",
+      "numeric_values": [],
+      "not_applicable_snippet": "Board of Directors (BoD)* 4 22,47,93,442 Nil NA",
+      "nil_snippet": "Board of Directors (BoD)* 4 22,47,93,442 Nil NA"
+    },
+    "posh_complaints": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "csr_spending": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "grievance_redressal_mechanism": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "anti_corruption_whistleblower_policy": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'categorical', numeric parsing only in this pass"
+    },
+    "disciplinary_action_bribery_corruption": {
+      "status": "parsed",
+      "numeric_values": [
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Board of Directors 6 Executive Directors 1. \u0007 ESG Familiarisation Programme covering Global Sustainability Landscape, Business Responsibility & Sustainability Report, Reasonable Assurance and related ",
+          "self_ref": "#/tables/30"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Key Managerial Personnel 6 1. \u0007 ESG Familiarisation Programme covering Global Sustainability Landscape, Business Responsibility & Sustainability Report, Reasonable Assurance and related updates 2. Cod",
+          "self_ref": "#/tables/30"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Employees other than BoD and KMPs 7 1. Code of Conduct 2. Anti-Bribery Management System 3. Cybersecurity Awareness 4. Creating a Respectful Workplace (POSHA) 5. \u0007 Reliance Management System - Managem",
+          "self_ref": "#/tables/30"
+        },
+        {
+          "value": 100.0,
+          "unit": "%",
+          "raw_snippet": "Workers 2 All workers undergo a toolbox talk and learnings from incident sessions 100%",
+          "self_ref": "#/tables/30"
+        }
+      ],
+      "not_applicable_snippet": null,
+      "nil_snippet": null
+    },
+    "fines_penalties_regulatory": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "highest_authority_br_oversight": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'qualitative', numeric parsing only in this pass"
+    },
+    "trade_industry_affiliations": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    },
+    "data_privacy_cybersecurity_complaints": {
+      "status": "not_parsed_this_pass",
+      "reason": "expected_data is 'mixed', numeric parsing only in this pass"
+    }
+  }
+}
