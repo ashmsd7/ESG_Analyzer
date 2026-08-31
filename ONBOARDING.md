@@ -1,17 +1,19 @@
 # ESG Analyzer – Docling Pipeline Onboarding
 
-**Project**: ESG_Analyzer  
-**Repository**: https://github.com/ashmsd7/ESG_Analyzer  
-**Last Updated**: 2026-08-30  
-**Status**: Stage 1 pipeline complete – single-document extraction validated
+**Project**: ESG_Analyzer
+**Repository**: https://github.com/ashmsd7/ESG_Analyzer
+**Last Updated**: 2026-09-01
+**Status**: Stage 1-4 pipeline complete, piloted end-to-end on one document per company
 
 ---
 
 ## Project Overview
 
-This project extracts **Business Responsibility and Sustainability Report (BRSR)** documents using **Docling**, an AI-powered document conversion framework. The output is structured Markdown and JSON representations of PDF content for ESG indicator analysis.
+This project extracts **Business Responsibility and Sustainability Report (BRSR)** data from Indian companies' annual report PDFs into structured, machine-usable form, matched against a fixed set of ESG indicators.
 
-**Current Scope**: Processing BRSR reports from Indian companies (Central Bank of India, Infosys, Reliance, TataSteel, TataELXSI, HDFC Bank).
+**Current Scope**: One (usually the latest) filing year processed per company, as a deliberate pilot to validate output quality before running the rest of the corpus. Companies piloted: Central Bank of India, Infosys, Reliance, Tata Steel, Tata Elxsi, HDFC Bank.
+
+**Additional PDFs already present but not yet processed** (older filing years, awaiting the full-corpus run once the pilot is validated): `BRSR_Infosys_2022_2023.pdf`, `BRSR_Infosys_2023_2024.pdf`, `BRSR_TataSteel_2022_2023.pdf`, `BRSR_TataSteel_2023_2024.pdf`, `BRSR_TataELXSI_2024_2025.pdf`, `BRSR_HDFCBank_2021_2022.pdf`.
 
 ---
 
@@ -23,22 +25,25 @@ Major_Project/
 ├── .gitattributes                     # Git LFS config for model weights
 ├── .gitignore                         # Excludes PDFs, venv, model weights
 ├── requirements.txt                   # Python dependencies (Docling 2.0+)
-├── run_pipeline.bat                   # Windows batch launcher
+├── run_pipeline.bat                   # Windows batch launcher (Stage 1 only)
 │
 ├── src/
 │   ├── extract_document.py            # Stage 1: Docling PDF → Markdown + JSON
-│   └── inspect_docling_json.py        # Diagnostic: Search JSON for ESG indicators
+│   ├── inspect_docling_json.py        # Diagnostic: search JSON for ESG indicators
+│   ├── extract_indicators.py          # Stage 3: match indicator dictionary against Stage 1 JSON
+│   └── parse_indicator_values.py      # Stage 4: parse numeric values from Stage 3 matches
 │
 ├── data/
 │   ├── docling-models/                # Pre-downloaded Docling model weights (local only)
-│   │   ├── docling-project--docling-layout-heron/          # Layout detection model
-│   │   ├── docling-project--docling-layout-heron-onnx/     # ONNX variant
-│   │   └── docling-project--docling-models/tableformer/    # Table extraction models
-│   ├── processed/                     # Generated outputs (committed to repo)
-│   │   ├── BRSR_CBI_2024_2025.md      # Markdown extraction
-│   │   └── BRSR_CBI_2024_2025.json    # Docling structured JSON
+│   ├── processed/                     # Stage 1 output: <stem>.md, <stem>.json (committed)
+│   ├── reference/
+│   │   └── indicator_dictionary.json  # Master list of 20 ESG indicators (7E/7S/6G)
+│   ├── indicators/                    # Stage 3 & 4 output (committed)
+│   │   ├── <stem>_indicators.json     # Stage 3: raw matched content + provenance, per company
+│   │   ├── <stem>_parsed_values.json  # Stage 4: parsed numeric values, per company
+│   │   └── esg_indicators_summary.csv # One row per indicator per company, accumulates across runs
 │   └── validation/
-│       └── table_validation_checklist.md  # Table inventory for manual verification
+│       └── *_validation_checklist.md  # Manual table-by-table verification checklists (see below)
 │
 ├── BRSR_*.pdf                         # Source documents (local only, not in repo)
 ├── .venv/                             # Python virtual environment (local only)
@@ -47,61 +52,65 @@ Major_Project/
 
 ---
 
+## Pipeline Architecture (4 stages)
+
+```
+PDF Input
+    ↓
+[Stage 1] extract_document.py — Docling DocumentConverter
+    ├─ Layout Detection (docling-layout-heron)
+    ├─ Table Recognition (tableformer)
+    └─ export_to_markdown() / export_to_dict()
+    ↓
+data/processed/<stem>.md + <stem>.json
+    ↓
+[Stage 2] data/reference/indicator_dictionary.json — hand-curated, not code
+    (20 ESG indicators: search_terms, expected_data type, units, BRSR principle/section)
+    ↓
+[Stage 3] extract_indicators.py
+    Regex word-boundary match of each indicator's search_terms against every
+    text block and table row in the Stage 1 JSON. NOT fuzzy/Levenshtein matching.
+    ↓
+data/indicators/<stem>_indicators.json + esg_indicators_summary.csv
+    ↓
+[Stage 4] parse_indicator_values.py
+    For indicators tagged "expected_data": "numeric" only — regex-scans Stage 3's
+    matched snippets for a number+unit, or an explicit Not Applicable / Nil signal.
+    Qualitative indicators are left untouched at this stage (no Stage 4 equivalent yet).
+    ↓
+data/indicators/<stem>_parsed_values.json
+```
+
+**Notes**:
+- No data preprocessing or cleanup applied at Stage 1; tables remain as extracted, OCR artifacts preserved.
+- Provenance metadata (page number, bounding box, `self_ref`) is carried through Stage 1 → 3 for traceability back to the source PDF.
+- Stage 3/4 output for a company overwrites/replaces (not appends) that company's prior rows in `esg_indicators_summary.csv`, keyed by the derived company label.
+
 ## Key Concepts
 
 ### Docling (PDF Processing Framework)
+Converts PDFs to structured documents using vision models, extracting text, tables, images, and layout with full provenance (page numbers, bounding boxes). Used because BRSR PDFs contain complex, often nested/multi-column tables that plain text extraction mangles.
 
-**What it does**:
-- Converts PDFs to structured documents using vision models
-- Extracts text, tables, images, and layout information
-- Produces JSON with full provenance metadata (page numbers, bounding boxes)
+### `indicator_dictionary.json` (Stage 2)
+One entry per ESG indicator, keyed by a short id (e.g. `scope_1_emissions`). Fields:
+- `search_terms` — phrases Stage 3 searches for
+- `expected_data` — `"numeric"` or otherwise (gates whether Stage 4 attempts parsing)
+- `possible_units`, `unit_notes` — known unit quirks per company (e.g. CBI reports energy in "lakh kWh", not the BRSR-mandated Joules — a naive parser would misparse this by 100,000x)
+- `principle`, `indicator_type`, `brsr_core` — BRSR taxonomy metadata (P1-P9, essential/leadership)
+- `sources_reviewed` — **documentation only, not read by any script.** A manual audit trail of which company reports were actually read when that indicator's `search_terms`/`unit_notes` were written or last refined. Currently stale for most indicators (mostly lists only `BRSR_CBI_2024_2025`); should be updated as more companies are reviewed per indicator.
 
-**Why we use it**:
-- Accurately captures complex BRSR tables (often nested, multi-column)
-- Preserves document structure and page references
-- Enables downstream validation and ESG indicator extraction
+### Validation Checklists (`data/validation/`)
+**Purpose**: a one-time, manual, table-by-table inventory of everything Docling extracted from a company's filing, meant to be checked by eye against the original PDF. For every table Docling found, it records: what the table actually contains, which BRSR section/principle it belongs to, its Docling reference (`#/tables/N`) and PDF page, and its data type (numeric/categorical/qualitative/mixed) — plus a checkbox to mark once verified.
 
-**Current Models**:
-- **docling-layout-heron**: Layout detection (text vs. table vs. image regions)
-- **tableformer**: Table cell detection and content extraction
+**Why it exists**: Stage 1 (Docling) and Stage 3 (regex matching) can both silently fail in ways that are hard to notice from the JSON alone — a table row misaligned, a heading dropped, a numeric value OCR'd wrong, or an indicator's `search_terms` missing a phrasing the document actually uses. The checklist is the mechanism for catching those errors by hand: someone works through it row by row with the source PDF open, ticking off each table once its content is confirmed correct. It doesn't feed back into any code — it's purely a human QA pass over the pipeline's output.
 
-### Generated Outputs
-
-**Markdown** (`BRSR_CBI_2024_2025.md`):
-- Human-readable formatted text
-- Markdown tables from extracted BRSR data
-- Section headings preserved from PDF structure
-- ~192 KB uncompressed
-
-**JSON** (`BRSR_CBI_2024_2025.json`):
-- Docling's native `DoclingDocument` schema (version 1.10.0)
-- Full-fidelity structured representation
-- Elements indexed by type: `texts`, `tables`, `pictures`
-- Each element includes:
-  - `label`: Element classification (e.g., `text`, `table`, `heading`, `list_item`)
-  - `text` / `data.table_cells`: Extracted content
-  - `prov`: Provenance metadata (page number, bounding box, character span)
-  - `self_ref`: Internal reference ID (e.g., `#/texts/123`, `#/tables/42`)
-- ~2.9 MB uncompressed
-
-### Validation Checklist
-
-**File**: `data/validation/table_validation_checklist.md`  
-**Content**: Inventory of all 63 extracted tables with:
-- Table reference (#/tables/N)
-- BRSR section and principle
-- PDF page number
-- Data type classification (numeric, categorical, qualitative, mixed)
-- Verification checkbox
-
-**Purpose**: Enable manual comparison against original PDF to catch OCR errors or layout misinterpretation.
+**Status**: previously only existed for CBI (63 tables). Being extended to cover the other 5 piloted companies.
 
 ---
 
 ## Setup Instructions
 
 ### 1. Clone and Install
-
 ```bash
 git clone https://github.com/ashmsd7/ESG_Analyzer.git
 cd Major_Project
@@ -111,13 +120,10 @@ pip install -r requirements.txt
 ```
 
 ### 2. Download Models (One-Time)
-
-Docling automatically downloads models from Hugging Face on first use. You can pre-download to `data/docling-models/` to avoid repeated downloads. Models are excluded from Git via `.gitignore` and `.gitattributes`.
+Docling auto-downloads models from Hugging Face on first use; pre-download to `data/docling-models/` to avoid repeated downloads. Excluded from Git via `.gitignore`/`.gitattributes`.
 
 ### 3. Add Source PDFs
-
-Place BRSR PDF files in the project root. They are ignored by Git (see `.gitignore`):
-
+Place BRSR/annual-report PDFs in the project root (ignored by Git):
 ```
 BRSR_CompanyName_Year.pdf
 ```
@@ -126,219 +132,70 @@ BRSR_CompanyName_Year.pdf
 
 ## Running the Pipeline
 
-### Using the Batch Launcher (Windows)
-
-**Default** (processes `BRSR_CBI_2024_2025.pdf`):
-```bash
-run_pipeline.bat
-```
-
-**Custom PDF**:
+### Stage 1 — via batch launcher (Windows)
 ```bash
 run_pipeline.bat BRSR_Infosys_2024_2025.pdf
 ```
+Creates `.venv` if missing, installs dependencies, runs `extract_document.py`, outputs to `data/processed/`.
 
-**What it does**:
-1. Creates `.venv` if missing
-2. Installs dependencies from `requirements.txt`
-3. Runs `extract_document.py` on the specified PDF
-4. Outputs Markdown and JSON to `data/processed/`
-
-### Direct Python Invocation
-
+### Stage 1 — direct invocation
 ```bash
-.venv\Scripts\python.exe src\extract_document.py BRSR_CBI_2024_2025.pdf --output-dir data\processed
+.venv\Scripts\python.exe src\extract_document.py BRSR_Infosys_2024_2025.pdf --output-dir data\processed
 ```
 
-### Running the Inspector (Diagnostic)
-
-Searches the generated JSON for five ESG indicators and prints matching content + provenance:
-
+### Stage 3 — indicator matching
 ```bash
-.venv\Scripts\python.exe src\inspect_docling_json.py data\processed\BRSR_CBI_2024_2025.json
+.venv\Scripts\python.exe src\extract_indicators.py data\processed\BRSR_Infosys_2024_2025.json
+```
+Optional flags: `--dictionary` (default `data/reference/indicator_dictionary.json`), `--output-dir` (default `data/indicators`), `--company` (override the auto-derived company label).
+
+### Stage 4 — value parsing
+```bash
+.venv\Scripts\python.exe src\parse_indicator_values.py data\indicators\BRSR_Infosys_2024_2025_indicators.json
 ```
 
-**Indicators searched**:
-- Scope 1 emissions
-- Scope 2 emissions
-- Energy consumption
-- Water consumption
-- Total employees
-
-**Output format** (JSON):
-```json
-{
-  "indicator": "energy consumption",
-  "element_type": "text",
-  "label": "list_item",
-  "self_ref": "#/texts/398",
-  "provenance": [
-    {
-      "page_no": 22,
-      "bbox": { "l": 53.86, "t": 228.54, "r": 521.30, "b": 220.61 }
-    }
-  ],
-  "content": "Details of total energy consumption (in Joules or multiples)..."
-}
-```
-
----
-
-## Pipeline Architecture (Stage 1)
-
-```
-PDF Input
-    ↓
-[Docling DocumentConverter]
-    ├─ Layout Detection (docling-layout-heron)
-    ├─ Text Extraction
-    ├─ Table Recognition (tableformer)
-    └─ Image/Shape Detection
-    ↓
-[Docling Document object]
-    ├─ export_to_markdown() → Markdown file
-    └─ export_to_dict() → JSON file
-    ↓
-Output: Markdown + JSON (both committed to repo)
-```
-
-**Notes**:
-- No data preprocessing or cleanup applied
-- Tables remain as extracted; OCR artifacts are preserved
-- Provenance metadata allows traceability back to original PDF
-
----
-
-## Code Files
-
-### `src/extract_document.py`
-
-**Purpose**: Single-file Docling extraction wrapper  
-**Input**: PDF file path (CLI argument)  
-**Output**: Markdown and JSON in `data/processed/`
-
-**Key function**:
-```python
-extract_document(pdf_path: Path, output_dir: Path) -> tuple[Path, Path]
-```
-
-**No preprocessing applied** – output is raw Docling conversion.
-
-### `src/inspect_docling_json.py`
-
-**Purpose**: Read-only diagnostic scanner for ESG indicators  
-**Input**: Generated Docling JSON file  
-**Output**: Matching elements with provenance
-
-**Key features**:
-- Regex-based pattern matching for five ESG indicators
-- Groups table cells by row offset index
-- Reports full provenance (page, bounding box, character span)
-- Does NOT modify pipeline or extraction code
-
-**Usage**: Allows manual verification against original PDF before feeding to downstream ESG analysis.
+### Diagnostic — `inspect_docling_json.py`
+Read-only scanner that regex-searches a Stage 1 JSON for five hardcoded ESG indicators (Scope 1/2 emissions, energy consumption, water consumption, total employees) and prints matches with provenance. Predates and is superseded by Stage 3/4 for anything beyond quick manual spot-checks.
 
 ---
 
 ## Git Workflow
 
 ### Committed to Repository
-
-- `src/*.py` – Python extraction and diagnostic scripts
-- `requirements.txt` – Dependency specification
-- `run_pipeline.bat` – Windows launcher
-- `data/processed/*.json` and `data/processed/*.md` – Generated outputs (Stage 1)
-- `data/validation/table_validation_checklist.md` – Validation inventory
-- `.gitattributes` – Git LFS config
+- `src/*.py`, `requirements.txt`, `run_pipeline.bat`, `ONBOARDING.md`
+- `data/processed/*.json` and `*.md`
+- `data/reference/indicator_dictionary.json`
+- `data/indicators/*.json` and `esg_indicators_summary.csv`
+- `data/validation/*.md`
 
 ### Excluded from Repository
-
-- `data/docling-models/` – Model weights (too large; auto-downloaded via Docling)
-- `.venv/` – Virtual environment
-- `*.pdf` – Source documents (declared in `.gitignore`)
-- `pip-install.log` – Installation artifacts
-
-### Recent Commit
-
-**Hash**: `425f297`  
-**Message**: `28AugCommit_Docling`  
-**Contents**: Initial Docling pipeline setup with Stage 1 extraction and diagnostics
+- `data/docling-models/` (model weights, auto-downloaded)
+- `.venv/`, `*.pdf` (source documents), `pip-install.log`
 
 ---
 
-## Validation Summary (One Document Tested)
+## Known Gaps / Next Steps
 
-**Document**: BRSR_CBI_2024_2025.pdf  
-**Extracted**: 63 tables, 404 text blocks, 10+ images  
-**Extracted Indicators**:
-- **Scope 1 emissions**: Page 23 (text)
-- **Scope 2 emissions**: Page 23 (text)
-- **Energy consumption**: Pages 22, 24 (text + table)
-- **Total employees**: Pages 2, 12, 14, 19 (tables)
-- **Water consumption**: Not found in extracted output
-
-**Table Validation**: See `data/validation/table_validation_checklist.md` for complete inventory (Section A–C, Principles 1–9).
-
----
-
-## Next Steps for Agents
-
-1. **Expand to Multiple Documents**: Run `run_pipeline.bat BRSR_<name>_<year>.pdf` on remaining PDFs
-2. **Validate Extraction Quality**: Manually spot-check high-value tables against originals using checklist
-3. **Build ESG Indicator Pipeline**: Parse extracted JSON for domain-specific indicators (greenhouse gas, water stress, employee diversity, etc.)
-4. **Implement Data Cleaning**: Handle OCR artifacts, standardize numeric formats, reconcile table continuations
-5. **Create Downstream Models**: Feed cleaned data to ML/analytics for ESG scoring or anomaly detection
-
----
-
-## Common Issues & Troubleshooting
-
-| Issue | Cause | Fix |
-|-------|-------|-----|
-| `ModuleNotFoundError: docling` | Dependency not installed | Run `.venv\Scripts\python.exe -m pip install -r requirements.txt` |
-| Model download hangs | First-time Hugging Face download | Set `HF_TOKEN` env var if rate-limited; retry with internet connection |
-| "RapidOCR returned empty result" | OCR model timeout or PDF format | Retry; inspect original PDF for corruption |
-| JSON too large to view | 2.9 MB uncompressed | Use `grep` or Python JSON parser; don't open in text editor directly |
-| `pip-install.log` pollutes Git status | Installation artifact | Intentionally excluded; safe to delete locally |
-
----
-
-## Dependencies
-
-```
-docling>=2.0,<3.0
-  └─ docling-slim (core functionality)
-     ├─ torch (model inference)
-     ├─ transformers (NLP models)
-     ├─ pypdfium2 (PDF rendering)
-     ├─ rapidocr (optical character recognition)
-     └─ [+50 transitive deps]
-```
-
-Full dependency tree available via `pip freeze`.
+1. **Qualitative indicators have no Stage 4 equivalent.** `parse_indicator_values.py` only processes `"expected_data": "numeric"` indicators; qualitative ones stop at Stage 3's raw matched text.
+2. **No consolidated cross-company dataset.** Each company's `_parsed_values.json` is separate; nothing joins them into one table for comparison/scoring yet.
+3. **No unit normalization.** Known unit mismatches (e.g. CBI's "lakh kWh") are documented in `unit_notes` but not automatically converted — Stage 4 records whatever unit it finds as-is.
+4. **`sources_reviewed` is stale** for most indicators in the dictionary — needs a pass now that 5 more companies have been matched.
+5. **Validation checklist coverage** is being extended from CBI-only to all 6 piloted companies (in progress).
+6. **Remaining corpus** (the 6 older-year PDFs listed above under Current Scope) still needs to go through all 4 stages once the pilot output is trusted.
+7. **HDFC Bank's pilot document was initially a manually-trimmed 52-page excerpt** of the true 585-page filing (undocumented at the time it was made). Being reprocessed against the full native PDF for consistency with the other 5 companies.
 
 ---
 
 ## Configuration & Environment
 
-**Python Version**: 3.11.5  
-**OS**: Windows (batch launcher provided; adapt shebang for Linux/macOS)  
+**Python Version**: 3.11.5
+**OS**: Windows (batch launcher provided; adapt for Linux/macOS)
 **Git**: LFS configured for `*.safetensors` and `*.onnx`
-
----
-
-## Contacts & History
-
-- **Project Lead**: [Your name/team]
-- **Initial Setup**: 2026-08-25
-- **Docling Integration**: 2026-08-26
-- **Validation & Commit**: 2026-08-30
+**Current HEAD**: `48a1900` — see `git log` for full history rather than relying on this doc.
 
 ---
 
 ## References
-
 - Docling GitHub: https://github.com/docling-project/docling
 - BRSR Guidelines: https://www.mca.gov.in/
-- Docling JSON Schema: Refer to `origin.schema_name` in generated `*.json` files (v1.10.0)
-
+- Docling JSON Schema: `origin.schema_name` in generated `*.json` files (v1.10.0)
